@@ -1,0 +1,1 @@
+latexmk -C -outdir=08_build main.tex

@@ -1,0 +1,1 @@
+latexmk -pdf -interaction=nonstopmode -outdir=08_build main.tex

@@ -1,0 +1,63 @@
+\documentclass[12pt,oneside]{report}
+
+\usepackage[spanish,es-tabla]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{csquotes}
+\usepackage{geometry}
+\usepackage{setspace}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{tabularx}
+\usepackage{makecell}
+\usepackage{multirow}
+\usepackage{pdflscape}
+\usepackage{ragged2e}
+\usepackage{caption}
+\usepackage{threeparttable}
+\usepackage{enumitem}
+\usepackage{array}
+\usepackage{float}
+\usepackage{hyperref}
+\usepackage{titlesec}
+\usepackage{tocloft}
+\usepackage[
+    backend=biber,
+    style=apa,
+    sorting=nyt
+]{biblatex}
+
+\addbibresource{referencias.bib}
+
+\geometry{
+    left=3cm,
+    right=2.5cm,
+    top=2.5cm,
+    bottom=2.5cm
+}
+
+\onehalfspacing
+
+\begin{document}
+
+\input{05_capitulos/preliminares.tex}
+
+\tableofcontents
+\listoftables
+
+\input{05_capitulos/introduccion.tex}
+\input{05_capitulos/capitulo_1_problema.tex}
+\input{05_capitulos/capitulo_2_marco_referencial.tex}
+\input{05_capitulos/capitulo_3_metodologia.tex}
+\input{05_capitulos/capitulo_4_propuesta.tex}
+\input{05_capitulos/conclusiones.tex}
+\input{05_capitulos/recomendaciones.tex}
+
+\printbibliography
+
+\appendix
+\input{07_anexos/anexos.tex}
+
+\end{document}
