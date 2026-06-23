@@ -1,92 +1,78 @@
 # Estado del proyecto
 ## Tesis: "Análisis de derecho ambiental ecuatoriano: Revisión crítica de proyectos de ley de apertura al sector minero privado."
 
-**Fecha de actualización:** 23 de junio de 2026
+**Fecha de actualización:** 23 de junio de 2026 (quinta actualización)
 
 ---
 
 ## 1. Resumen ejecutivo
 
-**Fase 3 (análisis por lotes) completada.** Las 48 fuentes disponibles han sido fichadas y las matrices están actualizadas. El proyecto tiene ahora **51 fichas documentales** y 7 matrices con contenido. El siguiente paso es iniciar la redacción de capítulos, comenzando por el Capítulo I.
+**La Fase 3 (análisis por lotes) está completamente terminada.**
+
+Las 52 fuentes disponibles en `02_fuentes_md/` tienen ficha documental. El repositorio cuenta con **53 fichas** (la sentencia 1149-19-JP/21 tiene 2 fichas con enfoques diferenciados) y **7 matrices analíticas con contenido**. El corpus documental está listo para la redacción.
+
+**El proyecto entra en Fase 4: Redacción de capítulos.**
 
 ---
 
-## 2. Fuentes Markdown (`02_fuentes_md/`) — 48 archivos totales
+## 2. Fuentes Markdown (`02_fuentes_md/`) — 52 archivos ✅ todos fichados
 
-### Normativa — 10 archivos ✅ todos fichados
+| Categoría | Archivos | Fichas | Estado |
+|---|---|---|---|
+| Normativa | 10 | 10 | ✅ Completo |
+| Jurisprudencia | 6 | 7 * | ✅ Completo |
+| Internacional | 3 | 3 | ✅ Completo |
+| Institucional | 5 | 5 | ✅ Completo |
+| Doctrina | 12 | 12 | ✅ Completo |
+| Prensa | 16 | 16 | ✅ Completo |
+| Reformas legislativas | 1 | 1 | ✅ Completo |
+| **TOTAL** | **52** | **53** | ✅ |
 
-### Jurisprudencia — 4 archivos ✅ todos fichados
-
-| Archivo | Tipo | Estado ficha |
-|---|---|---|
-| `cce_1149_19_jp_21_los_cedros.md` | Sentencia vinculante CCE | ✅ Fichada |
-| `cce_consulta_ambiental.md` | Misma sentencia, enfoque consulta ambiental | ✅ Fichada |
-| `admision-de-demandas-y-suspension-provisional-de-normas-en-leyes-de-reciente-promulgacion.md` | Comunicado institucional CCE — autos de admisión agosto 2025 | ✅ Fichada |
-| `guia-jurisprudencia-constitucional-2023.md` | Guía CEDEC 2023 — compilación de 10 sentencias DDN (no sentencia autónoma) | ✅ Fichada |
-
-### Internacional — 3 archivos ✅ todos fichados
-
-### Institucional — 5 archivos ✅ todos fichados
-
-| Archivo | Estado ficha |
-|---|---|
-| `plan_nacional_sector_minero_2020_2030.md` | ✅ Fichada |
-| `politica_minera_ecuador.md` | ✅ Fichada |
-| `arcom_agencia_regulacion_control_minero.md` | ✅ Fichada |
-| `borrador_informe_actualizacion_tasa_supervision_control_minero.md` | ✅ Fichada |
-| `informe-de-rendicion-de-cuentas-2024-arcom.md` | ✅ Fichada (período agosto–diciembre 2024) |
-
-### Doctrina — 12 archivos ✅ todos fichados
-
-### Prensa — 16 archivos ✅ todos fichados
-
-*Nota: Incluye el archivo `principales-cambios-de-la-nueva-ley...` (Lexvalor) que en una revisión futura podría reclasificarse en `doctrina/`.*
-
-### Reformas legislativas — 1 archivo ✅ fichado
-
-| Archivo | Tipo | Estado ficha |
-|---|---|---|
-| `comision-de-desarrollo-economico-aprueba-informe-debate-proyecto-ley-sectores-mineria-energia.md` | Noticia institucional AN sobre aprobación informe 2do debate (24 feb 2026) | ✅ Fichada |
+*\* La sentencia 1149-19-JP/21 tiene 2 fichas diferenciadas: una sobre el fallo completo (Los Cedros) y otra con enfoque en consulta ambiental.*
 
 ---
 
-## 3. Fichas documentales (`03_fichas/`) — 51 fichas totales
+## 3. Corpus jurisprudencial — estado detallado
 
-| Subcarpeta | Fichas | Observación |
-|---|---|---|
-| `fichas_normativas/` | ✅ 10 fichas | Completo |
-| `fichas_jurisprudenciales/` | ✅ 4 fichas | 2 originales + 2 nuevas (guía CEDEC 2023 + auto admisión CCE ago 2025) |
-| `fichas_internacionales/` | ✅ 3 fichas | Completo |
-| `fichas_institucionales/` | ✅ 5 fichas | 4 originales + 1 nueva (ARCOM rendición cuentas 2024) |
-| `fichas_doctrina/` | ✅ 12 fichas | 5 originales + 7 nuevas |
-| `fichas_prensa/` | ✅ 16 fichas | Creadas en esta fase |
-| `fichas_reformas_legislativas/` | ✅ 1 ficha | Creada en esta fase |
+| N° | Archivo | Tipo | Estado ficha |
+|---|---|---|---|
+| 1 | `cce_1149_19_jp_21_los_cedros.md` | Sentencia 1149-19-JP/21 — vinculante — Los Cedros | ✅ Ficha completa |
+| 2 | `cce_consulta_ambiental.md` | Misma sentencia, enfoque consulta ambiental (art. 398 CRE) | ✅ Ficha complementaria |
+| 3 | `sentencia-32-17-IN-inconstitucionalidad.md` | Sentencia 32-17-IN/21 — inconstitucionalidad RAAM arts. 86 y 136 — reserva de ley orgánica | ✅ Ficha completa |
+| 4 | `sentencia-22-18-IN-derechos-naturaleza-ecosistemas.md` | Sentencia 22-18-IN/21 — derechos de la naturaleza en manglares | ✅ Ficha completa |
+| 5 | `guia-jurisprudencia-constitucional-2023.md` | Guía CEDEC 2023 — compilación de 10 sentencias DDN (no sentencia autónoma) | ✅ Ficha contextual |
+| 6 | `admision-de-demandas-y-suspension-provisional-de-normas-en-leyes-de-reciente-promulgacion.md` | Comunicado CCE — autos de admisión agosto 2025 | ✅ Ficha contextual |
+
+**Sentencias con texto completo y ficha propia (3 sentencias vinculantes):**
+- **1149-19-JP/21**: consulta ambiental, principio precautorio, derechos de la naturaleza en concesiones mineras
+- **32-17-IN/21**: reserva de ley orgánica como límite a regulación reglamentaria minera
+- **22-18-IN/21**: derechos de la naturaleza en ecosistemas; distinción consulta previa / consulta ambiental
 
 ---
 
 ## 4. Matrices (`04_matrices/`)
 
-### Matrices analíticas por lote
+### Matrices analíticas por lote — todas con contenido ✅
 
-| Matriz | Estado | Observación |
+| Matriz | Estado | Contenido |
 |---|---|---|
-| `matriz_normativa.md` | ✅ Completa | 10 instrumentos |
-| `matriz_jurisprudencial.md` | ✅ Actualizada | 4 documentos; 1 sentencia vinculante + 3 documentos complementarios |
-| `matriz_internacional.md` | ✅ Completa | 3 documentos |
-| `matriz_institucional.md` | ✅ Actualizada | 5 documentos |
-| `matriz_doctrina.md` | ✅ Actualizada | 12 documentos (5 originales + 7 nuevos) |
-| `matriz_prensa_contextual.md` | ✅ Creada y completa | 16 fuentes con 4 tablas |
-| `matriz_reformas_legislativas.md` | ✅ Creada | 1 documento (noticia institucional sobre 2do debate) |
+| `matriz_normativa.md` | ✅ Completa | 10 instrumentos normativos analizados |
+| `matriz_jurisprudencial.md` | ✅ Completa | 6 documentos / 3 sentencias vinculantes con texto completo |
+| `matriz_internacional.md` | ✅ Completa | 3 documentos internacionales |
+| `matriz_institucional.md` | ✅ Completa | 5 documentos institucionales |
+| `matriz_doctrina.md` | ✅ Completa | 12 fuentes doctrinales |
+| `matriz_prensa_contextual.md` | ✅ Completa | 16 fuentes de prensa contextual |
+| `matriz_reformas_legislativas.md` | ✅ Creada | 1 documento legislativo |
 
-### Matrices transversales — pendientes
+### Matrices transversales — pendientes antes de redactar
 
-| Matriz | Estado |
-|---|---|
-| `matriz_fuentes.md` | ❌ Vacía — consolidación general pendiente |
-| `matriz_cdiu.md` | ❌ Vacía — necesaria para Capítulo I |
-| `matriz_compatibilidad_constitucional_ambiental.md` | ❌ Vacía — necesaria para Capítulo IV |
+| Matriz | Estado | Necesaria para |
+|---|---|---|
+| `matriz_cdiu.md` | ❌ Vacía | Cap. I (descripción del problema) |
+| `matriz_compatibilidad_constitucional_ambiental.md` | ❌ Vacía | Cap. IV (propuesta) |
+| `matriz_fuentes.md` | ❌ Vacía | Índice consolidado (recomendada) |
 
-### Reportes — pendientes
+### Reportes — pendientes hasta Fase 5
 
 | Reporte | Estado |
 |---|---|
@@ -116,45 +102,29 @@
 | Archivo | Estado |
 |---|---|
 | `main.tex` | ✅ Estructura completa |
-| `referencias.bib` | ❌ Vacío — solo comentario |
+| `referencias.bib` | ❌ Vacío — se completará durante la redacción |
 | `08_build/main.pdf` | ✅ PDF del esqueleto compilado |
-| `06_tablas/*.tex` | ❌ Sin contenido académico |
+| `06_tablas/*.tex` | ❌ Sin contenido — se completarán durante la redacción |
 
 ---
 
-## 7. Hallazgos importantes de esta fase
+## 7. Fuentes pendientes de incorporación (recomendadas)
 
-### Fuentes que faltan y son de alta prioridad
+Las siguientes fuentes fueron identificadas en búsquedas pero aún no han sido descargadas ni incorporadas al repositorio:
 
-1. **Sentencia CCE 32-17-IN/21** (Reglamento Ambiental de Actividades Mineras): es la única sentencia del corpus que declara inconstitucional una norma del sector minero por violar la reserva legal. Identificada mediante la Guía CEDEC 2023. Debe incorporarse como documento independiente.
+| Fuente | Tipo | Prioridad | Acción sugerida |
+|---|---|---|---|
+| Artículo Koehn (2022) — "La reserva de ley y la seguridad jurídica como mecanismos para tutelar los derechos de la naturaleza" — *Andares* UASB | Doctrina académica | **Alta** | Descargar, convertir a `.md`, guardar en `doctrina/`, fichar |
+| Sentencia CCE 1185-20-JP/21 (río Aquepi) | Jurisprudencia | Alta | Descargar, convertir a `.md`, guardar en `jurisprudencia/`, fichar |
+| Artículo *Andares* — concesión minera El Corazón | Doctrina | Media | Verificar autor y año antes de incorporar |
 
-2. **Sentencia CCE 22-18-IN/21** (manglares): referenciada en la sentencia 1149-19-JP/21. Define la naturaleza como sujeto sistémico.
-
-3. **Sentencia CCE 1185-20-JP/21**: sobre consulta ambiental; referenciada en el documento CEPAL. No está en el repositorio.
-
-4. **Informe UNODC sobre minería ilegal en Ecuador (mayo 2025)**: mencionado en prensa. Útil para contextualizar la distinción minería ilegal / minería privada legal.
-
-5. **Texto completo del informe oficial de 2do debate de la Ley de Fortalecimiento** (Asamblea Nacional): lo que existe en el repositorio es solo la noticia institucional, no el documento oficial.
-
-### Alertas jurídicas relevantes
-
-- La Ley Orgánica de Fortalecimiento (R.O. 234-5S, 2 de marzo de 2026) acumula al menos **11 demandas de inconstitucionalidad** ante la Corte Constitucional (al 5 de abril de 2026). La tesis debe señalar este estado y no asumir que la ley permanecerá vigente sin pronunciamiento.
-- El documento ARCOM Rendición de Cuentas 2024 reconoce explícitamente que la fiscalización ambiental es percibida como débil y que la consulta previa ha sido "problemática". Estos son datos institucionales relevantes para el análisis crítico.
-- La Guía CEDEC 2023 es una compilación, no una sentencia autónoma. Para citar las sentencias que sistematiza, debe remitirse a las sentencias originales.
+Estas fuentes son opcionales para iniciar la redacción. El corpus actual es suficiente para comenzar los capítulos.
 
 ---
 
-## 8. Próximas acciones
+## 8. Plan de redacción — Fase 4
 
-### Paso 1 — Completar matrices transversales (antes de redactar)
-
-| Tarea | Prioridad |
-|---|---|
-| Crear `matriz_cdiu.md` | Alta — necesaria para Cap. I |
-| Crear `matriz_compatibilidad_constitucional_ambiental.md` | Alta — necesaria para Cap. IV |
-| Crear `matriz_fuentes.md` (índice consolidado) | Media |
-
-### Paso 2 — Redacción (orden recomendado CLAUDE.md)
+### Orden recomendado por CLAUDE.md
 
 ```
 /redactar-capitulo capitulo_1_problema
@@ -166,14 +136,14 @@
 /redactar-capitulo introduccion
 ```
 
-### Paso 3 — Revisión y compilación
+### Matrices transversales que deben existir antes de redactar
 
-```
-/revisar-citas
-/revisar-coherencia
-/revisar-tesis
-/compilar
-```
+| Capítulo | Matriz necesaria |
+|---|---|
+| Cap. I | `matriz_cdiu.md` (descripción del problema: coherencia entre título, problema, objetivos) |
+| Cap. IV | `matriz_compatibilidad_constitucional_ambiental.md` (propuesta jurídica) |
+
+Ambas matrices pueden generarse al inicio de cada capítulo respectivo, o antes de comenzar la redacción.
 
 ---
 
@@ -182,16 +152,17 @@
 | Fase | Estado |
 |---|---|
 | Fase 1 — Inicio: estructura y configuración | ✅ Completa |
-| Fase 2 — Estado: verificación | ✅ Completa |
-| Fase 3 — Análisis por lotes (todas las fuentes) | ✅ Completa — 51 fichas, 7 matrices con contenido |
-| Fase 4 — Redacción de capítulos | ❌ Pendiente |
-| Fase 5 — Revisión | ❌ Pendiente |
-| Fase 6 — Compilación final | ❌ Pendiente |
+| Fase 2 — Estado: verificación inicial | ✅ Completa |
+| Fase 3 — Análisis por lotes (todas las fuentes) | ✅ **Completa** — 52 fuentes, 53 fichas, 7 matrices |
+| Fase 4 — Redacción de capítulos | ⬜ **Por iniciar** |
+| Fase 5 — Revisión | ⬜ Pendiente |
+| Fase 6 — Compilación final | ⬜ Pendiente |
 
-**Fuentes totales disponibles:** 48 archivos .md  
-**Fichas completadas:** 51 (más fichas que archivos por documentos con doble ficha)  
-**Matrices con contenido:** 7  
-**Capítulos redactados:** 0
+**Fuentes totales:** 52 archivos .md  
+**Fichas completadas:** 53  
+**Fuentes sin ficha:** 0  
+**Matrices con contenido:** 7 analíticas  
+**Capítulos redactados:** 0 de 8
 
 **Fase actual: Fase 4 — Redacción de capítulos**
 
