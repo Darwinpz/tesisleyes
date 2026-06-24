@@ -78,7 +78,7 @@ Las 52 fuentes disponibles en `02_fuentes_md/` tienen ficha documental. El repos
 |---|---|
 | `reporte_revision_citas.md` | ❌ Vacío — generar en Fase 5 |
 | `reporte_coherencia_metodologica.md` | ✅ Completo — 12 problemas identificados; 20 aspectos con coherencia confirmada |
-| `reporte_compilacion_latex.md` | ❌ Vacío — generar en Fase 6 |
+| `reporte_compilacion_latex.md` | ✅ Completo — compilación exitosa, 29 páginas, 0 errores fatales |
 
 ---
 
@@ -88,7 +88,7 @@ Las 52 fuentes disponibles en `02_fuentes_md/` tienen ficha documental. El repos
 |---|---|
 | `preliminares.tex` | ✅ Con contenido (portada, dedicatoria, resumen, abstract) |
 | `introduccion.tex` | ❌ Vacío |
-| `capitulo_1_problema.tex` | ❌ Vacío — solo `\chapter{}` |
+| `capitulo_1_problema.tex` | ✅ Redactado — 182 líneas; 9 secciones completas |
 | `capitulo_2_marco_referencial.tex` | ❌ Vacío — solo `\chapter{}` |
 | `capitulo_3_metodologia.tex` | ❌ Vacío — solo `\chapter{}` |
 | `capitulo_4_propuesta.tex` | ❌ Vacío — solo `\chapter{}` |
@@ -104,7 +104,10 @@ Las 52 fuentes disponibles en `02_fuentes_md/` tienen ficha documental. El repos
 | `main.tex` | ✅ Estructura completa |
 | `referencias.bib` | ❌ Vacío — se completará durante la redacción |
 | `08_build/main.pdf` | ✅ PDF del esqueleto compilado |
-| `06_tablas/*.tex` | ❌ Sin contenido — se completarán durante la redacción |
+| `06_tablas/tabla_cdiu.tex` | ✅ Creada — 9 filas, 5 columnas, versión simplificada para Cap. I |
+| `06_tablas/matriz_compatibilidad.tex` | ❌ Vacía — generar al redactar Cap. IV |
+| `06_tablas/matriz_normativa.tex` | ❌ Vacía — generar al redactar Cap. II |
+| `06_tablas/matriz_jurisprudencial.tex` | ❌ Vacía — generar al redactar Cap. II |
 
 ---
 
@@ -154,7 +157,7 @@ La `matriz_cdiu.md` puede usarse para la sección 1.9 del Capítulo I y para el 
 | Fase 1 — Inicio: estructura y configuración | ✅ Completa |
 | Fase 2 — Estado: verificación inicial | ✅ Completa |
 | Fase 3 — Análisis por lotes (todas las fuentes) | ✅ **Completa** — 52 fuentes, 53 fichas, 7 matrices |
-| Fase 4 — Redacción de capítulos | ⬜ **Por iniciar** |
+| Fase 4 — Redacción de capítulos | 🔄 **En curso** — Capítulo I completado |
 | Fase 5 — Revisión | ⬜ Pendiente |
 | Fase 6 — Compilación final | ⬜ Pendiente |
 
