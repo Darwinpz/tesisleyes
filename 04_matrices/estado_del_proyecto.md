@@ -1,7 +1,7 @@
 # Estado del proyecto
 ## Tesis: "Análisis de derecho ambiental ecuatoriano: Revisión crítica de proyectos de ley de apertura al sector minero privado."
 
-**Fecha de actualización:** 24 de junio de 2026 (duodécima actualización)
+**Fecha de actualización:** 24 de junio de 2026 (decimotercera actualización)
 
 ---
 
@@ -11,19 +11,17 @@
 
 Las 54 fuentes disponibles en `02_fuentes_md/` tienen ficha documental. El repositorio cuenta con **54 fichas** y **7 matrices analíticas con contenido** más **3 matrices transversales completas**.
 
-**El proyecto está en Fase 4: Redacción de capítulos.** Los Capítulos I, II y III están redactados, revisados y compilados (PDF: 94 páginas, 0 errores fatales). La segunda revisión de citas ha sido completada (2 correcciones aplicadas). La cuarta revisión de coherencia ha sido completada (8 nuevos hallazgos, gravedad baja-media; TR4-4 corregido de inmediato). El próximo paso es la redacción del Capítulo IV (Propuesta).
+**El proyecto está en Fase 4: Redacción de capítulos.** Los Capítulos I, II y III están redactados, revisados y compilados (PDF: 94 páginas, última compilación sin errores fatales). La tercera revisión de citas (R3) y la quinta revisión de coherencia (R5) han sido completadas en esta sesión. El próximo paso es la redacción del Capítulo IV (Propuesta).
 
-**Acciones completadas para el Cap. II:**
-1. ✅ TR-2.5 corregido: referencia a "criterio 17" → "criterio 16" en `04_matrices/matriz_compatibilidad_constitucional_ambiental.md`.
-2. ✅ TR-2.6 resuelto: el Manual de Técnica Legislativa (Asamblea Nacional del Ecuador — UTL) ha sido analizado, fichado y registrado como fuente N° 54. Respalda las secciones 2.2.17 y 2.2.18.
-3. ✅ Cap. II redactado: `05_capitulos/capitulo_2_marco_referencial.tex` — 5 secciones, 69 subsecciones, citas \parencite{}/\textcite{} directas.
-4. ✅ `06_tablas/matriz_normativa.tex` creada — 10 instrumentos normativos, longtable.
-5. ✅ `06_tablas/matriz_jurisprudencial.tex` creada — 5 entradas, longtable.
-6. ✅ Compilación exitosa: 94 páginas, 617 KB (sexta compilación, 0 errores fatales).
+**Acciones completadas en esta sesión:**
+1. ✅ NC3-01 resuelto: `\nocite{pillajo_2024}` agregado al bloque final de Cap. I → 39/39 entradas BibTeX con citación activa.
+2. ✅ Tercera revisión de citas (R3) completada: 0 fuentes inventadas; NC3-01 resuelto; NC3-02, NC3-04, NC3-05, NC3-06 diferidos a Fase 5.
+3. ✅ Quinta revisión de coherencia (R5) completada: 7 problemas R4 resueltos confirmados; TR5-01 resuelto de inmediato; TR5-02 diferido a Fase 5.
+4. ✅ TR5-01 resuelto: párrafo de síntesis agregado al final de `capitulo_2_marco_referencial.tex` — conecta Cap. II con Caps. III y IV.
 
 ---
 
-## 2. Fuentes Markdown (`02_fuentes_md/`) — 53 archivos ✅ todos fichados
+## 2. Fuentes Markdown (`02_fuentes_md/`) — 54 archivos ✅ todos fichados
 
 | Categoría | Archivos | Fichas | Estado |
 |---|---|---|---|
@@ -51,10 +49,8 @@ Las 54 fuentes disponibles en `02_fuentes_md/` tienen ficha documental. El repos
 
 **Sentencias vinculantes con texto completo (3):**
 - **1149-19-JP/21**: consulta ambiental, principio precautorio, derechos de la naturaleza en concesiones mineras
-- **32-17-IN/21**: reserva de ley orgánica como límite a regulación reglamentaria minera (arts. 86 y 136 RAAM, materia hídrica)
-- **22-18-IN/21**: DDN en ecosistemas; distinción consulta previa / consulta ambiental; arts. 462-463 RCOAM inconstitucionales
-
-**Nota para el Cap. II:** La Sentencia 22-18-IN/21 tiene tres holdings; al redactar las secciones 2.1.5 y 2.5.8 presentar los tres (TR-2.2).
+- **32-17-IN/21**: reserva de ley orgánica como límite a regulación reglamentaria minera
+- **22-18-IN/21**: DDN en ecosistemas; distinción consulta previa / consulta ambiental; arts. 462-463 RCOAM inconstitucionales — tres holdings presentados en Cap. II secs. 2.1.5 y 2.5.8 ✅
 
 ---
 
@@ -72,21 +68,21 @@ Las 54 fuentes disponibles en `02_fuentes_md/` tienen ficha documental. El repos
 | `matriz_prensa_contextual.md` | ✅ Completa | 16 fuentes de prensa contextual |
 | `matriz_reformas_legislativas.md` | ✅ Creada | 1 documento legislativo |
 
-### Matrices transversales — completadas
+### Matrices transversales
 
 | Matriz | Estado | Necesaria para |
 |---|---|---|
-| `matriz_cdiu.md` | ✅ Completa | Cap. I (sec. 1.9) y Cap. III (metodología) — 35 filas, 9 categorías |
-| `matriz_compatibilidad_constitucional_ambiental.md` | ✅ Completa (⚠️ corregir criterio 17→16) | Cap. IV — 16 criterios, 8 columnas |
-| `matriz_fuentes.md` | ✅ Completa | Índice consolidado — 53 fuentes registradas |
+| `matriz_cdiu.md` | ✅ Completa | Cap. I (sec. 1.9) y Cap. III — 35 filas, 9 categorías |
+| `matriz_compatibilidad_constitucional_ambiental.md` | ✅ Completa y verificada | Cap. IV — 16 criterios, 8 columnas; criterio 16 correcto; nota sobre Comunicado CCE agregada (TR4-4 ✅) |
+| `matriz_fuentes.md` | ✅ Completa | Índice consolidado — 54 fuentes registradas (⚠️ encabezado dice "38 fichas" → corregir a 54 en Fase 5) |
 
 ### Reportes
 
 | Reporte | Estado |
 |---|---|
-| `reporte_revision_citas.md` | ✅ Segunda revisión — 0 fuentes inventadas; 2 correcciones aplicadas (NC-01, NC-02); 25 entradas BibTeX verificadas |
-| `reporte_coherencia_metodologica.md` | ✅ Cuarta revisión completada (TR4-0 a TR4-9); 14 aspectos confirmados coherentes; 8 nuevos hallazgos (baja-media gravedad); TR4-4 corregido de inmediato en `matriz_compatibilidad_constitucional_ambiental.md` |
-| `reporte_compilacion_latex.md` | ✅ Actualizado — quinta compilación: 54 páginas; sexta verificación: PDF al día; 0 errores fatales |
+| `reporte_revision_citas.md` | ✅ **Tercera revisión (R3)** — 0 fuentes inventadas; 39/39 entradas BibTeX con citación activa (NC3-01 resuelto); NC3-02, NC3-04, NC3-05, NC3-06 diferidos a Fase 5 |
+| `reporte_coherencia_metodologica.md` | ✅ **Quinta revisión (R5)** — 7 problemas R4 resueltos; TR5-01 resuelto de inmediato; TR5-02 diferido a Fase 5; proyecto listo para Cap. IV |
+| `reporte_compilacion_latex.md` | ✅ Actualizado — PDF: 94 páginas, 617 KB (sexta compilación, 0 errores fatales) |
 
 ---
 
@@ -96,9 +92,9 @@ Las 54 fuentes disponibles en `02_fuentes_md/` tienen ficha documental. El repos
 |---|---|---|
 | `preliminares.tex` | ✅ Con contenido (portada, dedicatoria, resumen, abstract) | 38 |
 | `introduccion.tex` | ❌ Esqueleto | 3 |
-| `capitulo_1_problema.tex` | ✅ **Redactado y revisado** — 23 `\nocite{}` (2 añadidos en revisión de citas R2); citas en texto plano; coherencia verificada (tercera revisión) | 211 |
-| `capitulo_2_marco_referencial.tex` | ✅ **Redactado** — 5 secciones, 69 subsecciones (antecedentes, marco teórico, marco conceptual, marco contextual, marco legal); `\parencite{}` y `\textcite{}` directos; tablas normativa y jurisprudencial incorporadas | ~680 |
-| `capitulo_3_metodologia.tex` | ✅ **Redactado** — enfoque, tipos, métodos, técnicas, instrumentos, matriz documental, preguntas de entrevista, análisis de resultados; `\parencite{}` y `\textcite{}` directos | 251 |
+| `capitulo_1_problema.tex` | ✅ **Redactado y revisado** — 24 `\nocite{}` (incluyendo `pillajo_2024` agregado en sesión actual); citas en texto plano; coherencia R5 verificada | 212 |
+| `capitulo_2_marco_referencial.tex` | ✅ **Redactado y revisado** — 5 secciones, 69 subsecciones; párrafo de síntesis final agregado (TR5-01 ✅); `\parencite{}`/`\textcite{}` directos; tablas normativa y jurisprudencial incorporadas | ~540 |
+| `capitulo_3_metodologia.tex` | ✅ **Redactado** — enfoque, tipos, métodos, técnicas, instrumentos, matriz documental, preguntas de entrevista, análisis de resultados; `\parencite{}`/`\textcite{}` directos | 251 |
 | `capitulo_4_propuesta.tex` | ❌ Esqueleto | 2 |
 | `conclusiones.tex` | ❌ Esqueleto | 3 |
 | `recomendaciones.tex` | ❌ Esqueleto | 3 |
@@ -110,14 +106,14 @@ Las 54 fuentes disponibles en `02_fuentes_md/` tienen ficha documental. El repos
 | Archivo | Estado |
 |---|---|
 | `main.tex` | ✅ Estructura completa (63 líneas) |
-| `referencias.bib` | ✅ Poblado — 25 entradas BibTeX verificadas; 23 claves en `\nocite{}` de Cap. I, 22 en `\parencite{}`/`\textcite{}` de Cap. III |
-| `08_build/main.pdf` | ✅ PDF compilado — **94 páginas**, 617 KB (sexta compilación, sin errores fatales) |
+| `referencias.bib` | ✅ Poblado — **39 entradas BibTeX** verificadas (458 líneas); 39/39 con citación activa (`\parencite{}`, `\textcite{}` o `\nocite{}`) |
+| `08_build/main.pdf` | ✅ PDF compilado — **94 páginas**, 617 KB (sexta compilación — se requiere séptima compilación tras cambios de esta sesión) |
 | `06_tablas/tabla_cdiu.tex` | ✅ Creada — 9 filas, 5 columnas, longtable (93 líneas) |
-| `06_tablas/tabla_analisis_documental.tex` | ✅ Creada — Matriz de análisis documental, 24 entradas, 6 columnas, longtable (107 líneas) |
-| `06_tablas/matriz_compatibilidad.tex` | ❌ Vacía (0 líneas) — generar al redactar Cap. IV |
-| `06_tablas/matriz_normativa.tex` | ✅ Creada — 10 instrumentos normativos, longtable, 5 columnas (referenciada en sección 2.5) |
-| `06_tablas/matriz_jurisprudencial.tex` | ✅ Creada — 5 entradas jurisprudenciales/documentales, longtable, 5 columnas (referenciada en sección 2.5.8) |
-| `06_tablas/matriz_reformas_legislativas.tex` | ❌ Vacía (0 líneas) — evaluar si se necesita |
+| `06_tablas/tabla_analisis_documental.tex` | ✅ Creada — 24 entradas, 6 columnas, longtable (107 líneas) |
+| `06_tablas/matriz_normativa.tex` | ✅ Creada — 10 instrumentos normativos, longtable, 5 columnas |
+| `06_tablas/matriz_jurisprudencial.tex` | ✅ Creada — 5 entradas jurisprudenciales/documentales, longtable, 5 columnas |
+| `06_tablas/matriz_compatibilidad.tex` | ❌ Vacía — generar al redactar Cap. IV |
+| `06_tablas/matriz_reformas_legislativas.tex` | ❌ Vacía — evaluar si se necesita |
 
 ---
 
@@ -125,44 +121,36 @@ Las 54 fuentes disponibles en `02_fuentes_md/` tienen ficha documental. El repos
 
 | Fuente | Tipo | Prioridad | Acción sugerida |
 |---|---|---|---|
-| Koehn (2022) — "La reserva de ley y la seguridad jurídica" — *Andares* UASB | Doctrina | Alta | Evaluar antes de cerrar Cap. II |
-| Sentencia CCE 1185-20-JP/21 (río Aquepi) | Jurisprudencia | Alta | Evaluar antes de cerrar Cap. II |
-| Manual de Técnica Legislativa (AN-UTL) | Institucional | — | ✅ **Incorporado** — fuente N° 54; ficha en `03_fichas/fichas_institucionales/manual_tecnica_legislativa_an_ficha.md`; respalda secciones 2.2.17 y 2.2.18 |
+| Koehn (2022) — "La reserva de ley y la seguridad jurídica" — *Andares* UASB | Doctrina | Baja | Evaluar solo si se considera necesario para Cap. IV |
+| Sentencia CCE 1185-20-JP/21 (río Aquepi) | Jurisprudencia | Baja | Mencionada en Cap. II a través de Guía CEDEC 2023 con aclaración metodológica |
 
 ---
 
 ## 8. Problemas pendientes identificados en revisiones
 
-### Prioridad alta (antes de compilación final — Caps. aún no redactados)
+### Prioridad alta (implementar al redactar capítulos pendientes)
 
 | Problema | Capítulo afectado | Estado |
 |---|---|---|
 | P-3: Declarar advertencia CCE sobre Ley 2026 en Caps. IV, Conclusiones y Recomendaciones | Cap. IV, Conclusiones, Recomendaciones | Pendiente — implementar al redactar |
 
-### Prioridad media (antes o durante redacción del Cap. II)
+### Fase 5 (después de todos los capítulos)
 
-| Problema | Detalle | Estado |
+| Código | Problema | Archivo |
 |---|---|---|
-| TR-2.5: "criterio 17" inexistente en Matriz de Compatibilidad | Cambiar "criterios 2, 10, 17" por "criterios 2, 10, 16" en `matriz_compatibilidad_constitucional_ambiental.md` | **Acción inmediata recomendada** |
-| TR-2.6: Vacío doctrinal en secciones 2.2.17 y 2.2.18 | Manual de Técnica Legislativa (AN-UTL) incorporado como fuente N° 54; ficha creada; matrices actualizadas | **✅ Resuelto** |
-| TR-2.2: Sentencia 22-18-IN/21 con tres holdings | Presentar los tres holdings en secciones 2.1.5 y 2.5.8 del Cap. II | Recordar al redactar |
-| TR-2.3: "seis documentos" vs. cinco en sec. 3.5.3 Cap. III | Corrección de precisión | Fase 5 |
-| SR-3.1: Alcance holding Sentencia 32-17-IN/21 | Verificar si el holding es general o limitado a materia hídrica | Fase 5 |
-| P-2: Fuente Pillajo (2024) con delimitación provincial | No usar como fuente principal en Cap. II | Advertencia vigente |
-| P-5: Expediente legislativo incompleto | Declarar limitación explícita en Cap. II sec. 2.1.4 | Al redactar |
-| P-8: Control fuentes de prensa en Cap. II | Usar prensa solo como contexto, no como fuente jurídica | Al redactar |
-
-### Prioridad baja (Fase 5)
-
-| Problema | Detalle |
-|---|---|
-| P-9 / SR-3.2: Punto final en título de `preliminares.tex` | Agregar punto final antes de compilación final |
-| SR-3.4: "35 dimensiones" en Cap. I | Ajustar a "35 dimensiones distribuidas en las nueve categorías" |
-| P-APA-01 (citas R2): Convertir citas texto plano de Cap. I | Convertir 23 `\nocite{}` a `\parencite{}`/`\textcite{}` |
-| P-APA-04 (citas R2): Orden cronológico en citas múltiples CCE | Verificar orden en `\parencite{cce_1149_19_jp_21,cce_32_17_in_21,cce_22_18_in_21}` |
-| TR-2.1: Aclarar "veinticuatro entradas" en sec. 3.6 Cap. III | Precisión sobre el corpus real (53 fuentes vs. 24 filas en tabla) |
-| P-JUR-01 (citas R2): Campo `year` de `ley_mineria_2025` | Evaluar si `year = {2009}` es suficiente con la nota existente |
-| Hyperref: `\hypersetup{plainpages=false, pdfpagelabels=true}` | Agregar al preámbulo de `main.tex` antes de compilación final |
+| NC3-02 / P-APA-04 | Orden cronológico en `\parencite{cce_1149_19_jp_21,cce_32_17_in_21,cce_22_18_in_21}` — aparece en Cap. II sec. 2.1.2 y Cap. III sec. 3.4.3; reordenar: 32-17-IN/21, 22-18-IN/21, 1149-19-JP/21 | `capitulo_2_marco_referencial.tex`, `capitulo_3_metodologia.tex` |
+| NC3-04 / P-JUR-01 | `ley_mineria_2025` con `year = {2009}` — evaluar antes de entrega final | `referencias.bib` |
+| NC3-05 | `manual_tecnica_legislativa_an` con `year = {s.f.}` — metodológicamente correcto; verificar aceptación | `referencias.bib` |
+| NC3-06 | Inconsistencia `Nota:` vs `Nota.` entre tablas | `06_tablas/matriz_normativa.tex`, `06_tablas/matriz_jurisprudencial.tex` |
+| TR4-2 | "cincuenta y tres fuentes" en Cap. III secs. 3.5.1 y 3.8.1 — actualizar a "cincuenta y cuatro" | `capitulo_3_metodologia.tex` |
+| TR4-3 | "seis documentos jurisprudenciales" con cinco enumerados en sec. 3.5.3 | `capitulo_3_metodologia.tex` |
+| TR4-5 | `matriz_fuentes.md` encabezado: "Total de fichas: 38" → corregir a 54 | `04_matrices/matriz_fuentes.md` |
+| TR5-02 | `\input{}` sin extensión `.tex` en Cap. II — inconsistencia menor de formato | `capitulo_2_marco_referencial.tex` |
+| P-APA-01 | Convertir citas texto plano de Cap. I a `\parencite{}`/`\textcite{}` | `capitulo_1_problema.tex` |
+| P-9 / SR-3.2 | Punto final ausente en título de `preliminares.tex` | `preliminares.tex` |
+| SR-3.1 | Alcance del holding de Sentencia 32-17-IN/21 — verificar si es general o limitado a materia hídrica | `capitulo_1_problema.tex`, `capitulo_2_marco_referencial.tex` |
+| SR-3.4 | "35 dimensiones" vs. "35 filas" en Cap. I sec. 1.9 | `capitulo_1_problema.tex` |
+| Hyperref | `\hypersetup{plainpages=false, pdfpagelabels=true}` en preámbulo | `main.tex` |
 
 ---
 
@@ -173,21 +161,26 @@ Las 54 fuentes disponibles en `02_fuentes_md/` tienen ficha documental. El repos
 ```
 ✅ /redactar-capitulo capitulo_1_problema
 ✅ /redactar-capitulo capitulo_3_metodologia
-✅ [TR-2.5 y TR-2.6 resueltos]
+✅ [TR-2.5 y TR-2.6 resueltos; fuente N° 54 incorporada]
 ✅ /redactar-capitulo capitulo_2_marco_referencial
+✅ [R3 y R5 completadas; TR5-01 resuelto]
 →  /redactar-capitulo capitulo_4_propuesta   ← PRÓXIMO
    /redactar-capitulo conclusiones
    /redactar-capitulo recomendaciones
    /redactar-capitulo introduccion
 ```
 
-### Matrices disponibles para cada capítulo
+### Matrices disponibles para Cap. IV
 
-| Capítulo | Matrices disponibles | Estado |
-|---|---|---|
-| Cap. II | `matriz_normativa.md`, `matriz_jurisprudencial.md`, `matriz_doctrina.md`, `matriz_internacional.md`, `matriz_institucional.md`, `matriz_reformas_legislativas.md`, `matriz_prensa_contextual.md` | ✅ Todas disponibles |
-| Cap. IV | `matriz_compatibilidad_constitucional_ambiental.md` (⚠️ corregir criterio 17→16) + corpus completo | ⚠️ Corregir TR-2.5 primero |
-| Conclusiones | Corpus completo + matrices analíticas + Cap. IV | Pendiente Cap. IV |
+| Matriz | Estado |
+|---|---|
+| `matriz_compatibilidad_constitucional_ambiental.md` | ✅ Lista — 16 criterios, 8 columnas; nota Comunicado CCE correcta |
+| `matriz_normativa.md` | ✅ Disponible |
+| `matriz_jurisprudencial.md` | ✅ Disponible |
+| `matriz_doctrina.md` | ✅ Disponible |
+| `matriz_institucional.md` | ✅ Disponible |
+| `matriz_internacional.md` | ✅ Disponible |
+| `referencias.bib` | ✅ 39 entradas verificadas |
 
 ---
 
@@ -198,7 +191,7 @@ Las 54 fuentes disponibles en `02_fuentes_md/` tienen ficha documental. El repos
 | Fase 1 — Inicio: estructura y configuración | ✅ Completa |
 | Fase 2 — Estado: verificación inicial | ✅ Completa |
 | Fase 3 — Análisis por lotes (todas las fuentes) | ✅ **Completa** — 54 fuentes, 54 fichas, 7 matrices analíticas + 3 transversales |
-| Fase 4 — Redacción de capítulos | 🔄 **En curso** — Capítulos I y III completados (2 de 7 capítulos con contenido) |
+| Fase 4 — Redacción de capítulos | 🔄 **En curso** — Capítulos I, II y III completados (3 de 7 con contenido) |
 | Fase 5 — Revisión | ⬜ Pendiente |
 | Fase 6 — Compilación final | ⬜ Pendiente |
 
@@ -207,11 +200,11 @@ Las 54 fuentes disponibles en `02_fuentes_md/` tienen ficha documental. El repos
 **Fuentes sin ficha:** 0
 **Matrices analíticas con contenido:** 7
 **Matrices transversales:** 3 completas
-**Entradas BibTeX verificadas:** 39 (458 líneas en `referencias.bib`)
-**PDF compilado:** 94 páginas, 617 KB (sexta compilación — sin errores fatales)
-**Capítulos con contenido:** 3 de 7 (Cap. I — 211 líneas; Cap. II — ~680 líneas; Cap. III — 251 líneas)
-**Segunda revisión de citas:** ✅ Completada — 0 fuentes inventadas; 2 correcciones NC-01, NC-02
-**Cuarta revisión de coherencia:** ✅ Completada — 8 nuevos hallazgos TR4-1 a TR4-9 (baja-media); TR4-4 corregido de inmediato
+**Entradas BibTeX verificadas:** 39 (458 líneas en `referencias.bib`) — 39/39 con citación activa ✅
+**Última compilación:** 94 páginas, 617 KB (sexta compilación — pendiente séptima compilación)
+**Capítulos con contenido:** 3 de 7 (Cap. I — 212 líneas; Cap. II — ~540 líneas; Cap. III — 251 líneas)
+**Tercera revisión de citas (R3):** ✅ Completada — 0 fuentes inventadas; NC3-01 resuelto
+**Quinta revisión de coherencia (R5):** ✅ Completada — TR5-01 resuelto; TR5-02 diferido a Fase 5
 
 **Fase actual: Fase 4 — Redacción de capítulos**
 
