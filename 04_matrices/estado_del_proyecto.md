@@ -1,7 +1,7 @@
 # Estado del proyecto
 ## Tesis: "Análisis de derecho ambiental ecuatoriano: Revisión crítica de proyectos de ley de apertura al sector minero privado."
 
-**Fecha de actualización:** 24 de junio de 2026 (undécima actualización)
+**Fecha de actualización:** 24 de junio de 2026 (duodécima actualización)
 
 ---
 
@@ -11,11 +11,15 @@
 
 Las 54 fuentes disponibles en `02_fuentes_md/` tienen ficha documental. El repositorio cuenta con **54 fichas** y **7 matrices analíticas con contenido** más **3 matrices transversales completas**.
 
-**El proyecto está en Fase 4: Redacción de capítulos.** Los Capítulos I y III están redactados, revisados y compilados (PDF: 54 páginas, 0 errores fatales). La segunda revisión de citas ha sido completada (2 correcciones aplicadas). La tercera revisión de coherencia ha sido completada (7 nuevos problemas identificados, ninguno de gravedad alta). El próximo paso es la redacción del Capítulo II (Marco referencial).
+**El proyecto está en Fase 4: Redacción de capítulos.** Los Capítulos I, II y III están redactados, revisados y compilados (PDF: 94 páginas, 0 errores fatales). La segunda revisión de citas ha sido completada (2 correcciones aplicadas). La cuarta revisión de coherencia ha sido completada (8 nuevos hallazgos, gravedad baja-media; TR4-4 corregido de inmediato). El próximo paso es la redacción del Capítulo IV (Propuesta).
 
-**Acciones previas completadas antes de iniciar Cap. II:**
+**Acciones completadas para el Cap. II:**
 1. ✅ TR-2.5 corregido: referencia a "criterio 17" → "criterio 16" en `04_matrices/matriz_compatibilidad_constitucional_ambiental.md`.
 2. ✅ TR-2.6 resuelto: el Manual de Técnica Legislativa (Asamblea Nacional del Ecuador — UTL) ha sido analizado, fichado y registrado como fuente N° 54. Respalda las secciones 2.2.17 y 2.2.18.
+3. ✅ Cap. II redactado: `05_capitulos/capitulo_2_marco_referencial.tex` — 5 secciones, 69 subsecciones, citas \parencite{}/\textcite{} directas.
+4. ✅ `06_tablas/matriz_normativa.tex` creada — 10 instrumentos normativos, longtable.
+5. ✅ `06_tablas/matriz_jurisprudencial.tex` creada — 5 entradas, longtable.
+6. ✅ Compilación exitosa: 94 páginas, 617 KB (sexta compilación, 0 errores fatales).
 
 ---
 
@@ -93,7 +97,7 @@ Las 54 fuentes disponibles en `02_fuentes_md/` tienen ficha documental. El repos
 | `preliminares.tex` | ✅ Con contenido (portada, dedicatoria, resumen, abstract) | 38 |
 | `introduccion.tex` | ❌ Esqueleto | 3 |
 | `capitulo_1_problema.tex` | ✅ **Redactado y revisado** — 23 `\nocite{}` (2 añadidos en revisión de citas R2); citas en texto plano; coherencia verificada (tercera revisión) | 211 |
-| `capitulo_2_marco_referencial.tex` | ❌ Esqueleto | 2 |
+| `capitulo_2_marco_referencial.tex` | ✅ **Redactado** — 5 secciones, 69 subsecciones (antecedentes, marco teórico, marco conceptual, marco contextual, marco legal); `\parencite{}` y `\textcite{}` directos; tablas normativa y jurisprudencial incorporadas | ~680 |
 | `capitulo_3_metodologia.tex` | ✅ **Redactado** — enfoque, tipos, métodos, técnicas, instrumentos, matriz documental, preguntas de entrevista, análisis de resultados; `\parencite{}` y `\textcite{}` directos | 251 |
 | `capitulo_4_propuesta.tex` | ❌ Esqueleto | 2 |
 | `conclusiones.tex` | ❌ Esqueleto | 3 |
@@ -107,12 +111,12 @@ Las 54 fuentes disponibles en `02_fuentes_md/` tienen ficha documental. El repos
 |---|---|
 | `main.tex` | ✅ Estructura completa (63 líneas) |
 | `referencias.bib` | ✅ Poblado — 25 entradas BibTeX verificadas; 23 claves en `\nocite{}` de Cap. I, 22 en `\parencite{}`/`\textcite{}` de Cap. III |
-| `08_build/main.pdf` | ✅ PDF compilado — **54 páginas**, 388.4 KB (quinta compilación, sin errores fatales) |
+| `08_build/main.pdf` | ✅ PDF compilado — **94 páginas**, 617 KB (sexta compilación, sin errores fatales) |
 | `06_tablas/tabla_cdiu.tex` | ✅ Creada — 9 filas, 5 columnas, longtable (93 líneas) |
 | `06_tablas/tabla_analisis_documental.tex` | ✅ Creada — Matriz de análisis documental, 24 entradas, 6 columnas, longtable (107 líneas) |
 | `06_tablas/matriz_compatibilidad.tex` | ❌ Vacía (0 líneas) — generar al redactar Cap. IV |
-| `06_tablas/matriz_normativa.tex` | ❌ Vacía (0 líneas) — generar al redactar Cap. II |
-| `06_tablas/matriz_jurisprudencial.tex` | ❌ Vacía (0 líneas) — generar al redactar Cap. II |
+| `06_tablas/matriz_normativa.tex` | ✅ Creada — 10 instrumentos normativos, longtable, 5 columnas (referenciada en sección 2.5) |
+| `06_tablas/matriz_jurisprudencial.tex` | ✅ Creada — 5 entradas jurisprudenciales/documentales, longtable, 5 columnas (referenciada en sección 2.5.8) |
 | `06_tablas/matriz_reformas_legislativas.tex` | ❌ Vacía (0 líneas) — evaluar si se necesita |
 
 ---
@@ -169,9 +173,9 @@ Las 54 fuentes disponibles en `02_fuentes_md/` tienen ficha documental. El repos
 ```
 ✅ /redactar-capitulo capitulo_1_problema
 ✅ /redactar-capitulo capitulo_3_metodologia
-→  [✅ TR-2.5 y TR-2.6 resueltos]
-→  /redactar-capitulo capitulo_2_marco_referencial   ← PRÓXIMO
-   /redactar-capitulo capitulo_4_propuesta
+✅ [TR-2.5 y TR-2.6 resueltos]
+✅ /redactar-capitulo capitulo_2_marco_referencial
+→  /redactar-capitulo capitulo_4_propuesta   ← PRÓXIMO
    /redactar-capitulo conclusiones
    /redactar-capitulo recomendaciones
    /redactar-capitulo introduccion
@@ -203,18 +207,16 @@ Las 54 fuentes disponibles en `02_fuentes_md/` tienen ficha documental. El repos
 **Fuentes sin ficha:** 0
 **Matrices analíticas con contenido:** 7
 **Matrices transversales:** 3 completas
-**Entradas BibTeX verificadas:** 25 (284 líneas en `referencias.bib`)
-**PDF compilado:** 54 páginas, 388.4 KB (quinta compilación — sin errores fatales)
-**Capítulos con contenido:** 2 de 7 (Cap. I — 211 líneas; Cap. III — 251 líneas)
+**Entradas BibTeX verificadas:** 39 (458 líneas en `referencias.bib`)
+**PDF compilado:** 94 páginas, 617 KB (sexta compilación — sin errores fatales)
+**Capítulos con contenido:** 3 de 7 (Cap. I — 211 líneas; Cap. II — ~680 líneas; Cap. III — 251 líneas)
 **Segunda revisión de citas:** ✅ Completada — 0 fuentes inventadas; 2 correcciones NC-01, NC-02
-**Tercera revisión de coherencia:** ✅ Completada — 40 aspectos verificados; 7 nuevos problemas TR-2.1 a TR-2.7 (gravedad baja-media)
+**Cuarta revisión de coherencia:** ✅ Completada — 8 nuevos hallazgos TR4-1 a TR4-9 (baja-media); TR4-4 corregido de inmediato
 
 **Fase actual: Fase 4 — Redacción de capítulos**
 
-**Acciones inmediatas recomendadas:**
+**Acción inmediata recomendada:**
 
 ```
-1. ✅ TR-2.5 corregido.
-2. ✅ TR-2.6 resuelto: Manual de Técnica Legislativa (AN-UTL) incorporado como fuente N° 54.
-3. /redactar-capitulo capitulo_2_marco_referencial   ← PRÓXIMO PASO
+/redactar-capitulo capitulo_4_propuesta   ← PRÓXIMO PASO
 ```
