@@ -437,3 +437,438 @@ El problema más urgente para los capítulos siguientes es SR-3.3: redactar dire
 - `05_capitulos/conclusiones.tex`
 - `05_capitulos/recomendaciones.tex`
 - `06_tablas/tabla_cdiu.tex`
+
+---
+
+---
+
+# Tercera revisión de coherencia metodológica y jurídica
+## Tesis: "Análisis de derecho ambiental ecuatoriano: Revisión crítica de proyectos de ley de apertura al sector minero privado."
+
+**Fecha:** 24 de junio de 2026
+**Agente:** consistency-reviewer
+**Contexto:** Capítulos I (209 líneas) y III (251 líneas) redactados. `referencias.bib` con 25 entradas. PDF compilado: 54 páginas. `tabla_cdiu.tex` (93 líneas) y `tabla_analisis_documental.tex` (107 líneas) creadas y compilando. Capítulos II, IV, Conclusiones, Recomendaciones e Introducción: esqueletos vacíos. Segunda revisión de citas completada (2 correcciones aplicadas). Próximo paso: redacción del Capítulo II.
+
+---
+
+## TR-0. Resumen comparativo de las tres revisiones
+
+| Problema | Revisión 1 | Revisión 2 | Revisión 3 |
+|---|---|---|---|
+| P-1: Discrepancia columnas CDIU | Identificado | Resuelto parcialmente | ✅ Resuelto: `tabla_cdiu.tex` usa versión de 5 columnas con justificación en Cap. I |
+| P-2: Pillajo (2024) delimitación provincial | Identificado | Persistente | ⚠️ Persistente — advertencia vigente para Cap. II |
+| P-3: Estado procesal Ley 2026 ante CCE | Identificado | Resuelto en Cap. I; pendiente Caps. III y IV | ✅ Resuelto en Caps. I y III. Pendiente en Caps. IV, Conclusiones, Recomendaciones |
+| P-4: Vacío CPLI en planteamiento | Identificado | Resuelto en Cap. I | ✅ Confirmado resuelto en Cap. I sec. 1.1 y Cap. III sec. 3.7 pregunta 3 |
+| P-5: Expediente legislativo incompleto | Identificado | Persistente | ⚠️ Persistente — declaración explícita en secciones 3.5.6, 3.6 y 3.8.3 del Cap. III. Limitación gestionada |
+| P-6: Tablas LaTeX vacías | Identificado | Parcialmente resuelto | ⚠️ Parcialmente resuelto: `tabla_cdiu.tex` y `tabla_analisis_documental.tex` creadas. Pendientes: `matriz_compatibilidad.tex`, `matriz_normativa.tex`, `matriz_jurisprudencial.tex` |
+| P-7: Reportes vacíos | Identificado | Resuelto | ✅ Confirmado resuelto |
+| P-8: Control fuentes de prensa | Identificado | Persistente | ⚠️ Parcialmente resuelto en Cap. III sec. 3.8.4. Pendiente en Cap. II |
+| P-9: Título sin punto final en `preliminares.tex` | Identificado | Persistente | ⚠️ Persistente — corregir antes de compilación final |
+| P-10: Cap. III debe declarar limitación legislativa | Identificado | Persistente | ✅ Resuelto — secciones 3.5.6, 3.6 y 3.8.3 lo declaran explícitamente |
+| P-11: Comunicado CCE mal usado | Identificado | Resuelto en Cap. I | ✅ Confirmado resuelto en Cap. I nota al pie 1 y Cap. III sec. 3.4.3 |
+| P-12: Trujillo Cárdenas (2021) sin ficha | Identificado | Resuelto | ✅ Confirmado resuelto |
+| SR-3.1: Holding Sent. 32-17-IN/21 potencialmente ampliado | Nuevo en R2 | Identificado | ⚠️ Persistente — Cap. III reitera la formulación ampliada del Cap. I. Verificar en Fase 5 |
+| SR-3.3: Citas Cap. I en texto plano | Nuevo en R2 | Identificado | ✅ Resuelto en Cap. III: usa `\parencite{}` y `\textcite{}` consistentemente. Convertir Cap. I en Fase 5 |
+| SR-3.4: "35 dimensiones" vs. "35 filas" en Cap. I | Nuevo en R2 | Identificado | ⚠️ Persistente — corrección diferida a Fase 5 |
+| SR-3.5: Reporte compilación desactualizado | Nuevo en R2 | Identificado | ✅ Resuelto — reporte compilación actualizado a 54 páginas (sexta verificación) |
+
+---
+
+## TR-1. Estado de los problemas anteriores confirmado en esta revisión
+
+### TR-1.1 — Patrón de citación en Cap. III: resuelto satisfactoriamente
+
+El Capítulo III usa `\parencite{}` y `\textcite{}` de manera consistente en todas sus secciones. No existe mezcla de texto hardcoded con comandos BibTeX. Las 22 claves BibTeX utilizadas son consistentes con `referencias.bib`. Problema SR-3.3 resuelto en Cap. III.
+
+### TR-1.2 — Advertencia Ley 2026 en Cap. III: resuelto satisfactoriamente
+
+La sección 3.8.3 contiene advertencia metodológica completa. Diferencia correctamente vigencia formal (R.O. 234-5S) y cuestionamiento constitucional activo (11+ demandas al 5-abr-2026). No prejuzga el resultado de los procesos. Problema P-3 resuelto en Cap. III.
+
+### TR-1.3 — Limitación documental legislativa en Cap. III: resuelto satisfactoriamente
+
+Las secciones 3.5.6 y 3.8.3 del Cap. III declaran explícitamente la limitación. La sección 3.6 documenta la restricción en el análisis posterior de la Tabla 2. Problema P-10 resuelto.
+
+### TR-1.4 — Declaración de inaplicación de entrevistas: coherente
+
+La sección 3.8.5 del Cap. III declara que las entrevistas no han sido aplicadas, describe las condiciones de su eventual aplicación y establece que su ausencia no compromete la validez del diseño. Metodológicamente sólido conforme a `estructura_capitulos.md`.
+
+---
+
+## TR-2. Nuevos problemas identificados en la tercera revisión
+
+### TR-2.1 — "Veinticuatro entradas" en sec. 3.6 no aclara que la fila 23 agrupa 16 fuentes
+
+- **Gravedad:** baja
+- **Archivo:** `05_capitulos/capitulo_3_metodologia.tex`, sección 3.6
+- **Descripción:** El texto describe "veinticuatro entradas" pero la fila 23 agrupa las 16 fuentes de prensa como un bloque. El corpus total del repositorio es 53. Un lector externo podría subestimar el corpus real.
+- **Recomendación (Fase 5):** Aclarar: "La Tabla 2 presenta veinticuatro entradas que representan el corpus verificado. La fila 23 agrupa las dieciséis fuentes de prensa contextual como un bloque temático. El corpus total del repositorio comprende cincuenta y tres fuentes individuales."
+- **Prioridad:** baja — corrección de precisión en Fase 5
+
+### TR-2.2 — Sentencia 22-18-IN/21: presentar los tres holdings al redactar Cap. II
+
+- **Gravedad:** media
+- **Archivo:** `05_capitulos/capitulo_3_metodologia.tex`, sección 3.4.3 (referencia); por anticipación: `05_capitulos/capitulo_2_marco_referencial.tex`, secciones 2.1.5 y 2.5.8
+- **Descripción:** La sección 3.4.3 del Cap. III describe la Sentencia 22-18-IN/21 exclusivamente desde la dimensión de CPLI e inconstitucionalidad de arts. 462–463 RCOAM. La sentencia también desarrolla derechos de la naturaleza en ecosistemas de manglares y condiciona la constitucionalidad del art. 184 COAM.
+- **Recomendación:** Al redactar las secciones 2.1.5 y 2.5.8 del Cap. II, presentar la Sentencia 22-18-IN/21 con sus tres holdings: (a) derechos de la naturaleza en ecosistemas de manglares; (b) distinción entre consulta ambiental (art. 398 CRE) y CPLI (art. 57.7 CRE); (c) inconstitucionalidad de los arts. 462 y 463 RCOAM.
+- **Prioridad:** media — antes de redactar el Cap. II
+
+### TR-2.3 — "Seis documentos" en sec. 3.5.3 no coincide con la enumeración de cinco
+
+- **Gravedad:** media
+- **Archivo:** `05_capitulos/capitulo_3_metodologia.tex`, sección 3.5.3
+- **Descripción:** La sección indica "seis documentos jurisprudenciales" pero la enumeración detalla exactamente cinco: las tres sentencias vinculantes, la Guía CEDEC 2023 y el Comunicado CCE agosto 2025. El archivo `cce_consulta_ambiental.md` es un análisis complementario de la Sentencia 1149-19-JP/21, no una sentencia autónoma. La Tabla 2 registra solo cuatro entradas jurisprudenciales (filas 9–12).
+- **Recomendación (Fase 5):** Ajustar la sección 3.5.3 para indicar "cinco documentos jurisprudenciales". Verificar si el Comunicado debe aparecer como fila en la Tabla 2.
+- **Prioridad:** media — corrección de consistencia en Fase 5; recordar al redactar Cap. II
+
+### TR-2.4 — Entrevistas no aplicadas: verificar coherencia con Conclusiones y Recomendaciones
+
+- **Gravedad:** baja
+- **Archivo:** `05_capitulos/capitulo_3_metodologia.tex`, secciones 3.4.4 y 3.8.5
+- **Descripción:** La sección 3.8.5 declara que las entrevistas no han sido aplicadas. Si tampoco se aplican antes de redactar Conclusiones y Recomendaciones, esas secciones no deben referenciar resultados de entrevistas.
+- **Recomendación:** Al redactar Conclusiones y Recomendaciones, verificar que no se citen resultados de entrevistas si estas no fueron aplicadas.
+- **Prioridad:** baja — vigilar al redactar Conclusiones y Recomendaciones
+
+### TR-2.5 — Referencia a "criterio 17" en Matriz de Compatibilidad (solo existen 16 criterios)
+
+- **Gravedad:** media
+- **Archivo:** `04_matrices/matriz_compatibilidad_constitucional_ambiental.md`, sección "Fuentes que sustentan la Matriz"
+- **Descripción:** La entrada de fuentes internacionales indica "OC-23/17 Corte IDH (criterios 2, 10, 17)." La Matriz tiene solo 16 criterios. El "criterio 17" no existe; probable error tipográfico por "16".
+- **Recomendación:** Corregir antes de redactar el Cap. IV: cambiar "criterios 2, 10, 17" por "criterios 2, 10, 16" y verificar que la OC-23/17 efectivamente sustenta el criterio 16.
+- **Prioridad:** media — corregir en `matriz_compatibilidad_constitucional_ambiental.md` antes del Cap. IV
+
+### TR-2.6 — Vacío doctrinal en secciones 2.2.17 y 2.2.18 del Cap. II (técnica legislativa)
+
+- **Gravedad:** media
+- **Archivo:** `00_instrucciones/estructura_capitulos.md`, secciones 2.2.17 y 2.2.18; `04_matrices/matriz_doctrina.md`
+- **Descripción:** La estructura prevé secciones sobre técnica legislativa y análisis de impacto legislativo ambiental. La `matriz_doctrina.md` (12 fuentes) no contiene ninguna fuente que trate específicamente estas materias.
+- **Recomendación:** Antes de redactar esas secciones, tomar una decisión: (a) buscar fuente doctrinal verificable con `/project:buscar-fuente tecnica legislativa ambiental Ecuador`; (b) redefinir el alcance de esas secciones sustentándolas con jurisprudencia constitucional vinculante (las tres sentencias establecen criterios de evaluación legislativa) y normativa (arts. 11.8, 82, 395–399 CRE; art. 161 COA). La opción (b) es metodológicamente sólida sin fuentes adicionales.
+- **Prioridad:** media — decisión previa antes de redactar el Cap. II
+
+### TR-2.7 — Nombre incorrecto del archivo `reforma_reglamento_general_ley_mineria_2025.md`
+
+- **Gravedad:** baja
+- **Archivo:** `02_fuentes_md/normativa/reforma_reglamento_general_ley_mineria_2025.md`; `04_matrices/matriz_normativa.md`, observación N.7
+- **Descripción:** El archivo contiene el texto actualizado de la Ley de Minería con reformas hasta agosto de 2025, no una reforma al Reglamento General. Esta discrepancia puede generar confusión al redactar el Cap. II.
+- **Recomendación:** Al redactar el Cap. II, identificar el archivo correctamente y usar la clave BibTeX `ley_mineria_2025`.
+- **Prioridad:** baja — recordar al citar en Cap. II
+
+---
+
+## TR-3. Aspectos confirmados como coherentes en la tercera revisión (ítems 31–40)
+
+Los ítems 1–30 fueron confirmados en las revisiones anteriores y se mantienen. Se agregan:
+
+31. El Capítulo III no reformula ni abrevia el título de la tesis en ninguna sección.
+32. El Capítulo III identifica correctamente la Ley de Fortalecimiento 2026 como ley vigente con R.O. verificado, nunca como proyecto de ley.
+33. Las 6 preguntas de entrevista (sección 3.7) están articuladas directamente con los cuatro objetivos específicos y la premisa de la investigación.
+34. La Tabla 2 (sección 3.6) diferencia correctamente entre fuentes normativas, jurisprudenciales, internacionales, institucionales, doctrinales, de prensa y legislativas contextuales.
+35. El Cap. III declara explícitamente la limitación documental legislativa en tres secciones distintas (3.5.6, 3.6 y 3.8.3), sin que esta limitación invalide el diseño metodológico.
+36. La sección 3.8.2 sintetiza correctamente los hallazgos del análisis normativo y jurisprudencial, orientando el análisis comparativo del Cap. IV.
+37. El Capítulo III mantiene tono académico, jurídico y crítico, sin afirmaciones absolutas, lenguaje político ni conclusiones no demostradas. Cumple íntegramente `criterios_redaccion.md`.
+38. La fila 24 de la Tabla 2 no otorga valor jurídico autónomo a la noticia institucional de la Asamblea Nacional. La nota al pie aclara su carácter contextual.
+39. El Capítulo III no introduce fuentes nuevas que no estén en el repositorio. Todas las claves `\parencite{}` corresponden a entradas verificadas de `referencias.bib`.
+40. La coherencia entre la CDIU (Cap. I, sec. 1.9), la Tabla 2 (Cap. III, sec. 3.6) y la Matriz de Compatibilidad es alta: los tres instrumentos cubren las mismas categorías jurídicas con niveles de detalle distintos y sin contradicciones sustantivas.
+
+---
+
+## TR-4. Lista consolidada de problemas pendientes al cierre de la tercera revisión
+
+| Identificador | Problema | Prioridad | Estado |
+|---|---|---|---|
+| P-2 | Fuente Pillajo (2024) con delimitación provincial | Media | ⚠️ Persistente — advertencia vigente para Cap. II |
+| P-3 | Ley 2026: advertencia CCE pendiente en Cap. IV, Conclusiones, Recomendaciones | Alta | ⚠️ Pendiente en capítulos aún no redactados |
+| P-5 | Expediente legislativo incompleto | Media | ⚠️ Persistente — declaración en Cap. III; gestionar en Cap. II sec. 2.1.4 |
+| P-6 | Tablas LaTeX pendientes | Baja | ⚠️ Crear al redactar Caps. II y IV |
+| P-8 | Control fuentes de prensa en Cap. II | Media | ⚠️ Persistente — gestionar al redactar Cap. II |
+| P-9 / SR-3.2 | Punto final ausente en título en `preliminares.tex` | Baja | ⚠️ Persistente — corrección antes de compilación final |
+| SR-3.1 | Alcance del holding de la Sentencia 32-17-IN/21 | Media | ⚠️ Persistente — verificar en Fase 5 |
+| SR-3.4 | "35 dimensiones" vs. "35 filas" en Cap. I | Baja | ⚠️ Persistente — corrección en Fase 5 |
+| TR-2.1 | Aclaración de "veinticuatro entradas" en sec. 3.6 | Baja | Nuevo en R3 — corrección en Fase 5 |
+| TR-2.2 | Sentencia 22-18-IN/21: presentar tres holdings al redactar Cap. II | Media | Nuevo en R3 — considerar al redactar Cap. II |
+| TR-2.3 | Inconsistencia "seis documentos" vs. cinco en sec. 3.5.3 | Media | Nuevo en R3 — corrección en Fase 5 |
+| TR-2.4 | Entrevistas: verificar coherencia con Conclusiones y Recomendaciones | Baja | Nuevo en R3 — vigilar al redactar Conclusiones |
+| TR-2.5 | "Criterio 17" inexistente en Matriz de Compatibilidad | Media | Nuevo en R3 — corregir antes del Cap. IV |
+| TR-2.6 | Vacío doctrinal en secciones 2.2.17 y 2.2.18 del Cap. II | Media | Nuevo en R3 — decisión previa antes de redactar Cap. II |
+| TR-2.7 | Nombre incorrecto archivo `reforma_reglamento_general_ley_mineria_2025.md` | Baja | Nuevo en R3 — recordar al citar en Cap. II |
+
+---
+
+## TR-5. Observaciones preventivas para la redacción del Capítulo II
+
+1. **Sección 2.1.4** (antecedentes legislativos): declarar explícitamente que el análisis se basa en la ley publicada (R.O. 234-5S) y en la noticia institucional disponible. No inventar el contenido del expediente legislativo.
+2. **Sección 2.1.5** (antecedentes jurisprudenciales): presentar la Sentencia 22-18-IN/21 con sus tres holdings (TR-2.2).
+3. **Sección 2.2.8** (clasificación jurídica de la minería): diferenciar con rigor entre minería artesanal, pequeña minería, mediana minería, minería a gran escala, minería legal, minería informal y minería ilegal.
+4. **Secciones 2.2.17 y 2.2.18** (técnica legislativa): tomar decisión previa sobre fuentes de respaldo (TR-2.6).
+5. **Sección 2.4.5** (diferenciación legal / ilegal): apoyarse en COIP (arts. 260-261), Ley de Minería e Informe ARCOM 2024. No usar prensa para afirmar categorías jurídicas.
+6. **Sección 2.4.7** (contexto mediático): usar exclusivamente las 16 fuentes de prensa del repositorio.
+7. **Sección 2.5.5** (reformas vigentes): si no se han incorporado proyectos de ley adicionales, declarar la limitación explícitamente.
+8. **Citación**: redactar íntegra y exclusivamente con `\parencite{}` y `\textcite{}`. No usar texto plano ni `\nocite{}`.
+9. **Tablas del Cap. II**: crear simultáneamente `06_tablas/matriz_normativa.tex` y `06_tablas/matriz_jurisprudencial.tex` con número, título, nota y análisis posterior.
+10. **Fuentes opcionales**: evaluar antes de cerrar el Cap. II si incorporar Koehn (2022) y Sentencia CCE 1185-20-JP/21 (río Aquepi) mediante el flujo completo del proyecto.
+
+---
+
+## TR-6. Conclusión de la tercera revisión
+
+**La tesis está lista para avanzar a la redacción del Capítulo II.**
+
+Los Capítulos I y III están redactados con coherencia interna alta. El Capítulo III resolvió el problema más urgente de la segunda revisión (SR-3.3): usa `\parencite{}` y `\textcite{}` de manera consistente en toda su extensión. Las advertencias metodológicas sobre la Ley de Fortalecimiento 2026 están implementadas en ambos capítulos redactados. Las limitaciones documentales están declaradas explícitamente en tres secciones distintas del Cap. III.
+
+Los siete nuevos problemas (TR-2.1 a TR-2.7) son de gravedad baja o media. Cuatro son correcciones de precisión diferibles a la Fase 5. El problema de mayor impacto inmediato para el Cap. II es TR-2.6 (vacío doctrinal en secciones 2.2.17 y 2.2.18). El problema que requiere corrección antes del Cap. IV es TR-2.5 (referencia a "criterio 17" inexistente en la Matriz de Compatibilidad).
+
+**Próximo comando recomendado:** `/redactar-capitulo capitulo_2_marco_referencial`
+
+---
+
+---
+
+## Cuarta revisión de coherencia (4a. revisión — 24 de junio de 2026)
+
+**Agente:** consistency-reviewer
+**Contexto:** Capítulos I (211 líneas) y III (251 líneas) redactados y compilados. PDF: 54 páginas. Manual de Técnica Legislativa incorporado como fuente N° 54. TR-2.5 corregido. Segunda revisión de citas completada. Corpus: 54 fuentes, 54 fichas. Próximo paso: redacción del Capítulo II.
+
+---
+
+### TR4-0. Tabla de comparación con revisiones anteriores
+
+| Identificador | Problema | Estado en esta revisión |
+|---|---|---|
+| P-1: Discrepancia columnas CDIU | Resuelto en R2: versión de 5 columnas adoptada en `tabla_cdiu.tex` | Confirmado resuelto |
+| P-2: Pillajo (2024) delimitación provincial | Persistente — advertencia vigente para Cap. II | Persiste — sin cambio |
+| P-3: Advertencia Ley 2026 ante CCE | Resuelto en Caps. I y III. Pendiente en Caps. IV, Conclusiones, Recomendaciones | Persiste — pendiente en capítulos no redactados |
+| P-4: Vacío CPLI en planteamiento del problema | Resuelto en Cap. I sec. 1.1 | Confirmado resuelto |
+| P-5: Expediente legislativo incompleto | Declaración explícita en secs. 3.5.6, 3.6 y 3.8.3 del Cap. III. Gestionado | Persiste — sin cambio en la limitación documental |
+| P-6: Tablas LaTeX pendientes | `tabla_cdiu.tex` y `tabla_analisis_documental.tex` creadas. Tres tablas siguen vacías | Persiste parcialmente — sin cambio desde R3 |
+| P-7: Reportes vacíos | Resuelto en R2 | Confirmado resuelto |
+| P-8: Control fuentes de prensa en Cap. II | Pendiente — Cap. II no redactado | Persiste — sin cambio |
+| P-9 / SR-3.2: Título sin punto final en `preliminares.tex` | Persistente — corregir antes de compilación final | Persiste — sin cambio |
+| P-10: Cap. III declarar limitación legislativa | Resuelto en R3 | Confirmado resuelto |
+| P-11: Comunicado CCE mal usado | Resuelto en Cap. I y Cap. III | Confirmado resuelto — ver alerta residual en TR4-4 |
+| P-12: Trujillo Cárdenas (2021) sin ficha | Resuelto — no incluida en `referencias.bib` | Confirmado resuelto |
+| SR-3.1: Alcance holding Sent. 32-17-IN/21 | Persiste — verificar en Fase 5 | Persiste — sin cambio |
+| SR-3.3: Citas Cap. I en texto plano | Resuelto en Cap. III con `\parencite{}` y `\textcite{}` | Confirmado resuelto en Cap. III; conversión de Cap. I diferida a Fase 5 |
+| SR-3.4: "35 dimensiones" vs. "35 filas" | Persiste — corrección diferida a Fase 5 | Persiste — sin cambio |
+| SR-3.5: Reporte compilación desactualizado | Resuelto en R3 | Confirmado resuelto |
+| TR-2.1: "Veinticuatro entradas" en sec. 3.6 | Pendiente — corrección en Fase 5 | Persiste — análisis detallado en TR4-2 |
+| TR-2.2: Sentencia 22-18-IN/21 tres holdings en Cap. II | Pendiente — implementar al redactar Cap. II | Persiste — sin cambio |
+| TR-2.3: "Seis documentos" vs. cinco en sec. 3.5.3 | Pendiente — corrección en Fase 5 | Persiste — análisis detallado en TR4-3 |
+| TR-2.4: Entrevistas: coherencia con Conclusiones | Pendiente — vigilar al redactar Conclusiones | Persiste — sin cambio |
+| TR-2.5: "Criterio 17" inexistente en Matriz de Compatibilidad | ✅ Corregido: cambiado a "criterios 2, 10, 16" | Confirmado resuelto |
+| TR-2.6: Vacío doctrinal en secs. 2.2.17 y 2.2.18 | ✅ Resuelto: Manual de Técnica Legislativa incorporado como fuente N° 54 | Confirmado resuelto. Análisis de coherencia de la incorporación en TR4-1 |
+| TR-2.7: Nombre incorrecto del archivo `reforma_reglamento_general_ley_mineria_2025.md` | Pendiente — recordar al citar en Cap. II | Persiste — sin cambio |
+
+---
+
+### TR4-1. Coherencia entre el Manual de Técnica Legislativa y las secciones 2.2.17 y 2.2.18 del Cap. II
+
+**Tipo:** Coherencia estructural / preventivo
+**Gravedad:** Media
+**Archivo afectado:** `04_matrices/matriz_institucional.md`; `00_instrucciones/estructura_capitulos.md` secs. 2.2.17 y 2.2.18; `05_capitulos/capitulo_2_marco_referencial.tex` (aún no redactado)
+**Descripción:**
+
+El Manual de Técnica Legislativa (AN-UTL, ISBN: 978-9942-07-716-5) fue incorporado para respaldar las secciones 2.2.17 y 2.2.18 del Cap. II. Su contenido es coherente con el alcance de esas secciones: el cuestionario de impacto normativo (nota al pie 2, pp. 31-32) exige evaluar impactos ambientales y sociales; el control constitucional material del art. 84 CRE; la reserva de ley (art. 132 CRE); la unidad de materia (art. 136 CRE); y el Informe No Vinculante de la UTL (art. 56 LOFL). No existe riesgo de expansión temática fuera del alcance de la tesis.
+
+Sin embargo, subsisten tres riesgos para la redacción del Cap. II:
+
+**Riesgo 1.** El año exacto de publicación del Manual no fue identificado en el documento. La `matriz_institucional.md` lo registra como "Dato no identificado en el documento (período referencial: 2014-2017)". La entrada en `referencias.bib` deberá usar "s.f." o el período referencial entre corchetes con nota aclaratoria. No inventar año.
+
+**Riesgo 2.** Las citas textuales del Manual deben verificarse por página en el archivo `02_fuentes_md/institucional/manual_de_tecnica_legislativa.md` antes de incluirlas en el texto. En particular, la nota al pie 2, pp. 31-32, debe verificarse antes de citarse textualmente.
+
+**Riesgo 3.** El Manual es guía institucional de referencia, no norma jurídica vinculante. La proposición jurídica central de las secciones 2.2.17 y 2.2.18 debe sustentarse en el art. 84 CRE y la jurisprudencia constitucional; el Manual puede invocarse como evidencia institucional complementaria, no como fuente normativa autónoma.
+
+**Recomendación:** Al redactar secs. 2.2.17 y 2.2.18, verificar nota al pie 2 pp. 31-32 en el archivo `.md` antes de citar. Construir la cita BibTeX con "s.f." o período inferido con advertencia. Formular la proposición jurídica central desde el art. 84 CRE y la jurisprudencia; usar el Manual como evidencia complementaria.
+**Prioridad:** Al redactar el Cap. II.
+
+---
+
+### TR4-2. Impacto de la fuente N° 54 sobre los conteos del Cap. III (problema TR-2.1 ampliado)
+
+**Tipo:** Coherencia metodológica
+**Gravedad:** Baja
+**Archivo afectado:** `05_capitulos/capitulo_3_metodologia.tex`, secciones 3.6 y 3.8.1
+**Descripción:**
+
+La sec. 3.8.1 del Cap. III indica "la revisión bibliográfica abarca cincuenta y tres fuentes". Con la incorporación del Manual de Técnica Legislativa como fuente N° 54, el corpus real es ahora 54 fuentes. El texto del Cap. III no fue modificado. La `tabla_analisis_documental.tex` tiene 24 filas; la fila de fuentes institucionales (fila 18 aproximadamente) agrupa la categoría, pero el repositorio tiene 6 fuentes institucionales. La tabla no es incorrecta metodológicamente, pero la explicación del texto posterior debe ser precisa.
+
+**Recomendación:** En la Fase 5, actualizar la referencia "cincuenta y tres fuentes" a "cincuenta y cuatro fuentes" en la sec. 3.8.1. Ajustar la descripción de la categoría institucional si la tabla se edita para incorporar el Manual como entrada adicional.
+**Prioridad:** Fase 5 — corrección de precisión numérica.
+
+---
+
+### TR4-3. Persistencia del problema TR-2.3: "seis documentos" vs. cinco en sec. 3.5.3 del Cap. III
+
+**Tipo:** Coherencia metodológica
+**Gravedad:** Media
+**Archivo afectado:** `05_capitulos/capitulo_3_metodologia.tex`, secciones 3.5.3 y 3.5.1
+**Descripción:**
+
+La sec. 3.5.3 del Cap. III indica "seis documentos jurisprudenciales" pero solo enumera cinco: las tres sentencias vinculantes, la Guía CEDEC 2023 y el Comunicado CCE agosto 2025. El sexto archivo es `cce_consulta_ambiental.md`, que es una ficha complementaria de la Sentencia 1149-19-JP/21 con énfasis en consulta ambiental (fuente N° 12 en `matriz_fuentes.md`), no un documento jurídico autónomo. La sec. 3.5.1 indica "cincuenta y tres fichas documentales" (ahora desactualizado a 54).
+
+La forma más precisa de resolver la discrepancia es indicar "seis archivos del corpus jurisprudencial: las tres sentencias vinculantes con texto completo, la Guía CEDEC 2023, el Comunicado CCE agosto 2025 y un archivo complementario de la Sentencia 1149-19-JP/21 con énfasis en los estándares de consulta ambiental del art. 398 CRE."
+
+**Recomendación:** En la Fase 5, corregir la sec. 3.5.3 con la formulación precisa y actualizar simultáneamente la cifra de "cincuenta y tres fichas" a "cincuenta y cuatro".
+**Prioridad:** Fase 5 — antes de compilación final.
+
+---
+
+### TR4-4. Alerta residual sobre el Comunicado CCE agosto 2025 en la Matriz de Compatibilidad
+
+**Tipo:** Coherencia jurídica / preventivo
+**Gravedad:** Media
+**Archivo afectado:** `04_matrices/matriz_compatibilidad_constitucional_ambiental.md`, nota metodológica
+**Descripción:**
+
+La coherencia entre el Cap. I, el Cap. III y la Matriz de Compatibilidad sobre el tratamiento de la Ley de Fortalecimiento 2026 es alta. El Cap. I (nota al pie 1) y el Cap. III (sec. 3.8.3) identifican correctamente la ley como vigente por R.O. verificado, con al menos 11 demandas de inconstitucionalidad al 5-abr-2026 según prensa contextual (`primicias_demandas_2026`).
+
+Sin embargo, la nota metodológica de la `matriz_compatibilidad_constitucional_ambiental.md` menciona el Comunicado CCE agosto 2025 como referencia de estado procesal sin aclarar que ese Comunicado trata de leyes ajenas al sector minero (Integridad Pública, Inteligencia, Solidaridad Nacional). El problema P-11 fue declarado resuelto en R2 porque el Cap. I lo aclara, pero la Matriz de Compatibilidad no incluye esa aclaración. Si al redactar el Cap. IV se toma la nota de la Matriz sin verificar P-11, podría reutilizarse el Comunicado como evidencia de procesos contra la Ley Minera.
+
+**Recomendación:** Antes de redactar el Cap. IV, agregar en la nota metodológica de `04_matrices/matriz_compatibilidad_constitucional_ambiental.md` una aclaración breve: el Comunicado CCE agosto 2025 ilustra el mecanismo procesal de suspensión provisional de normas pero se refiere a leyes ajenas al sector minero; no existe auto de admisión de la CCE sobre la Ley de Fortalecimiento 2026 incorporado al repositorio.
+**Prioridad:** Antes de redactar el Cap. IV.
+
+---
+
+### TR4-5. Discrepancia en el conteo de fichas en el encabezado de `matriz_fuentes.md`
+
+**Tipo:** Coherencia documental
+**Gravedad:** Baja
+**Archivo afectado:** `04_matrices/matriz_fuentes.md`, encabezado (nota metodológica)
+**Descripción:**
+
+El encabezado de `matriz_fuentes.md` indica "Total de fuentes registradas: 54" pero la nota dice "Total de fichas asociadas: 38 (estimado; incluye las dos fichas diferenciadas de la Sentencia 1149-19-JP/21)". Este número es notoriamente inferior a las 54 fichas que el `estado_del_proyecto.md` reporta como completadas. La discrepancia se explica porque la nota no fue actualizada cuando se sumaron sucesivas fichas. El `estado_del_proyecto.md` tiene el dato correcto: "Fichas completadas: 54 / Fuentes sin ficha: 0".
+
+**Recomendación:** En la Fase 5, actualizar la nota de `matriz_fuentes.md` para indicar "Total de fichas asociadas: 54 (incluyendo la ficha complementaria de la Sentencia 1149-19-JP/21 con énfasis en consulta ambiental y la ficha del Manual de Técnica Legislativa)".
+**Prioridad:** Fase 5 — corrección documental de baja urgencia.
+
+---
+
+### TR4-6. Preparación del Cap. II: cobertura de fuentes por apartado
+
+**Tipo:** Preventivo / coherencia anticipatoria
+**Gravedad:** Media
+**Archivo afectado:** `00_instrucciones/estructura_capitulos.md` (estructura del Cap. II); matrices disponibles
+**Descripción:**
+
+La revisión de las matrices disponibles permite identificar los siguientes riesgos de cobertura para el Cap. II:
+
+**Apartados con cobertura sólida:** secs. 2.2.1-2.2.7, 2.2.9-2.2.16 (corpus normativo, jurisprudencial y doctrinal); secs. 2.2.17-2.2.18 (Manual de Técnica Legislativa); secs. 2.5.1-2.5.4 (corpus normativo); sec. 2.5.8 (tres sentencias vinculantes); sec. 2.5.9 (Acuerdo de Escazú y OC-23/17).
+
+**Apartados con cobertura parcial o riesgo identificado:**
+
+- **Sec. 2.1.4** (antecedentes legislativos): solo la ley publicada (R.O. 234-5S) y la noticia institucional de 24 feb. 2026. El expediente legislativo no está en el repositorio. Declarar limitación explícita conforme al Cap. III.
+
+- **Sec. 2.1.5** (antecedentes jurisprudenciales): debe incluir los tres holdings de la Sentencia 22-18-IN/21 (TR-2.2, pendiente). La Sentencia 1185-20-JP/21 está disponible solo a través de la Guía CEDEC 2023 — ver TR4-8.
+
+- **Sec. 2.2.8** (clasificación jurídica de la minería): la distinción entre "minería informal" y "minería ilegal" tiene soporte limitado. El Plan Nacional Sector Minero 2020-2030 usa ambos términos con cierta ambigüedad. El redactor debe aclarar que el ordenamiento jurídico ecuatoriano reconoce la categoría en términos programáticos pero no la define expresamente en la Ley de Minería.
+
+- **Sec. 2.4.3** (inversión, seguridad jurídica y control estatal): Bustamante (2012) es de valor histórico; el COIP de 2014 resolvió el "vacío legal" que esa fuente señalaba como problema. Indicar esto explícitamente.
+
+- **Sec. 2.5.5** (reformas vigentes y proyectos de ley verificables): declarar limitación sobre el expediente legislativo. Solo disponible la Ley publicada y la noticia institucional.
+
+**Fuentes opcionales a evaluar antes de cerrar Cap. II** (según `estado_del_proyecto.md`):
+- Koehn (2022), "La reserva de ley y la seguridad jurídica" — *Andares*, UASB: no incorporada. Podría reforzar secs. 2.2.9 y el análisis de la Sent. 32-17-IN/21. Si no se incorpora, esas secciones pueden sustentarse con Villacís Calvas (2022) y la Sent. 32-17-IN/21.
+- Sentencia CCE 1185-20-JP/21 (río Aquepi): texto completo no incorporado; disponible solo a través de Guía CEDEC 2023.
+
+**Recomendación:** Al redactar la sec. 2.2.8, definir "minería informal" desde el Plan Nacional Sector Minero 2020-2030 con aclaración de que no existe categoría legal precisa en la Ley de Minería. Evaluar incorporación de Koehn (2022) mediante el flujo `/project:buscar-fuente` si se considera necesaria antes de redactar secs. 2.2.9 y 2.4.3.
+**Prioridad:** Al redactar el Cap. II.
+
+---
+
+### TR4-7. Verificación de coherencia interna de la Matriz de Compatibilidad tras TR-2.5
+
+**Tipo:** Coherencia jurídica
+**Gravedad:** Baja
+**Archivo afectado:** `04_matrices/matriz_compatibilidad_constitucional_ambiental.md`
+**Descripción:**
+
+La corrección de TR-2.5 ("criterio 17" → "criterio 16") fue verificada. Los 16 criterios son internamente coherentes: no se detectan contradicciones ni redundancias. El criterio 6 (consulta ambiental) y el criterio 7 (CPLI) están diferenciados correctamente, reproduciendo la distinción de la Sentencia 22-18-IN/21. La OC-23/17 respalda correctamente los criterios 2, 10 y 16 (párrafos 127-174 y 142 de la Opinión). La estructura de la Matriz (tabla principal de 16 criterios, tabla de ponderación y tabla ilustrativa) es apta para convertirse en `06_tablas/matriz_compatibilidad.tex`. Por la extensión de la tabla principal (9 columnas y 16 filas de contenido extenso) se recomienda `longtable` con `\small` o `\footnotesize` y posiblemente `\begin{landscape}`.
+
+**Recomendación:** Agregar la aclaración del Comunicado CCE (TR4-4) antes de redactar el Cap. IV. No se requiere ninguna otra corrección sobre la Matriz.
+**Prioridad:** Antes de redactar el Cap. IV.
+
+---
+
+### TR4-8. Riesgo de inconsistencia entre lo que el Cap. I adelanta sobre la Sentencia 1185-20-JP/21 y lo que el Cap. II podrá desarrollar
+
+**Tipo:** Coherencia estructural anticipatoria
+**Gravedad:** Media
+**Archivo afectado:** `05_capitulos/capitulo_1_problema.tex` sec. 1.6; `05_capitulos/capitulo_2_marco_referencial.tex` (aún no redactado)
+**Descripción:**
+
+El Cap. I menciona el "caso del río Aquepi" como "precedente constitucional de alcance nacional" en la sec. 1.6. La Sentencia 1185-20-JP/21 no tiene texto completo incorporado al repositorio; está disponible únicamente a través de la Guía CEDEC 2023 (sistematización). Si el Cap. II desarrolla esta sentencia en la sec. 2.1.5 sin texto propio, debe hacerlo a través de la Guía CEDEC con la aclaración metodológica correspondiente. Si el Cap. II la omite, genera una inconsistencia con lo que el Cap. I presentó como "precedente constitucional".
+
+**Recomendación:** Al redactar el Cap. II, sec. 2.1.5, mencionar la Sentencia 1185-20-JP/21 a través de la Guía CEDEC 2023 con la aclaración de que el texto completo no fue incorporado al repositorio y que el análisis se basa en la sistematización institucional. Esta opción mantiene coherencia con el Cap. I sin inventar fuentes. Alternativamente, incorporar el texto completo mediante el flujo `/project:buscar-fuente` antes de redactar el Cap. II.
+**Prioridad:** Al redactar el Cap. II.
+
+---
+
+### TR4-9. Aspectos verificados y coherentes en la cuarta revisión
+
+Los siguientes aspectos fueron verificados y no requieren corrección ni acción adicional:
+
+1. El título exacto de la tesis aparece sin reformulación en todos los archivos revisados.
+2. El alcance nacional está correctamente declarado en sec. 1.6 del Cap. I; no se delimita a provincia, ciudad ni cantón.
+3. La formulación del problema, la sistematización, el objetivo general y los cuatro objetivos específicos son textualmente idénticos en `CLAUDE.md`, en `00_instrucciones/estructura_capitulos.md` y en el Cap. I.
+4. La premisa de la investigación es idéntica en `CLAUDE.md` (sec. 25), en la estructura de capítulos (sec. 1.8) y en el Cap. I.
+5. No hay confusión entre minería privada legal y minería ilegal en ningún documento revisado.
+6. No hay confusión entre proyecto de ley y ley vigente. La Ley de Fortalecimiento 2026 está identificada como ley publicada con R.O. verificado en todos los documentos revisados.
+7. Los 16 criterios de la Matriz de Compatibilidad son coherentes entre sí y con el marco jurídico verificado. Ninguno carece de fundamento verificable en el repositorio.
+8. El Cap. III usa `\parencite{}` y `\textcite{}` de manera consistente. No existe mezcla con texto plano en el Cap. III.
+9. La `tabla_cdiu.tex` (9 filas, 5 columnas) es coherente con la `matriz_cdiu.md` y con la descripción del Cap. I (9 categorías).
+10. La Matriz de Compatibilidad articula correctamente con los cuatro objetivos específicos y con la propuesta del Cap. IV. El criterio 16 no se confunde con los efectos jurídicos ambientales.
+11. Las fuentes de prensa referenciadas explícitamente en Caps. I y III tienen ficha documental verificada.
+12. El corpus de 54 fuentes está completo según `estado_del_proyecto.md` (undécima actualización). No hay fuente sin ficha.
+13. Las 25 entradas de `referencias.bib` corresponden a fuentes con ficha verificada. El Manual de Técnica Legislativa aún no tiene entrada en `referencias.bib`; deberá agregarse al redactar las secs. 2.2.17 y 2.2.18 del Cap. II.
+14. El enfoque cualitativo, documental y jurídico-crítico es coherente entre `CLAUDE.md`, la estructura de capítulos y el Cap. III redactado.
+
+---
+
+### Conclusión de la cuarta revisión
+
+**La tesis está lista para avanzar a la redacción del Capítulo II.**
+
+Los Capítulos I y III están redactados con coherencia interna alta. Los problemas previos están en su mayoría resueltos o correctamente gestionados. Los nueve hallazgos de esta cuarta revisión son de gravedad baja o media y no impiden el inicio del Cap. II.
+
+La incorporación del Manual de Técnica Legislativa (fuente N° 54) resuelve el vacío de TR-2.6, con la condición de que las citas textuales sean verificadas por página antes de su uso y que la entrada en `referencias.bib` identifique correctamente el año como no determinado. La corrección de TR-2.5 fue verificada y confirma que los 16 criterios de la Matriz son coherentes.
+
+Los problemas de mayor impacto para la redacción del Cap. II son: (1) presentar los tres holdings de la Sentencia 22-18-IN/21 en secs. 2.1.5 y 2.5.8 (TR-2.2, pendiente); (2) decidir cómo citar la Sentencia 1185-20-JP/21 sin texto completo en el repositorio (TR4-8, nuevo); y (3) definir "minería informal" como categoría de análisis sin definición legal precisa en la Ley de Minería (TR4-6, nuevo). Los tres son manejables sin incorporar nuevas fuentes.
+
+Los problemas de Fase 5 (TR-2.1, TR-2.3, SR-3.1, SR-3.4, TR4-2, TR4-3, TR4-5) son correcciones de precisión numérica y terminológica que no afectan la coherencia jurídica del análisis.
+
+**Acción inmediata recomendada antes de iniciar el Cap. II:** agregar en la nota metodológica de `04_matrices/matriz_compatibilidad_constitucional_ambiental.md` la aclaración sobre el Comunicado CCE agosto 2025 identificada en TR4-4.
+
+**Próximo comando recomendado:** `/redactar-capitulo capitulo_2_marco_referencial`
+
+---
+
+**Archivos revisados en la cuarta revisión:**
+
+- `CLAUDE.md`
+- `00_instrucciones/estructura_capitulos.md`
+- `04_matrices/estado_del_proyecto.md`
+- `04_matrices/reporte_coherencia_metodologica.md` (tres revisiones anteriores)
+- `04_matrices/matriz_cdiu.md`
+- `04_matrices/matriz_compatibilidad_constitucional_ambiental.md`
+- `04_matrices/matriz_institucional.md`
+- `04_matrices/matriz_fuentes.md`
+- `05_capitulos/capitulo_1_problema.tex`
+- `05_capitulos/capitulo_3_metodologia.tex`
+- `06_tablas/tabla_cdiu.tex`
+- `06_tablas/tabla_analisis_documental.tex`
+
+---
+
+## Archivos revisados en la tercera revisión
+
+- `CLAUDE.md`
+- `00_instrucciones/estructura_capitulos.md`
+- `00_instrucciones/criterios_redaccion.md`
+- `00_instrucciones/criterios_reformas_legislativas.md`
+- `04_matrices/reporte_coherencia_metodologica.md` (revisiones anteriores)
+- `04_matrices/estado_del_proyecto.md`
+- `04_matrices/matriz_cdiu.md`
+- `04_matrices/matriz_compatibilidad_constitucional_ambiental.md`
+- `04_matrices/matriz_normativa.md`
+- `05_capitulos/capitulo_1_problema.tex`
+- `05_capitulos/capitulo_3_metodologia.tex`
+- `06_tablas/tabla_cdiu.tex`
+- `06_tablas/tabla_analisis_documental.tex`

@@ -3,7 +3,7 @@
 ## Tesis: "Análisis de derecho ambiental ecuatoriano: Revisión crítica de proyectos de ley de apertura al sector minero privado."
 
 **Última actualización:** 23 de junio de 2026
-**Total de fuentes registradas:** 53
+**Total de fuentes registradas:** 54
 **Total de fichas asociadas:** 38 (estimado; incluye las dos fichas diferenciadas de la Sentencia 1149-19-JP/21)
 
 ---
@@ -87,6 +87,7 @@ Las fuentes se organizan en siete secciones que corresponden a las siete categor
 | 22 | Resolución Nro. ARCOM-ARCOM-2025-0029-R — Apertura gradual del Catastro Minero Nacional | Resolución institucional (acto administrativo normativo) | Agencia de Regulación y Control Minero (ARCOM) | 2025 (8 de julio) | `02_fuentes_md/institucional/` | `03_fichas/fichas_institucionales/` | `04_matrices/matriz_institucional.md` (N° 3) | Acto administrativo más reciente y relevante para el análisis de la apertura al sector minero privado. Reabre el Catastro Minero Nacional después de aproximadamente 7 años de cierre. Respeta derecho preferente de ENAMI EP. Apertura inicial solo para pequeña minería no metálica. | Cap. II / Cap. III / Cap. IV | Media | Resolución vigente; ordena publicación en el Registro Oficial. Habilitada por Acuerdo Ministerial Nro. MEM-MEM-2025-0018-AM de 16-jun-2025. No contiene disposiciones sobre consulta previa ni participación ciudadana. |
 | 23 | Informe Técnico-Económico para la Justificación de Necesidad de Actualización de la Tasa de Supervisión y Control Minero | Borrador de informe técnico-económico institucional | Agencia de Regulación y Control Minero (ARCOM) — Coordinación Nacional de Control Minero | 2026 (junio) | `02_fuentes_md/institucional/` | `03_fichas/fichas_institucionales/` | `04_matrices/matriz_institucional.md` (N° 4) | Datos del catastro minero 2022-2026 (inscritas totales 2026: 1.537). Costo total del control estatal: $42.294.453,98. Ilustra la tensión entre el incentivo a la inversión privada y el fortalecimiento del control institucional. | Cap. II / Cap. III / Cap. IV | Media | Borrador no aprobado. No citar con el mismo nivel de autoridad que los documentos aprobados de esta sección. Sus datos estadísticos deben identificarse como provenientes de un borrador institucional. Código incompleto: INF-ARCOM-XX-XXXX. Memorando habilitante: ARCOM-CNRM-2026-0143-M de 20-may-2026. |
 | 24 | Informe de Rendición de Cuentas 2024 — ARCOM | Informe de rendición de cuentas institucional anual | Agencia de Regulación y Control Minero (ARCOM) | 2024 (período agosto–diciembre 2024); publicado en julio de 2025 | `02_fuentes_md/institucional/` | `03_fichas/fichas_institucionales/` | `04_matrices/matriz_institucional.md` (N° 5) | Documento institucional más reciente disponible en el proyecto. Diagnóstico real de la ARCOM desde su creación: 244 inspecciones técnicas; 30 operativos contra minería ilegal; 8.463 derechos mineros registrados; 57% de titulares inspeccionados (meta: 100%). Reconoce explícitamente tensiones en consulta previa y percepción de "fiscalización ambiental débil". | Cap. II / Cap. III / Cap. IV | Media | Período cubierto: solo agosto–diciembre 2024 (aproximadamente 5 meses). Los indicadores deben contextualizarse dentro de ese período inicial. No extrapolar como evaluación del sistema de control en su conjunto. Referencia interna: INF.GPGE.2025.0002. |
+| 54 | Manual de Técnica Legislativa | Manual institucional de referencia | Asamblea Nacional del Ecuador — Unidad de Técnica Legislativa (UTL). Autora principal (Caps. I-IV): Piedad García-Escudero Márquez. Coordinación: Mónica Rodríguez Ayala | Dato no identificado en el documento (período referencial: 2014-2017) | `02_fuentes_md/institucional/` | `03_fichas/fichas_institucionales/manual_tecnica_legislativa_an_ficha.md` | `04_matrices/matriz_institucional.md` (N° 6) | Fuente institucional de referencia sobre técnica legislativa ecuatoriana. Cuestionario de análisis de impacto normativo (nota al pie 2, pp. 31-32): incluye explícitamente "impactos de carácter social y medioambiental". Control constitucional material (art. 84 CRE). Reserva de ley (art. 132 CRE). Unidad de materia (art. 136 CRE). Seguridad jurídica (art. 82 CRE). Informe No Vinculante UTL (art. 56 LOFL). ISBN: 978-9942-07-716-5. | Cap. II (secciones 2.2.17 y 2.2.18) / Cap. IV | Media | El año exacto de publicación no ha sido identificado en el documento. Período referencial inferido: 2014-2017. No citar como fuente normativa autónoma. Citar como guía institucional de técnica legislativa. Las citas textuales deben verificarse por página en el archivo `.md`. |
 
 ---
 
@@ -147,11 +148,11 @@ Las fuentes se organizan en siete secciones que corresponden a las siete categor
 | Normativa | 10 | 10 | 5 (N° 1, 2, 8, 9, 10) | 5 (N° 3, 4, 5, 6, 7) | 0 |
 | Jurisprudencia | 6 archivos / 7 fichas | 7 | 4 (N° 11, 12, 13, 14) | 1 (N° 15) | 1 (N° 16) |
 | Internacional | 3 | 3 | 2 (N° 17, 19) | 1 (N° 18) | 0 |
-| Institucional | 5 | 5 | 0 | 5 (N° 20, 21, 22, 23, 24) | 0 |
+| Institucional | 6 | 6 | 0 | 6 (N° 20, 21, 22, 23, 24, 54) | 0 |
 | Doctrina | 12 | 12 | 8 (N° 25, 30, 32, 33, 34, 35, 36; N° 36 incluida) | 4 (N° 26, 27, 28, 29) | 0 |
 | Prensa contextual | 16 | Dato no identificado en las matrices | 0 | 0 | 16 (N° 37-52) |
 | Reformas legislativas | 1 | 1 | 0 | 0 | 1 (N° 53) |
-| **Total** | **53** | **38 estimadas** | **19** | **16** | **18** |
+| **Total** | **54** | **39 estimadas** | **19** | **17** | **18** |
 
 Nota: Las fichas de prensa no han sido contabilizadas de forma individual en las matrices revisadas. El total de fichas estimadas incluye la diferenciación entre las dos fichas de la Sentencia 1149-19-JP/21, que corresponden a dos documentos independientes en el repositorio aunque remiten al mismo fallo.
 
@@ -193,6 +194,7 @@ Nota: Las fichas de prensa no han sido contabilizadas de forma individual en las
 | 20 | Plan Nacional Sector Minero 2020-2030 | Institucional | Media |
 | 21 | Política Pública Minera 2019 | Institucional | Media |
 | 24 | Informe Rendición de Cuentas ARCOM 2024 | Institucional | Media |
+| 54 | Manual de Técnica Legislativa — Asamblea Nacional del Ecuador (UTL) | Institucional | Media |
 
 ### Capítulo III — Efectos jurídicos de las reformas
 

@@ -21,7 +21,7 @@ La aplicación de la matriz requiere:
 4. documentar la disposición concreta del acto normativo que acredita el cumplimiento o la omisión;
 5. registrar la observación crítica.
 
-La Ley Orgánica para el Fortalecimiento de los Sectores Estratégicos de Minería y Energía (R.O. 234-5S, 2 de marzo de 2026) se usa como referencia ilustrativa de aplicación en la columna "Aplicación a reformas o proyectos mineros." Su estado de constitucionalidad está en proceso ante la Corte Constitucional del Ecuador (al menos 11 demandas de inconstitucionalidad al 5 de abril de 2026; Comunicado CCE agosto 2025).
+La Ley Orgánica para el Fortalecimiento de los Sectores Estratégicos de Minería y Energía (R.O. 234-5S, 2 de marzo de 2026) se usa como referencia ilustrativa de aplicación en la columna "Aplicación a reformas o proyectos mineros." Su estado de constitucionalidad está en proceso ante la Corte Constitucional del Ecuador (al menos 11 demandas de inconstitucionalidad al 5 de abril de 2026, según prensa contextual: `primicias_demandas_2026`). El Comunicado CCE de agosto de 2025 incorporado al repositorio (`02_fuentes_md/jurisprudencia/admision-de-demandas-y-suspension-provisional-de-normas-en-leyes-de-reciente-promulgacion.md`) ilustra el mecanismo procesal de admisión y suspensión provisional de normas, pero se refiere a leyes ajenas al sector minero (Integridad Pública, Inteligencia, Solidaridad Nacional); no debe usarse como evidencia directa de procesos contra la Ley de Fortalecimiento 2026. No existe auto de admisión de la CCE sobre la Ley de Fortalecimiento 2026 incorporado al repositorio.
 
 ---
 
@@ -121,7 +121,7 @@ Las siguientes fuentes del repositorio respaldan directamente los criterios de e
 
 **Internacional:**
 - Acuerdo de Escazú (criterios 7, 8, 11)
-- OC-23/17 Corte IDH (criterios 2, 10, 17)
+- OC-23/17 Corte IDH (criterios 2, 10, 16)
 - CEPAL Ruta Escazú Ecuador 2023 (criterios 8, 11)
 
 **Institucional:**
