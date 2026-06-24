@@ -1,7 +1,7 @@
 # Estado del proyecto
 ## Tesis: "Análisis de derecho ambiental ecuatoriano: Revisión crítica de proyectos de ley de apertura al sector minero privado."
 
-**Fecha de actualización:** 24 de junio de 2026 (séptima actualización)
+**Fecha de actualización:** 24 de junio de 2026 (octava actualización)
 
 ---
 
@@ -76,7 +76,7 @@ Las 52 fuentes disponibles en `02_fuentes_md/` tienen ficha documental. El repos
 
 | Reporte | Estado |
 |---|---|
-| `reporte_revision_citas.md` | ❌ Vacío — generar en Fase 5 |
+| `reporte_revision_citas.md` | ✅ Completo — 5 problemas identificados y resueltos; 25 entradas BibTeX creadas |
 | `reporte_coherencia_metodologica.md` | ✅ Completo — 12 problemas identificados; 20 aspectos con coherencia confirmada |
 | `reporte_compilacion_latex.md` | ✅ Completo — compilación exitosa, 29 páginas, 0 errores fatales |
 
@@ -88,7 +88,7 @@ Las 52 fuentes disponibles en `02_fuentes_md/` tienen ficha documental. El repos
 |---|---|
 | `preliminares.tex` | ✅ Con contenido (portada, dedicatoria, resumen, abstract) |
 | `introduccion.tex` | ❌ Vacío |
-| `capitulo_1_problema.tex` | ✅ Redactado — 182 líneas; 9 secciones completas |
+| `capitulo_1_problema.tex` | ✅ Redactado y revisado — 5 problemas APA corregidos; 21 comandos `\nocite{}` agregados |
 | `capitulo_2_marco_referencial.tex` | ❌ Vacío — solo `\chapter{}` |
 | `capitulo_3_metodologia.tex` | ❌ Vacío — solo `\chapter{}` |
 | `capitulo_4_propuesta.tex` | ❌ Vacío — solo `\chapter{}` |
@@ -102,8 +102,8 @@ Las 52 fuentes disponibles en `02_fuentes_md/` tienen ficha documental. El repos
 | Archivo | Estado |
 |---|---|
 | `main.tex` | ✅ Estructura completa |
-| `referencias.bib` | ❌ Vacío — se completará durante la redacción |
-| `08_build/main.pdf` | ✅ PDF del esqueleto compilado |
+| `referencias.bib` | ✅ Poblado — 25 entradas BibTeX verificadas (9 normativa, 5 jurisprudencia, 7 doctrina, 1 institucional, 2 internacional, 1 prensa) |
+| `08_build/main.pdf` | ✅ PDF compilado — 32 páginas, bibliografía generada |
 | `06_tablas/tabla_cdiu.tex` | ✅ Creada — 9 filas, 5 columnas, versión simplificada para Cap. I |
 | `06_tablas/matriz_compatibilidad.tex` | ❌ Vacía — generar al redactar Cap. IV |
 | `06_tablas/matriz_normativa.tex` | ❌ Vacía — generar al redactar Cap. II |
@@ -165,12 +165,12 @@ La `matriz_cdiu.md` puede usarse para la sección 1.9 del Capítulo I y para el 
 **Fichas completadas:** 53  
 **Fuentes sin ficha:** 0  
 **Matrices con contenido:** 7 analíticas  
-**Capítulos redactados:** 0 de 8
+**Capítulos redactados:** 1 de 8 (Cap. I revisado y con bibliografía compilada)
 
 **Fase actual: Fase 4 — Redacción de capítulos**
 
 **Próximo comando recomendado:**
 
 ```
-/redactar-capitulo capitulo_1_problema
+/redactar-capitulo capitulo_3_metodologia
 ```

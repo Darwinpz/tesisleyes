@@ -118,6 +118,7 @@
 | Primera (tabla con `[H]`) | ✅ PDF generado | 28 | Overfull \vbox 673pt; Overfull \hbox 12pt en tabla |
 | Segunda (tabla con `longtable`, anchos 0.86) | ✅ PDF generado | 29 | Overfull \vbox resuelto; Overfull \hbox resuelto; 2 advertencias menores en headers |
 | Tercera (tabla con `longtable`, anchos 0.81) | ✅ PDF generado | 29 | Solo 2 advertencias menores (3.69pt en headers); bibliografía vacía |
+| Cuarta (referencias.bib con 25 entradas; 5 correcciones APA aplicadas) | ✅ PDF generado | 32 | Bibliografía generada; Overfull URL 79pt resuelto (campo `url`); solo 2 advertencias menores preexistentes |
 
 ---
 
