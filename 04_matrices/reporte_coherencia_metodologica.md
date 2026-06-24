@@ -247,3 +247,193 @@ El orden de redacción recomendado en CLAUDE.md sección 29 (Capítulo I → III
 - `06_tablas/matriz_normativa.tex`
 - `06_tablas/matriz_jurisprudencial.tex`
 - `07_anexos/anexos.tex`
+
+---
+
+---
+
+# Segunda revisión de coherencia metodológica y jurídica
+
+**Fecha:** 24 de junio de 2026
+**Agente:** consistency-reviewer
+**Contexto:** El Capítulo I está redactado. `referencias.bib` tiene 25 entradas. PDF compilado: 32 páginas con bibliografía generada. 5 correcciones APA aplicadas.
+
+---
+
+## SR-1. Resumen comparativo con la primera revisión
+
+| N.° | Problema (primera revisión) | Estado en esta revisión |
+|---|---|---|
+| P-1 | Discrepancia esquema CDIU 4 columnas vs. 9 columnas | Resuelto parcialmente: versión de 5 columnas adoptada en `tabla_cdiu.tex` con justificación en el texto del Cap. I. |
+| P-2 | Fuente Pillajo (2024) con delimitación provincial | Persistente: no citada en Cap. I. Advertencia vigente para Cap. II. |
+| P-3 | Estado procesal Ley 2026 ante la CCE | Resuelto en Cap. I (nota al pie 1). Persistente para Caps. III y IV por redactar. |
+| P-4 | Vacío CPLI no señalado en planteamiento del problema | Resuelto: párrafo 5 de la sección 1.1 del Cap. I lo aborda con cita a la Sentencia 22-18-IN/21. |
+| P-5 | Expediente legislativo incompleto | Persistente: proyectos AN-2018 y AN-2019 no incorporados. |
+| P-6 | Tablas LaTeX vacías | Parcialmente resuelto: `tabla_cdiu.tex` creada y compilando. Las otras cuatro tablas siguen vacías. |
+| P-7 | Reportes de citas y compilación vacíos | Resuelto: ambos reportes completados en esta sesión. |
+| P-8 | Control de fuentes de prensa | Persistente: ningún capítulo II o III redactado aún. |
+| P-9 | Título sin punto final en `preliminares.tex` | Persistente: línea 11 de `preliminares.tex` sigue sin punto al final. |
+| P-10 | Cap. III debe declarar limitación documental legislativa | Persistente: Cap. III no redactado. |
+| P-11 | Comunicado CCE agosto 2025 ajeno al sector minero | Resuelto: nota al pie 1 del Cap. I advierte explícitamente que el Comunicado se refiere a leyes distintas a la Ley Minera. |
+| P-12 | Trujillo Cárdenas (2021) sin ficha incluida en bib | Resuelto: no incluida en `referencias.bib`. Las 25 entradas corresponden a fuentes con ficha verificada. |
+
+---
+
+## SR-2. Verificación de los 15 puntos de esta revisión
+
+**SR-2.1 — Título exacto.** Conforme. El título aparece correctamente en todos los encabezados de matrices y reportes. En `preliminares.tex` línea 11 persiste la ausencia del punto final (P-9).
+
+**SR-2.2 — Alcance nacional sin delimitación territorial.** Conforme. Las secciones 1.1, 1.6 y 1.8 del Cap. I mantienen el alcance nacional de manera explícita. Las referencias jurisprudenciales al Bosque Los Cedros, manglares y río Aquepi están identificadas en la sección 1.6 como "precedentes constitucionales de alcance nacional", no como delimitaciones territoriales.
+
+**SR-2.3 — Coherencia interna del Capítulo I.** Conforme con observación menor (SR-3.4). La coherencia entre planteamiento (1.1), formulación (1.2), sistematización (1.3), objetivo general (1.4.1), objetivos específicos (1.4.2), justificación (1.5), delimitación (1.6), premisa (1.8) y CDIU (1.9) es alta.
+
+**SR-2.4 — Problema, formulación, sistematización, objetivo general y objetivos específicos.** Plenamente conforme. Los textos son textualmente idénticos a los definidos en CLAUDE.md secciones 21-24 y en `00_instrucciones/estructura_capitulos.md`.
+
+**SR-2.5 — Tratamiento de la Ley de Fortalecimiento 2026.** Conforme en Cap. I. La ley está identificada como vigente con R.O. verificado, cita parentética formal y nota al pie 1 con todas las advertencias metodológicas requeridas. Pendiente para Caps. III y IV.
+
+**SR-2.6 — Sentencia 22-18-IN/21 y vacío de la CPLI.** Resuelto satisfactoriamente. El párrafo 5 de la sección 1.1 del Cap. I aborda el vacío de la CPLI con cita formal, identificación de los arts. 462 y 463 declarados inconstitucionales, persistencia del vacío y efectos sobre concesiones en territorios indígenas.
+
+**SR-2.7 — Las 5 correcciones de citación (P-01 a P-05).** Todas verificadas y conformes con APA 7 y CLAUDE.md.
+
+**SR-2.8 — Los 21 comandos `\nocite{}`.** Conforme. Todos tienen correspondencia en `referencias.bib`. No hay claves inexistentes.
+
+**SR-2.9 — Entradas de `referencias.bib`.** Conforme. 25 entradas con ficha verificada. Trujillo Cárdenas (2021) no incluida. Dos advertencias documentadas (sin DOI y sin URL) correctamente registradas en el reporte de citas.
+
+**SR-2.10 — Coherencia entre tabla CDIU LaTeX y matriz CDIU.** Conforme. Las 9 categorías coinciden en nombre y orden. La fila 8 cita correctamente a "Medina Llerena y García Erazo (2026)".
+
+**SR-2.11 — Coherencia entre Matriz de Compatibilidad y Capítulo I.** Conforme. La Matriz de Verificación se presenta en el Cap. I únicamente como instrumento del Cap. IV, sin anticipar sus 16 criterios.
+
+**SR-2.12 — Reporte anterior y resolución progresiva.** Progreso significativo. 5 problemas resueltos totalmente o sustancialmente; 7 permanecen abiertos por razones de secuencia de redacción.
+
+**SR-2.13 — No confusión minería privada legal / minería ilegal en Cap. I.** Conforme. La distinción es explícita en las secciones 1.1, 1.6 y 1.8.
+
+**SR-2.14 — No tratamiento de proyectos de ley como leyes vigentes.** Conforme. La regla 2 de CLAUDE.md se cumple en todos los documentos revisados.
+
+**SR-2.15 — Tono del Capítulo I.** Conforme. El tono es jurídico, académico y crítico. Las afirmaciones sobre efectos jurídicos usan el modo potencial. La premisa argumenta la condición de compatibilidad sin rechazar a priori la inversión privada.
+
+---
+
+## SR-3. Nuevos problemas identificados en esta revisión
+
+### SR-3.1 — Descripción de la Sentencia 32-17-IN/21 potencialmente más amplia que su holding real
+
+- **Gravedad:** media
+- **Archivo:** `capitulo_1_problema.tex`, sección 1.1, párrafo 4
+- **Descripción:** El texto afirma que la sentencia "estableció el principio de reserva de ley orgánica como límite a las normas reglamentarias que pretendan regular actividades mineras con incidencia en derechos constitucionales." La `matriz_jurisprudencial.md` documenta que la sentencia declaró inconstitucionales los arts. 86 y 136 del Reglamento Ambiental para Actividades Mineras específicamente en materia de autorización de aguas. La formulación del Cap. I puede generalizar el holding más allá de esa materia. Si el alcance del principio es efectivamente general, la formulación es correcta; si se limita a la materia hídrica, requiere precisión.
+- **Recomendación:** Al redactar la sección 2.5.8 del Cap. II o en la Fase 5, verificar el texto exacto del holding de la Sentencia 32-17-IN/21 y ajustar si es necesario.
+- **Prioridad:** media — verificar en Fase 5
+
+### SR-3.2 — Título sin punto final en `preliminares.tex` (persistencia del Problema 9)
+
+- **Gravedad:** baja
+- **Archivo:** `preliminares.tex`, línea 11
+- **Descripción:** El título en la portada del PDF compilado aparece sin el punto final que CLAUDE.md sección 1 exige. Todos los encabezados de matrices y reportes incluyen el punto. La inconsistencia es de un solo carácter pero verificable.
+- **Recomendación:** Agregar el punto final al título en la línea 11 de `preliminares.tex` antes de la compilación final.
+- **Prioridad:** baja — antes de compilación final
+
+### SR-3.3 — Citas del Cap. I en texto plano, riesgo de perpetuarse en los capítulos siguientes
+
+- **Gravedad:** media
+- **Archivo:** `capitulo_1_problema.tex`, todas las secciones
+- **Descripción:** Todas las citas están escritas como texto hardcoded. Los 21 comandos `\nocite{}` son una medida transitoria para compilar la bibliografía. El riesgo es que al redactar los capítulos siguientes se replique este patrón, generando un manuscrito completo en modo transitorio que deba corregirse íntegramente en la Fase 5.
+- **Recomendación:** Redactar los Caps. III, II y IV directamente con `\parencite{}` y `\textcite{}` desde la primera versión. Convertir las citas del Cap. I a `\parencite{}` al inicio de la Fase 5.
+- **Prioridad:** alta — establecer el patrón correcto antes de redactar los capítulos siguientes
+
+### SR-3.4 — Formulación "35 dimensiones" puede confundirse con "35 filas"
+
+- **Gravedad:** baja
+- **Archivo:** `capitulo_1_problema.tex`, sección 1.9
+- **Descripción:** El texto dice "35 dimensiones desarrolladas" cuando la `matriz_cdiu.md` tiene 35 filas. La formulación puede generar confusión entre categorías y dimensiones.
+- **Recomendación:** En la Fase 5, ajustar la frase a "35 dimensiones de análisis distribuidas en las nueve categorías antes enunciadas."
+- **Prioridad:** baja — corrección de precisión terminológica en Fase 5
+
+### SR-3.5 — `reporte_compilacion_latex.md` sección 1 muestra 29 páginas, no 32
+
+- **Gravedad:** baja
+- **Archivo:** `04_matrices/reporte_compilacion_latex.md`, sección 1
+- **Descripción:** La sección 1 del reporte de compilación refleja la tercera compilación (29 páginas) pero no fue actualizada tras la cuarta compilación (32 páginas con bibliografía). El historial de compilaciones y el `estado_del_proyecto.md` registran correctamente 32 páginas.
+- **Recomendación:** Actualizar la sección 1 del reporte para reflejar la cuarta compilación.
+- **Prioridad:** baja — corrección documental
+
+---
+
+## SR-4. Problemas resueltos desde el primer reporte — confirmación formal
+
+| Problema | Forma de resolución | Verificado en |
+|---|---|---|
+| P-4 (CPLI no señalada) | Párrafo 5 de la sección 1.1 del Cap. I con cita a Sentencia 22-18-IN/21 | `capitulo_1_problema.tex` |
+| P-7 (reportes vacíos) | Ambos reportes completados | `reporte_revision_citas.md`; `reporte_compilacion_latex.md` |
+| P-11 (Comunicado CCE mal usado) | Nota al pie 1 del Cap. I aclara que el Comunicado es ajeno al sector minero | `capitulo_1_problema.tex` |
+| P-12 (Trujillo Cárdenas sin ficha) | No incluida en `referencias.bib` | `referencias.bib` |
+| P-1 parcial (columnas CDIU) | Versión de 5 columnas adoptada con justificación en texto del Cap. I | `capitulo_1_problema.tex`; `tabla_cdiu.tex` |
+| P-3 parcial (estado Ley 2026) | Advertencia implementada en nota al pie 1 del Cap. I | `capitulo_1_problema.tex` |
+| P-6 parcial (tablas vacías) | `tabla_cdiu.tex` creada, compilando sin errores fatales | `tabla_cdiu.tex`; `reporte_compilacion_latex.md` |
+
+---
+
+## SR-5. Aspectos con coherencia confirmada (adicionales a los 20 del primer reporte)
+
+21. El Capítulo I no reformula ni abrevia el título de la tesis en ninguna sección.
+22. La formulación del problema en la sección 1.2 del Cap. I es textualmente idéntica a la de CLAUDE.md sección 23.
+23. Las cuatro preguntas de sistematización en la sección 1.3 son textualmente idénticas a las de CLAUDE.md sección 24.
+24. El objetivo general y los cuatro objetivos específicos del Cap. I son textualmente idénticos a los de CLAUDE.md secciones 21 y 22.
+25. La premisa de la sección 1.8 es textualmente idéntica a la de CLAUDE.md sección 25.
+26. La advertencia sobre la Ley 2026 en la nota al pie 1 diferencia correctamente vigencia formal de constitucionalidad formal y no prejudica el resultado de los procesos constitucionales en curso.
+27. El vacío normativo de la CPLI está identificado como problema jurídico específico en el planteamiento del problema con cita exacta a la Sentencia 22-18-IN/21.
+28. Ninguna de las 25 fuentes en `referencias.bib` ni ninguna cita del Cap. I corresponde a fuente inventada, según confirma el `reporte_revision_citas.md`.
+29. Las 9 filas de `tabla_cdiu.tex` son coherentes con la `matriz_cdiu.md` en su versión simplificada.
+30. La Matriz de Verificación de Compatibilidad Constitucional y Ambiental es presentada en el Cap. I únicamente como instrumento del Cap. IV, sin anticipar sus criterios detallados.
+
+---
+
+## SR-6. Lista de cambios sugeridos pendientes (actualizada)
+
+| Prioridad | Archivo | Cambio | Estado |
+|---|---|---|---|
+| Alta | Caps. III, II, IV | Redactar con `\parencite{}` y `\textcite{}` desde la primera versión (no replicar modo transitorio de Cap. I) | Pendiente — durante redacción Fase 4 |
+| Alta | `capitulo_3_metodologia.tex` | Redactar con advertencia Ley 2026 y declaración de limitación documental legislativa | Pendiente — Fase 4 |
+| Alta | `capitulo_2_marco_referencial.tex` | Redactar con control de prensa y advertencia sobre expediente legislativo incompleto | Pendiente — Fase 4 |
+| Alta | `capitulo_4_propuesta.tex` | Redactar con Matriz de Verificación, lineamiento CPLI y advertencia Ley 2026 | Pendiente — Fase 4 |
+| Media | `capitulo_1_problema.tex` | Convertir citas texto plano a `\parencite{}` y `\textcite{}` | Pendiente — Fase 5 |
+| Media | `capitulo_1_problema.tex`, sec. 1.1 par. 4 | Verificar alcance exacto del holding de la Sentencia 32-17-IN/21 (SR-3.1) | Pendiente — Fase 5 |
+| Media | `reporte_compilacion_latex.md`, sec. 1 | Actualizar número de páginas de 29 a 32 (SR-3.5) | Pendiente — corrección documental |
+| Baja | `preliminares.tex`, línea 11 | Agregar punto final al título (P-9 y SR-3.2) | Pendiente — antes de compilación final |
+| Baja | `capitulo_1_problema.tex`, sección 1.9 | Ajustar "35 dimensiones" a "35 dimensiones de análisis distribuidas en las nueve categorías" (SR-3.4) | Pendiente — Fase 5 |
+| Baja | `06_tablas/matriz_compatibilidad.tex` | Crear tabla LaTeX al redactar Cap. IV | Pendiente — Fase 4 |
+| Baja | `06_tablas/matriz_normativa.tex` y `matriz_jurisprudencial.tex` | Crear tablas LaTeX al redactar Cap. II | Pendiente — Fase 4 |
+
+---
+
+## SR-7. Conclusión
+
+**La tesis está lista para avanzar a la redacción del Capítulo III.**
+
+El Capítulo I está redactado con coherencia interna alta: no contiene las confusiones prohibidas por CLAUDE.md, mantiene alcance nacional declarado, reproduce textualmente el problema, la formulación, la sistematización, los objetivos y la premisa, e incorpora las advertencias metodológicas obligatorias sobre la Ley de Fortalecimiento 2026 y el vacío de la CPLI.
+
+Las matrices que sustentan el Capítulo III están completas: `matriz_cdiu.md` (35 dimensiones, 9 categorías), `matriz_normativa.md` (10 instrumentos), `matriz_jurisprudencial.md` (3 sentencias vinculantes), `matriz_reformas_legislativas.md`, `matriz_institucional.md` (5 documentos), `matriz_internacional.md` (3 fuentes) y `matriz_prensa_contextual.md` (16 fuentes). El `referencias.bib` está poblado con 25 entradas verificadas.
+
+El problema más urgente para los capítulos siguientes es SR-3.3: redactar directamente con `\parencite{}` y `\textcite{}`, sin replicar el modo transitorio del Cap. I.
+
+**Próximo comando recomendado:** `/project:redactar-capitulo capitulo_3_metodologia`
+
+---
+
+## Archivos revisados para elaborar el segundo reporte
+
+- `CLAUDE.md`
+- `00_instrucciones/anteproyecto.md`
+- `00_instrucciones/estructura_capitulos.md`
+- `04_matrices/estado_del_proyecto.md`
+- `04_matrices/reporte_revision_citas.md`
+- `04_matrices/reporte_compilacion_latex.md`
+- `04_matrices/matriz_cdiu.md`
+- `04_matrices/matriz_compatibilidad_constitucional_ambiental.md`
+- `04_matrices/matriz_normativa.md`
+- `05_capitulos/preliminares.tex`
+- `05_capitulos/capitulo_1_problema.tex`
+- `05_capitulos/capitulo_2_marco_referencial.tex`
+- `05_capitulos/capitulo_3_metodologia.tex`
+- `05_capitulos/capitulo_4_propuesta.tex`
+- `05_capitulos/conclusiones.tex`
+- `05_capitulos/recomendaciones.tex`
+- `06_tablas/tabla_cdiu.tex`

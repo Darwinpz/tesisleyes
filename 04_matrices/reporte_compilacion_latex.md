@@ -11,14 +11,13 @@
 
 | Indicador | Estado |
 |---|---|
-| Compilación | ✅ Exitosa |
+| Compilación | ✅ Exitosa (cuarta compilación) |
 | PDF generado | ✅ `08_build/main.pdf` |
-| Páginas | 29 páginas |
-| Tamaño | 246.202 bytes |
+| Páginas | 32 páginas |
 | Errores fatales | 0 |
-| Advertencias críticas resueltas | 2 de 2 |
-| Advertencias menores residuales | 2 (cosmética de encabezado de tabla) |
-| Bibliografía | ⚠️ Vacía — esperado en esta etapa |
+| Advertencias críticas resueltas | 3 de 3 (Overfull URL 79pt resuelto via campo `url`) |
+| Advertencias menores residuales | 2 (cosmética de encabezado de tabla, 3.69pt) |
+| Bibliografía | ✅ Generada — 25 entradas BibTeX, 21 `\nocite{}` transitorio |
 
 ---
 
