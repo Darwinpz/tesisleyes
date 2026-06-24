@@ -1,7 +1,7 @@
 # Estado del proyecto
 ## Tesis: "Análisis de derecho ambiental ecuatoriano: Revisión crítica de proyectos de ley de apertura al sector minero privado."
 
-**Fecha de actualización:** 23 de junio de 2026 (quinta actualización)
+**Fecha de actualización:** 24 de junio de 2026 (séptima actualización)
 
 ---
 
@@ -68,17 +68,17 @@ Las 52 fuentes disponibles en `02_fuentes_md/` tienen ficha documental. El repos
 
 | Matriz | Estado | Necesaria para |
 |---|---|---|
-| `matriz_cdiu.md` | ❌ Vacía | Cap. I (descripción del problema) |
-| `matriz_compatibilidad_constitucional_ambiental.md` | ❌ Vacía | Cap. IV (propuesta) |
-| `matriz_fuentes.md` | ❌ Vacía | Índice consolidado (recomendada) |
+| `matriz_cdiu.md` | ✅ Completa | Cap. I (sec. 1.9) y Cap. III (metodología) |
+| `matriz_compatibilidad_constitucional_ambiental.md` | ✅ Completa | Cap. IV (propuesta central — 16 criterios, 8 columnas) |
+| `matriz_fuentes.md` | ✅ Completa | Índice consolidado — 53 fuentes registradas |
 
 ### Reportes — pendientes hasta Fase 5
 
 | Reporte | Estado |
 |---|---|
-| `reporte_revision_citas.md` | ❌ Vacío |
-| `reporte_coherencia_metodologica.md` | ❌ Vacío |
-| `reporte_compilacion_latex.md` | ❌ Vacío |
+| `reporte_revision_citas.md` | ❌ Vacío — generar en Fase 5 |
+| `reporte_coherencia_metodologica.md` | ✅ Completo — 12 problemas identificados; 20 aspectos con coherencia confirmada |
+| `reporte_compilacion_latex.md` | ❌ Vacío — generar en Fase 6 |
 
 ---
 
@@ -138,12 +138,12 @@ Estas fuentes son opcionales para iniciar la redacción. El corpus actual es suf
 
 ### Matrices transversales que deben existir antes de redactar
 
-| Capítulo | Matriz necesaria |
-|---|---|
-| Cap. I | `matriz_cdiu.md` (descripción del problema: coherencia entre título, problema, objetivos) |
-| Cap. IV | `matriz_compatibilidad_constitucional_ambiental.md` (propuesta jurídica) |
+| Capítulo | Matriz necesaria | Estado |
+|---|---|---|
+| Cap. I | `matriz_cdiu.md` | ✅ Lista (35 filas, 9 categorías, 8 columnas) |
+| Cap. IV | `matriz_compatibilidad_constitucional_ambiental.md` | ✅ Lista — 16 criterios, 8 columnas, tabla ilustrativa Ley 2026 |
 
-Ambas matrices pueden generarse al inicio de cada capítulo respectivo, o antes de comenzar la redacción.
+La `matriz_cdiu.md` puede usarse para la sección 1.9 del Capítulo I y para el Capítulo III.
 
 ---
 
