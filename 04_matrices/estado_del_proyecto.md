@@ -11,7 +11,7 @@
 
 Las 53 fuentes disponibles en `02_fuentes_md/` tienen ficha documental. El repositorio cuenta con **53 fichas** y **7 matrices analíticas con contenido** más **3 matrices transversales completas**. El corpus documental está listo para la redacción.
 
-**El proyecto está en Fase 4: Redacción de capítulos.** El Capítulo I está redactado, revisado y compilado. La segunda revisión de coherencia metodológica ha sido completada y escrita en `reporte_coherencia_metodologica.md`. El próximo paso es la redacción del Capítulo III.
+**El proyecto está en Fase 4: Redacción de capítulos.** Los Capítulos I y III están redactados, revisados y compilados (54 páginas, sin errores fatales). La segunda revisión de coherencia metodológica ha sido completada y escrita en `reporte_coherencia_metodologica.md`. El próximo paso es la redacción del Capítulo II (Marco referencial).
 
 ---
 
@@ -76,7 +76,7 @@ Las 53 fuentes disponibles en `02_fuentes_md/` tienen ficha documental. El repos
 |---|---|
 | `reporte_revision_citas.md` | ✅ Completo — 5 problemas identificados y resueltos; 25 entradas BibTeX creadas |
 | `reporte_coherencia_metodologica.md` | ✅ Completo — **Primera y segunda revisión completadas** (SR-1 a SR-7); 5 problemas nuevos identificados; 10 aspectos adicionales confirmados |
-| `reporte_compilacion_latex.md` | ✅ Completo — cuarta compilación: 32 páginas, bibliografía generada, 0 errores fatales |
+| `reporte_compilacion_latex.md` | ✅ Completo — quinta compilación: 54 páginas, bibliografía generada, 0 errores fatales; sexta verificación: PDF al día |
 
 ---
 
@@ -88,7 +88,7 @@ Las 53 fuentes disponibles en `02_fuentes_md/` tienen ficha documental. El repos
 | `introduccion.tex` | ❌ Esqueleto | 2 |
 | `capitulo_1_problema.tex` | ✅ **Redactado y revisado** — 5 correcciones APA; 21 `\nocite{}`; coherencia verificada (segunda revisión) | 209 |
 | `capitulo_2_marco_referencial.tex` | ❌ Esqueleto | 1 |
-| `capitulo_3_metodologia.tex` | ❌ Esqueleto | 1 |
+| `capitulo_3_metodologia.tex` | ✅ **Redactado** — enfoque, tipos, métodos, técnicas, instrumentos, matriz documental, preguntas de entrevista, análisis de resultados; `\parencite{}` y `\textcite{}` directos | 251 |
 | `capitulo_4_propuesta.tex` | ❌ Esqueleto | 1 |
 | `conclusiones.tex` | ❌ Esqueleto | 2 |
 | `recomendaciones.tex` | ❌ Esqueleto | 2 |
@@ -103,6 +103,7 @@ Las 53 fuentes disponibles en `02_fuentes_md/` tienen ficha documental. El repos
 | `referencias.bib` | ✅ Poblado — 25 entradas BibTeX verificadas (9 normativa, 5 jurisprudencia, 7 doctrina, 1 institucional, 2 internacional, 1 prensa) |
 | `08_build/main.pdf` | ✅ PDF compilado — **32 páginas**, bibliografía generada (cuarta compilación) |
 | `06_tablas/tabla_cdiu.tex` | ✅ Creada — 9 filas, 5 columnas, versión simplificada para Cap. I (93 líneas) |
+| `06_tablas/tabla_analisis_documental.tex` | ✅ Creada — Matriz de análisis documental Cap. III (24 entradas, 6 columnas, longtable; 107 líneas) |
 | `06_tablas/matriz_compatibilidad.tex` | ❌ Vacía — generar al redactar Cap. IV |
 | `06_tablas/matriz_normativa.tex` | ❌ Vacía — generar al redactar Cap. II |
 | `06_tablas/matriz_jurisprudencial.tex` | ❌ Vacía — generar al redactar Cap. II |
@@ -140,8 +141,8 @@ Estas fuentes son opcionales para continuar la redacción. El corpus actual es s
 
 ```
 ✅ /redactar-capitulo capitulo_1_problema
-→  /redactar-capitulo capitulo_3_metodologia   ← PRÓXIMO
-   /redactar-capitulo capitulo_2_marco_referencial
+✅ /redactar-capitulo capitulo_3_metodologia
+→  /redactar-capitulo capitulo_2_marco_referencial   ← PRÓXIMO
    /redactar-capitulo capitulo_4_propuesta
    /redactar-capitulo conclusiones
    /redactar-capitulo recomendaciones
@@ -165,7 +166,7 @@ Estas fuentes son opcionales para continuar la redacción. El corpus actual es s
 | Fase 1 — Inicio: estructura y configuración | ✅ Completa |
 | Fase 2 — Estado: verificación inicial | ✅ Completa |
 | Fase 3 — Análisis por lotes (todas las fuentes) | ✅ **Completa** — 53 fuentes, 53 fichas, 7 matrices analíticas + 3 transversales |
-| Fase 4 — Redacción de capítulos | 🔄 **En curso** — Capítulo I completado (1 de 7 capítulos con contenido) |
+| Fase 4 — Redacción de capítulos | 🔄 **En curso** — Capítulos I y III completados (2 de 7 capítulos con contenido) |
 | Fase 5 — Revisión | ⬜ Pendiente |
 | Fase 6 — Compilación final | ⬜ Pendiente |
 
@@ -175,8 +176,8 @@ Estas fuentes son opcionales para continuar la redacción. El corpus actual es s
 **Matrices analíticas con contenido:** 7
 **Matrices transversales:** 3 completas
 **Entradas BibTeX verificadas:** 25
-**PDF compilado:** 32 páginas (cuarta compilación — sin errores fatales)
-**Capítulos con contenido:** 1 de 7 (Cap. I — 209 líneas)
+**PDF compilado:** 54 páginas (quinta compilación — sin errores fatales)
+**Capítulos con contenido:** 2 de 7 (Cap. I — 209 líneas; Cap. III — 251 líneas)
 **Segunda revisión de coherencia:** ✅ Completada — 12 problemas originales: 5 resueltos, 7 persistentes por secuencia de redacción; 5 nuevos problemas identificados (SR-3.1 a SR-3.5)
 
 **Fase actual: Fase 4 — Redacción de capítulos**
@@ -184,5 +185,5 @@ Estas fuentes son opcionales para continuar la redacción. El corpus actual es s
 **Próximo comando recomendado:**
 
 ```
-/redactar-capitulo capitulo_3_metodologia
+/redactar-capitulo capitulo_2_marco_referencial
 ```
