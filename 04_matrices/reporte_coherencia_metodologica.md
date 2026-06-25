@@ -970,3 +970,148 @@ Las conclusiones deben responder directamente a los cuatro objetivos específico
 - `05_capitulos/capitulo_4_propuesta.tex`
 - `06_tablas/matriz_compatibilidad.tex`
 - `04_matrices/reporte_coherencia_metodologica.md` (R1–R5 para contexto)
+
+---
+
+## R7 — Revisión de coherencia integral
+
+**Fecha:** 25 de junio de 2026
+**Agente:** consistency-reviewer
+**Alcance:** Revisión integral de todos los capítulos redactados (Caps. I–IV, Conclusiones, Recomendaciones, Introducción) y anexos. Primera revisión post-redacción completa del documento y post-revisión de estilo académico.
+
+---
+
+### R7.1 Resumen general
+
+La tesis presenta coherencia metodológica y jurídica alta. Todos los capítulos han sido redactados; el PDF compila sin errores (127 páginas, 753 KB, undécima compilación). El corpus documental (54 fuentes, 54 fichas, 39 entradas BibTeX) es suficiente y verificado. No se detectan confusiones entre minería privada legal y minería ilegal, ni tratamiento de proyectos de ley como leyes vigentes, ni delimitaciones territoriales que contradigan el alcance nacional declarado. Las conclusiones responden directamente a los cuatro objetivos específicos. Las recomendaciones se dirigen a seis actores concretos y derivan de hallazgos verificables.
+
+Se identificaron tres problemas nuevos: dos de gravedad baja (R7-02, R7-03) y uno verificado como inexistente en el acto (R7-01). Los problemas de prioridad media heredados de revisiones anteriores (P-APA-01, TR4-2, TR4-3, NC3-02, TR4-5) persisten y se confirman en esta revisión. La corrección R7-03 fue aplicada inmediatamente (art. 16 → art. 9 del COA para el principio *in dubio pro natura* en Cap. II, sec. 2.2.4).
+
+---
+
+### R7.2 Lista de verificación A–I
+
+#### A. Título y alcance
+
+**A.1 — Título exacto.** ✅ Conforme en todos los archivos. Sin variaciones.
+
+*Advertencia preexistente P-9:* el título en `preliminares.tex` línea 11 carece de punto final. Identificado en R1; pendiente antes de compilación final.
+
+**A.2 — Alcance nacional sin delimitación territorial.** ✅ Conforme. La sección 1.6 del Cap. I declara el alcance nacional y precisa que Los Cedros y otros casos son referencias a precedentes constitucionales, no delimitaciones territoriales. La Introducción reitera la restricción explícitamente. Las Conclusiones y Recomendaciones mantienen el alcance nacional.
+
+#### B. Coherencia interna del Capítulo I
+
+**B.3 — Coherencia entre componentes del Capítulo I.** ✅ Conforme. La cadena planteamiento → formulación → sistematización → objetivos → justificación → delimitación → premisa → CDIU es coherente y sin contradicciones. La advertencia sobre el vacío de la CPLI (Sentencia 22-18-IN/21) y la distinción apertura minera/minería ilegal están correctamente integradas.
+
+**B.4 — Correspondencia objetivos específicos / preguntas de sistematización.** ✅ Plenamente conforme. Las cuatro preguntas y los cuatro objetivos son textualmente idénticos a los definidos en `CLAUDE.md`. Correspondencia biunívoca OE1↔PS1, OE2↔PS2, OE3↔PS3, OE4↔PS4.
+
+#### C. Estructura del Capítulo II
+
+**C.5 — Estructura completa del Capítulo II.** ✅ Conforme. Contiene antecedentes académicos, jurídicos, sectoriales, legislativos (con nota metodológica) y jurisprudenciales; marco teórico; marco conceptual; marco contextual; marco legal. Coherente con `estructura_capitulos.md`.
+
+**C.6 — Ley de Fortalecimiento 2026 tratada como ley vigente.** ✅ Conforme en todos los capítulos. Identificada como norma vigente con advertencia de 11+ demandas de inconstitucionalidad pendientes. No se la trata como proyecto de ley en ningún punto.
+
+**C.7 — Diferenciación de las tres sentencias de la CCE.** ✅ Conforme. Sentencia 1149-19-JP/21, 32-17-IN/21 y 22-18-IN/21 se distinguen con precisión en todos los capítulos, con sus holdings respectivos correctamente identificados. Advertencia preexistente SR-3.1 (alcance del holding de 32-17-IN/21) pendiente de verificación en Fase 5.
+
+#### D. Coherencia del Capítulo III
+
+**D.8 — Enfoque cualitativo, documental, jurídico-crítico.** ✅ Conforme. El Cap. III declara y justifica el enfoque con las secciones metodológicas completas (3.1–3.8). Sin contenido cuantitativo ni estadístico.
+
+**D.9 — No cuantitativo ni estadístico.** ✅ Conforme. Los únicos números son conteos documentales del corpus.
+
+**D.10 — Corpus coherente con fuentes mencionadas.** ✅ Conforme con observación. La Tabla 2 presenta 24 entradas. Las secciones 3.5.1, 3.8.1 dicen "cincuenta y tres fuentes" pero el corpus real es 54 (corrección TR4-2 pendiente); la sec. 3.5.3 dice "seis documentos jurisprudenciales" pero enumera cinco (corrección TR4-3 pendiente). Ambos errores derivan de la incorporación del Manual de Técnica Legislativa como fuente 54 después de la redacción del Cap. III.
+
+#### E. Propuesta del Capítulo IV
+
+**E.11 — Matriz de Verificación: 16 criterios en 4 grupos.** ✅ Conforme. Los 16 criterios están presentes en `06_tablas/matriz_compatibilidad.tex` y en el texto del Cap. IV, organizados correctamente en los cuatro grupos temáticos. Coincide con `04_matrices/matriz_compatibilidad_constitucional_ambiental.md`.
+
+**E.12 — La propuesta deriva lógicamente del análisis anterior.** ✅ Conforme. La sec. 4.1 referencia explícitamente los tres capítulos anteriores. Los criterios de la Matriz remiten a normas y sentencias analizadas en el Cap. II.
+
+**E.13 — Los 9 lineamientos jurídicos están claramente formulados.** ✅ Conforme. Cada lineamiento tiene `\subsubsection{}` con título descriptivo y contenido sustantivo con fundamento verificable. Nota TR6-01 (preexistente, gravedad baja): el lineamiento de participación ciudadana efectiva está distribuido entre el criterio 8 y el lineamiento 6, no como subsubsección independiente.
+
+#### F. Conclusiones
+
+**F.14 — Las conclusiones responden directamente a los 4 objetivos específicos.** ✅ Plenamente conforme. La conclusión general + cuatro conclusiones por objetivo (OE1–OE4) + cierre están correctamente estructuradas y derivan del análisis.
+
+**F.15 — No introducen fuentes ni ideas nuevas.** ✅ Conforme. Todas las citas en `conclusiones.tex` corresponden a fuentes presentes en `referencias.bib` y analizadas en capítulos anteriores.
+
+**F.16 — La conclusión general responde a la pregunta central.** ✅ Conforme. Responde directamente a la formulación del problema y confirma que la compatibilidad es condicionada, no automática.
+
+#### G. Recomendaciones
+
+**G.17 — Derivan de hallazgos concretos.** ✅ Conforme. Las 11 recomendaciones tienen trazabilidad directa a hallazgos del Cap. IV (criterios de la Matriz, lineamientos jurídicos, análisis de la Ley 2026) y del Cap. II (Sentencia 22-18-IN/21, Acuerdo de Escazú, ARCOM Informe 2024).
+
+**G.18 — Se dirigen a actores específicos.** ✅ Plenamente conforme. Distribuidas entre AN (recs. 1–3), MAATE (recs. 4–5), MEM (rec. 6), ARCOM (recs. 7–8), sector minero privado formal (rec. 9), academia (recs. 10–11). Coincide exactamente con `CLAUDE.md` sección 31.
+
+**G.19 — No son genéricas.** ✅ Conforme. Cada recomendación identifica actor, acción concreta, fundamento jurídico, mecanismo de implementación y objetivo.
+
+#### H. Anexos
+
+**H.20 — Anexos A–F coherentes con los capítulos.** ✅ Conforme. Los seis anexos remiten correctamente a las tablas del cuerpo de la tesis con `\ref{}` precisos. El Anexo F es coherente con las 6 preguntas de la sec. 3.7 del Cap. III.
+
+**H.21 — `\ref{}` en los anexos corresponden a tablas existentes.** ✅ Conforme. Las etiquetas `\label{tab:normativa}` y `\label{tab:jurisprudencial}` fueron verificadas directamente: existen en las líneas 11 de `06_tablas/matriz_normativa.tex` y `06_tablas/matriz_jurisprudencial.tex` respectivamente. R7-01 descartado.
+
+#### I. Consistencia terminológica
+
+**I.22 — No confusión minería privada legal / minería ilegal.** ✅ Conforme en todos los capítulos.
+
+**I.23 — No confusión entre escalas de minería.** ✅ Conforme. El Cap. II sec. 2.2.8 diferencia artesanal, pequeña, mediana y gran escala con fundamento en la Ley de Minería.
+
+**I.24 — No se tratan proyectos de ley archivados como normas vigentes.** ✅ Conforme. Los proyectos AN-2018 y AN-2019 no fueron incorporados al repositorio y no se citan como fuentes normativas. La nota metodológica de las secciones 2.1.4 y 3.8.3 declara esta limitación.
+
+**I.25 — Distinción entre tipos de documentos.** ✅ Conforme. Las secciones 3.2.1, 3.5.6 y 3.8.3 del Cap. III diferencian con precisión norma vigente, reforma vigente, proyecto de ley y fuente contextual.
+
+---
+
+### R7.3 Problemas detectados en R7
+
+| Código | Gravedad | Archivo | Sección | Descripción | Recomendación | Prioridad | Estado |
+|---|---|---|---|---|---|---|---|
+| R7-01 | — | `06_tablas/matriz_normativa.tex`, `06_tablas/matriz_jurisprudencial.tex` | Etiquetas `\label{}` | Verificación preventiva — etiquetas encontradas en línea 11 de ambos archivos | Ninguna acción necesaria | Cerrado ✅ | |
+| R7-02 | Baja | `05_capitulos/introduccion.tex` | Párrafo 5 — descripción estructural del Cap. III | La descripción del Cap. III en la Introducción es correcta pero incompleta: no menciona enfoque, tipos, métodos ni técnicas | Ampliar la descripción para reflejar la estructura completa del Cap. III en Fase 5 | Baja — Fase 5 | Pendiente |
+| R7-03 | Baja | `05_capitulos/capitulo_2_marco_referencial.tex` | Sec. 2.2.4 — principio *in dubio pro natura* | "artículo 16 del COA" era incorrecto — art. 16 es educación ambiental; el principio está en art. 9 del COA (principios ambientales) | ✅ Corregido a "artículo 9 del COA dentro del catálogo de principios ambientales" — 25/06/2026 | Alta (error de contenido) | ✅ Corregido |
+
+---
+
+### R7.4 Correcciones medianas pendientes — confirmación de estado
+
+| Código | Descripción | Archivo | Estado |
+|---|---|---|---|
+| P-APA-01 | Convertir 24 `\nocite{}` y citas texto plano del Cap. I a `\parencite{}`/`\textcite{}` | `capitulo_1_problema.tex` | Pendiente Fase 5 |
+| TR4-2 | "cincuenta y tres fuentes" → "cincuenta y cuatro" en secs. 3.5.1 y 3.8.1 | `capitulo_3_metodologia.tex` | Pendiente Fase 5 |
+| TR4-3 | "seis documentos jurisprudenciales" → cinco enumerados (o agregar sexto) | `capitulo_3_metodologia.tex` | Pendiente Fase 5 |
+| NC3-02 | Reordenar cronológicamente `\parencite{cce_1149_19_jp_21,cce_32_17_in_21,cce_22_18_in_21}` | `capitulo_2_marco_referencial.tex` sec. 2.1.2, `capitulo_3_metodologia.tex` sec. 3.4.3 | Pendiente Fase 5 |
+| TR4-5 | Encabezado "Total de fichas: 38" → 54 | `04_matrices/matriz_fuentes.md` | Pendiente Fase 5 |
+| P-9 / SR-3.2 | Punto final ausente en título de portada | `preliminares.tex` línea 11 | Pendiente — antes de compilación final |
+| SR-3.1 | Verificar alcance del holding de Sentencia 32-17-IN/21 | `capitulo_1_problema.tex`, `capitulo_2_marco_referencial.tex` | Pendiente Fase 5 |
+| SR-3.4 | "35 dimensiones" vs "35 filas" en Cap. I sec. 1.9 | `capitulo_1_problema.tex` | Pendiente Fase 5 |
+| TR6-01 | Lineamiento de participación ciudadana sin subsubsección independiente en Cap. IV | `capitulo_4_propuesta.tex` sec. 4.2.3 | Aceptado — no bloqueante |
+| NC3-05 | `year = {s.f.}` en `manual_tecnica_legislativa_an` | `referencias.bib` | Pendiente verificación institucional |
+| NC3-06 | Inconsistencia `Nota:` vs `Nota.` entre tablas | `matriz_normativa.tex`, `matriz_jurisprudencial.tex` | Pendiente Fase 5 cosmético |
+
+---
+
+### R7.5 Orden recomendado de correcciones — Fase 5
+
+1. ✅ R7-03 — Corregir art. 16 → art. 9 COA en Cap. II sec. 2.2.4 (aplicado)
+2. P-APA-01 — Convertir citas del Cap. I a `\parencite{}`/`\textcite{}`
+3. TR4-2 / TR4-3 — Corregir conteos numéricos en Cap. III
+4. NC3-02 — Reordenar cronológicamente la cita agrupada de sentencias en Caps. II y III
+5. P-9 — Punto final en título de portada (`preliminares.tex`)
+6. TR4-5 — Encabezado de `04_matrices/matriz_fuentes.md`
+7. R7-02 — Ampliar descripción del Cap. III en la Introducción
+8. NC3-06 — Uniformizar `Nota.` en tablas 3 y 4
+9. Compilación final
+
+---
+
+### R7.6 Conclusión
+
+**La tesis está lista para aplicar las correcciones medianas de Fase 5 y proceder a la compilación final.**
+
+El documento presenta coherencia metodológica y jurídica alta. No se detectan errores de fondo que requieran modificación sustantiva del contenido jurídico. El único problema de contenido detectado (R7-03: artículo incorrecto del COA para el principio *in dubio pro natura*) fue corregido en el acto. Las dos observaciones adicionales (R7-01 verificado como inexistente; R7-02 descriptivo, gravedad baja) no son bloqueantes.
+
+---
+
+**Archivos revisados en R7:**
+`04_matrices/estado_del_proyecto.md` · `04_matrices/reporte_coherencia_metodologica.md` (R1–R6) · `04_matrices/matriz_cdiu.md` · `04_matrices/matriz_compatibilidad_constitucional_ambiental.md` · `05_capitulos/capitulo_1_problema.tex` · `05_capitulos/capitulo_2_marco_referencial.tex` · `05_capitulos/capitulo_3_metodologia.tex` · `05_capitulos/capitulo_4_propuesta.tex` · `05_capitulos/conclusiones.tex` · `05_capitulos/recomendaciones.tex` · `05_capitulos/introduccion.tex` · `06_tablas/tabla_cdiu.tex` · `06_tablas/matriz_compatibilidad.tex` · `07_anexos/anexos.tex` · `06_tablas/matriz_normativa.tex` · `06_tablas/matriz_jurisprudencial.tex`

@@ -1,7 +1,7 @@
 # Reporte de compilación LaTeX
 ## Tesis: "Análisis de derecho ambiental ecuatoriano: Revisión crítica de proyectos de ley de apertura al sector minero privado."
 
-**Fecha de última actualización:** 25 de junio de 2026 (undécima compilación)
+**Fecha de última actualización:** 25 de junio de 2026 (duodécima compilación)
 **Script ejecutado:** `scripts/compilar_latex.ps1`
 **Motor:** `latexmk -pdf -interaction=nonstopmode -outdir=08_build main.tex`
 
@@ -11,10 +11,10 @@
 
 | Indicador | Estado |
 |---|---|
-| Compilación | ✅ **Exitosa — undécima compilación** |
+| Compilación | ✅ **Exitosa — duodécima compilación** |
 | PDF generado | ✅ `08_build/main.pdf` |
 | Páginas | **127 páginas** |
-| Tamaño | **771 466 bytes (753 KB)** |
+| Tamaño | **771 506 bytes (753 KB)** |
 | Errores fatales | **0** |
 | Errores biber | **0** |
 | Advertencias biber | 1 — `year = s.f.` en `manual_tecnica_legislativa_an` (NC3-05 — deferred Fase 5) |
@@ -140,6 +140,7 @@
 | **Novena** (Correcciones R5-JUR-01, R5-JUR-02 en `anexos.tex`; R5-OBS-01 en `recomendaciones.tex` — Anexos A–F con contenido correcto; `\parencite{coip_2014}` agregado en Rec. 8) | ✅ **PDF generado** | **132** | **0 errores fatales**; 39/39 citekeys resueltos por biber; 1 advertencia cosmética nueva menor: Overfull 1.36pt en encabezado `\addcontentsline` del Anexo E (imperceptible); PDF: 783 984 bytes (765 KB) |
 | **Décima** (Rehecho `07_anexos/anexos.tex`: eliminados párrafos extensos; Anexos A–E ahora contienen nota de 1 línea + `\ref{tab:X}` a la tabla en el capítulo correspondiente; Anexo F solo las 6 preguntas sin análisis; 0 tablas duplicadas; 0 advertencias de etiqueta múltiple) | ✅ **PDF generado** | **128** | **0 errores fatales**; 39/39 citekeys resueltos por biber; 0 advertencias de etiqueta múltiple; PDF: 773 421 bytes (755 KB) |
 | **Undécima** (Revisión de estilo académico completa: 6 ediciones en `introduccion.tex`; 20+ en `capitulo_1_problema.tex`; 22 en `capitulo_2_marco_referencial.tex`; 12 en `capitulo_3_metodologia.tex`; 1 en `capitulo_4_propuesta.tex` — sin modificación de contenido jurídico; sin errores nuevos introducidos) | ✅ **PDF generado** | **127** | **0 errores fatales**; 39/39 citekeys resueltos por biber; 2 advertencias cosmética de hyperref (bookmark anchors — preexistentes); PDF: 771 466 bytes (753 KB) |
+| **Duodécima** (Correcciones R5-INT-01: artículos COIP en `06_tablas/matriz_normativa.tex`; R7-03: art. 16 → art. 9 del COA en `capitulo_2_marco_referencial.tex` sec. 2.2.4 — principio *in dubio pro natura*; R5-INT-02: tipográfico en reporte) | ✅ **PDF generado** | **127** | **0 errores fatales**; 39/39 citekeys resueltos por biber; sin errores nuevos; PDF: 771 506 bytes (753 KB) |
 
 ---
 
@@ -171,4 +172,4 @@ El proyecto compila exitosamente. El PDF de **127 páginas** (753 KB) contiene t
 
 Los Capítulos II, III, IV, Introducción, Conclusiones y Recomendaciones utilizan `\parencite{}` y `\textcite{}` directamente. El Capítulo I mantiene el mecanismo transitorio de 24 `\nocite{}` que deberá convertirse a `\parencite{}` en la Fase 5 (P-APA-01).
 
-**Revisión de estilo completada y verificada. El proyecto está listo para la revisión de coherencia R7 y las correcciones medianas restantes de la Fase 5.**
+**Revisiones de estilo, R5-INT y R7 completadas y verificadas. El proyecto está listo para las correcciones medianas de Fase 5 (P-APA-01, TR4-2/3, NC3-02, P-9, TR4-5) y la compilación final.**

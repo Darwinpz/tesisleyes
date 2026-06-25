@@ -11,7 +11,7 @@
 
 Todos los capítulos, preliminares, introducción, conclusiones, recomendaciones y anexos han sido redactados. El PDF compila sin errores: **127 páginas · 753 KB · 0 errores fatales** (undécima compilación, 25/06/2026).
 
-Revisión R4 (`/revisar-citas`) completada. Revisión de estilo académico completada (63+ ediciones en todos los capítulos). Pendiente: `/revisar-coherencia` (R7), correcciones medianas P-APA-01, TR4-2, TR4-3, NC3-02, TR4-5, y compilación final.
+Revisión R4 (`/revisar-citas`) completada. Revisión R5-INT (citas post-estilo) completada — R5-INT-01 corregido. Revisión de estilo académico completada (63+ ediciones). Revisión R7 (coherencia integral) completada — R7-03 corregido (art. COA *in dubio pro natura*). Pendiente: correcciones medianas P-APA-01, TR4-2, TR4-3, NC3-02, TR4-5, P-9, R7-02, NC3-06, y compilación final.
 
 ---
 
@@ -59,8 +59,8 @@ Revisión R4 (`/revisar-citas`) completada. Revisión de estilo académico compl
 | `matriz_fuentes.md` | Transversal/índice | ✅ 54 fuentes — ⚠️ encabezado dice "38 fichas" (corregir a 54 en Fase 5) |
 | `estado_del_proyecto.md` | Reporte | ✅ Esta actualización |
 | `reporte_revision_citas.md` | Reporte | ✅ R4 — 0 fuentes inventadas; 39/39 activas; R5-JUR-01, R5-JUR-02, R5-OBS-01 corregidos ✅ |
-| `reporte_coherencia_metodologica.md` | Reporte | ✅ R6 — TR6-01 observación menor; R7 pendiente |
-| `reporte_compilacion_latex.md` | Reporte | ✅ Compilación 11ª — 127 págs · 753 KB · 0 errores fatales |
+| `reporte_coherencia_metodologica.md` | Reporte | ✅ R7 completada — 25/06/2026; 1 corrección aplicada (R7-03); R7-02 pendiente baja |
+| `reporte_compilacion_latex.md` | Reporte | ✅ Compilación 12ª — 127 págs · 753 KB · 0 errores fatales |
 
 ---
 
@@ -153,7 +153,7 @@ Paso 5: /compilar             ← Compilación final
 | Fase 2 — Verificación de estado | ✅ Completa |
 | Fase 3 — Análisis por lotes | ✅ Completa — 54 fuentes · 54 fichas · 7 matrices analíticas + 3 transversales |
 | Fase 4 — Redacción | ✅ **Completa** — Preliminares · Intro · Caps. I–IV · Conclusiones · Recomendaciones · Anexos A–F |
-| Fase 5 — Revisión | 🔄 **En curso** — R3, R4, R6 y revisión de estilo completadas ✅; R7 y correcciones medianas pendientes |
+| Fase 5 — Revisión | 🔄 **En curso** — R3, R4, R5-INT, R6, R7 y revisión de estilo completadas ✅; correcciones medianas pendientes (P-APA-01, TR4-2/3, NC3-02, TR4-5, P-9) |
 | Fase 6 — Compilación final | ⬜ Pendiente |
 
 **Métricas del proyecto:**
