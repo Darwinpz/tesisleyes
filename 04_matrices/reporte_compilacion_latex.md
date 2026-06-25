@@ -1,7 +1,7 @@
 # Reporte de compilación LaTeX
 ## Tesis: "Análisis de derecho ambiental ecuatoriano: Revisión crítica de proyectos de ley de apertura al sector minero privado."
 
-**Fecha de última actualización:** 24 de junio de 2026 (séptima compilación)
+**Fecha de última actualización:** 24 de junio de 2026 (octava compilación)
 **Script ejecutado:** `scripts/compilar_latex.ps1`
 **Motor:** `latexmk -pdf -interaction=nonstopmode -outdir=08_build main.tex`
 
@@ -11,10 +11,10 @@
 
 | Indicador | Estado |
 |---|---|
-| Compilación | ✅ **Exitosa — séptima compilación** |
+| Compilación | ✅ **Exitosa — octava compilación** |
 | PDF generado | ✅ `08_build/main.pdf` |
-| Páginas | **116 páginas** |
-| Tamaño | **713 602 bytes (697 KB)** |
+| Páginas | **126 páginas** |
+| Tamaño | **754 124 bytes (736 KB)** |
 | Errores fatales | **0** |
 | Errores biber | **0** |
 | Advertencias biber | 1 — `year = s.f.` en `manual_tecnica_legislativa_an` (NC3-05 — deferred Fase 5) |
@@ -105,13 +105,13 @@
 |---|---|---|
 | `main.tex` | ✅ Compila sin errores | Estructura completa con todos los `\input{}` |
 | `05_capitulos/preliminares.tex` | ✅ Compila | Portada, palabras clave, keywords |
-| `05_capitulos/introduccion.tex` | ⚠️ Vacío | Sin contenido — genera página en blanco |
+| `05_capitulos/introduccion.tex` | ✅ Redactada | 7 párrafos — contexto, DDN, Ley 2026 (con advertencia), objetivo general, metodología, premisa, estructura del documento |
 | `05_capitulos/capitulo_1_problema.tex` | ✅ Compila | 209 líneas — Cap. I completo; citas en texto plano con 21 `\nocite{}` transitorios |
 | `05_capitulos/capitulo_2_marco_referencial.tex` | ✅ Compila | ~540 líneas — Cap. II completo; párrafo síntesis final (TR5-01 ✅) |
 | `05_capitulos/capitulo_3_metodologia.tex` | ✅ Compila | 251 líneas — Cap. III completo; citas con `\parencite{}` directos |
 | `05_capitulos/capitulo_4_propuesta.tex` | ✅ Compila | ~330 líneas — Cap. IV completo; Matriz 16 criterios; 9 lineamientos; advertencia Ley 2026 |
-| `05_capitulos/conclusiones.tex` | ⚠️ Esqueleto | Solo encabezado — pendiente de redacción |
-| `05_capitulos/recomendaciones.tex` | ⚠️ Esqueleto | Vacío — pendiente de redacción |
+| `05_capitulos/conclusiones.tex` | ✅ Redactada | 6 conclusiones (general + OE1–OE4 + cierre); 10 claves BibTeX válidas |
+| `05_capitulos/recomendaciones.tex` | ✅ Redactada | 11 recomendaciones dirigidas a 6 actores; 6 claves BibTeX válidas |
 | `06_tablas/tabla_cdiu.tex` | ✅ Compila | longtable, 9 filas, 5 columnas — 93 líneas |
 | `06_tablas/tabla_analisis_documental.tex` | ✅ Compila | longtable, 24 filas, 6 columnas — 107 líneas; advertencias cosméticas ≤5.98pt |
 | `06_tablas/matriz_compatibilidad.tex` | ✅ Compila | longtable — 16 filas, 5 columnas; `\label{tab:compatibilidad}`; Nota con `\parencite{}` |
@@ -132,7 +132,8 @@
 | Cuarta (referencias.bib con 25 entradas; 5 correcciones APA Cap. I) | ✅ PDF generado | 32 | Bibliografía generada; Overfull URL 79pt resuelto; 2 advertencias menores preexistentes |
 | Quinta (Cap. III redactado: 251 líneas; tabla_analisis_documental.tex: 107 líneas) | ✅ PDF generado | 54 | 0 errores fatales; advertencias menores ≤5.98pt en tabla_analisis_documental; todas las `\parencite{}` resueltas |
 | Sexta (verificación — sin cambios en archivos) | ✅ PDF al día | 54 | `latexmk`: "Nothing to do — all targets up-to-date"; exit code 0 |
-| **Séptima** (Cap. II ~540 líneas + párrafo síntesis; Cap. IV ~330 líneas; `matriz_normativa.tex`, `matriz_jurisprudencial.tex`, `matriz_compatibilidad.tex`; NC3-01 corregido; TR5-01 corregido) | ✅ **PDF generado** | **116** | **0 errores fatales**; 39/39 citekeys resueltos por biber; advertencias Underfull en celdas de `matriz_compatibilidad.tex` (cosméticas — columnas estrechas en longtable); 1 advertencia biber: `year = s.f.` en `manual_tecnica_legislativa_an` (NC3-05 — deferred Fase 5); PDF: 713 602 bytes |
+| **Séptima** (Cap. II ~540 líneas + párrafo síntesis; Cap. IV ~330 líneas; `matriz_normativa.tex`, `matriz_jurisprudencial.tex`, `matriz_compatibilidad.tex`; NC3-01 corregido; TR5-01 corregido) | ✅ **PDF generado** | **116** | **0 errores fatales**; 39/39 citekeys resueltos por biber; advertencias Underfull en celdas de `matriz_compatibilidad.tex` (cosméticas); PDF: 713 602 bytes |
+| **Octava** (Introducción ~55 líneas; Conclusiones ~75 líneas; Recomendaciones ~85 líneas — todos los capítulos completos) | ✅ **PDF generado** | **126** | **0 errores fatales**; 39/39 citekeys resueltos por biber; sin errores nuevos; PDF: 754 124 bytes (736 KB) |
 
 ---
 
@@ -151,7 +152,7 @@
 
 | Prioridad | Acción | Archivo afectado |
 |---|---|---|
-| Alta | Redactar Conclusiones, Recomendaciones, Introducción | `05_capitulos/conclusiones.tex`, `recomendaciones.tex`, `introduccion.tex` |
+| Alta | ✅ Redactados — Introducción, Conclusiones y Recomendaciones completos | Todos los capítulos listos para 8ª compilación |
 | Media | Convertir citas texto plano del Cap. I a `\parencite{}` y `\textcite{}` (Fase 5, P-APA-01) | `05_capitulos/capitulo_1_problema.tex` |
 | Baja | Agregar `\hypersetup{plainpages=false, pdfpagelabels=true}` al preámbulo | `main.tex` |
 | Baja | Actualizar MiKTeX antes de la compilación final | Entorno local |
@@ -160,8 +161,8 @@
 
 ## 7. Conclusión
 
-El proyecto compila exitosamente. El PDF de **116 páginas** (697 KB) contiene los Capítulos I, II, III y IV íntegros, las cinco tablas longtable correctamente formateadas y la bibliografía generada con las 39 entradas BibTeX verificadas (39/39 citekeys resueltos por biber). Los tres errores técnicos de LaTeX identificados en compilaciones anteriores siguen resueltos. Las advertencias residuales son menores y cosméticas (Underfull en celdas de `matriz_compatibilidad.tex` por columnas estrechas; 1 advertencia biber sobre `s.f.` en NC3-05); no afectan el contenido jurídico ni la legibilidad del documento.
+El proyecto compila exitosamente. El PDF de **126 páginas** (736 KB) contiene todos los capítulos íntegros: Introducción, Caps. I a IV, Conclusiones y Recomendaciones. Las cinco tablas longtable están correctamente formateadas y la bibliografía se generó con las 39 entradas BibTeX verificadas (39/39 citekeys resueltos por biber). Los errores técnicos de LaTeX identificados en compilaciones anteriores siguen resueltos. Las advertencias residuales son menores y cosméticas; no afectan el contenido jurídico ni la legibilidad del documento.
 
-Los Capítulos II, III y IV utilizan `\parencite{}` y `\textcite{}` directamente. El Capítulo I mantiene el mecanismo transitorio de 24 `\nocite{}` que deberá convertirse a `\parencite{}` en la Fase 5 (P-APA-01).
+Los Capítulos II, III, IV, Conclusiones, Recomendaciones e Introducción utilizan `\parencite{}` y `\textcite{}` directamente. El Capítulo I mantiene el mecanismo transitorio de 24 `\nocite{}` que deberá convertirse a `\parencite{}` en la Fase 5 (P-APA-01).
 
-**El proyecto está listo para continuar con la redacción de las Conclusiones.**
+**Fase 4 completada. El proyecto está listo para la Fase 5 (revisión de citas R4, revisión de coherencia R7 y correcciones diferidas).**
