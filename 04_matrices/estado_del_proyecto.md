@@ -1,7 +1,7 @@
 # Estado del proyecto
 ## Tesis: "Análisis de derecho ambiental ecuatoriano: Revisión crítica de proyectos de ley de apertura al sector minero privado."
 
-**Fecha de actualización:** 25 de junio de 2026 (decimonovena actualización)
+**Fecha de actualización:** 25 de junio de 2026 (vigésima actualización)
 
 ---
 
@@ -9,9 +9,9 @@
 
 **Fases 1–4 COMPLETAMENTE TERMINADAS. Proyecto en Fase 5 (Revisión).**
 
-Todos los capítulos, preliminares, introducción, conclusiones, recomendaciones y anexos han sido redactados. El PDF compila sin errores: **128 páginas · 755 KB · 0 errores fatales** (décima compilación, 25/06/2026).
+Todos los capítulos, preliminares, introducción, conclusiones, recomendaciones y anexos han sido redactados. El PDF compila sin errores: **127 páginas · 753 KB · 0 errores fatales** (undécima compilación, 25/06/2026).
 
-Revisión R4 (`/revisar-citas`) completada y verificada: 3 correcciones aplicadas (R5-JUR-01, R5-JUR-02, R5-OBS-01). Pendiente: `/revisar-coherencia` (R7), correcciones medianas P-APA-01, TR4-2, TR4-3, NC3-02, TR4-5, y compilación final.
+Revisión R4 (`/revisar-citas`) completada. Revisión de estilo académico completada (63+ ediciones en todos los capítulos). Pendiente: `/revisar-coherencia` (R7), correcciones medianas P-APA-01, TR4-2, TR4-3, NC3-02, TR4-5, y compilación final.
 
 ---
 
@@ -60,7 +60,7 @@ Revisión R4 (`/revisar-citas`) completada y verificada: 3 correcciones aplicada
 | `estado_del_proyecto.md` | Reporte | ✅ Esta actualización |
 | `reporte_revision_citas.md` | Reporte | ✅ R4 — 0 fuentes inventadas; 39/39 activas; R5-JUR-01, R5-JUR-02, R5-OBS-01 corregidos ✅ |
 | `reporte_coherencia_metodologica.md` | Reporte | ✅ R6 — TR6-01 observación menor; R7 pendiente |
-| `reporte_compilacion_latex.md` | Reporte | ✅ Compilación 10ª — 128 págs · 755 KB · 0 errores fatales |
+| `reporte_compilacion_latex.md` | Reporte | ✅ Compilación 11ª — 127 págs · 753 KB · 0 errores fatales |
 
 ---
 
@@ -153,7 +153,7 @@ Paso 5: /compilar             ← Compilación final
 | Fase 2 — Verificación de estado | ✅ Completa |
 | Fase 3 — Análisis por lotes | ✅ Completa — 54 fuentes · 54 fichas · 7 matrices analíticas + 3 transversales |
 | Fase 4 — Redacción | ✅ **Completa** — Preliminares · Intro · Caps. I–IV · Conclusiones · Recomendaciones · Anexos A–F |
-| Fase 5 — Revisión | 🔄 **En curso** — R3, R4 y R6 completadas ✅; R7 y correcciones medianas pendientes |
+| Fase 5 — Revisión | 🔄 **En curso** — R3, R4, R6 y revisión de estilo completadas ✅; R7 y correcciones medianas pendientes |
 | Fase 6 — Compilación final | ⬜ Pendiente |
 
 **Métricas del proyecto:**
@@ -167,9 +167,9 @@ Paso 5: /compilar             ← Compilación final
 | Matrices transversales | 3 |
 | Entradas BibTeX | 39 (39/39 activas) |
 | Líneas LaTeX totales (caps + tablas + anexos) | ~1.950 |
-| Páginas PDF actuales | **132** |
-| Tamaño PDF | **765 KB** |
-| Última compilación | 25/06/2026 · 0 errores fatales |
+| Páginas PDF actuales | **127** |
+| Tamaño PDF | **753 KB** |
+| Última compilación | 25/06/2026 · undécima · 0 errores fatales |
 
 **Acción inmediata recomendada:**
 ```

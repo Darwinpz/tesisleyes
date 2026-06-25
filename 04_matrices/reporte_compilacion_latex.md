@@ -1,7 +1,7 @@
 # Reporte de compilación LaTeX
 ## Tesis: "Análisis de derecho ambiental ecuatoriano: Revisión crítica de proyectos de ley de apertura al sector minero privado."
 
-**Fecha de última actualización:** 25 de junio de 2026 (décima compilación)
+**Fecha de última actualización:** 25 de junio de 2026 (undécima compilación)
 **Script ejecutado:** `scripts/compilar_latex.ps1`
 **Motor:** `latexmk -pdf -interaction=nonstopmode -outdir=08_build main.tex`
 
@@ -11,10 +11,10 @@
 
 | Indicador | Estado |
 |---|---|
-| Compilación | ✅ **Exitosa — décima compilación** |
+| Compilación | ✅ **Exitosa — undécima compilación** |
 | PDF generado | ✅ `08_build/main.pdf` |
-| Páginas | **128 páginas** |
-| Tamaño | **773 421 bytes (755 KB)** |
+| Páginas | **127 páginas** |
+| Tamaño | **771 466 bytes (753 KB)** |
 | Errores fatales | **0** |
 | Errores biber | **0** |
 | Advertencias biber | 1 — `year = s.f.` en `manual_tecnica_legislativa_an` (NC3-05 — deferred Fase 5) |
@@ -139,6 +139,7 @@
 | **Octava** (Introducción ~55 líneas; Conclusiones ~75 líneas; Recomendaciones ~85 líneas — todos los capítulos completos) | ✅ **PDF generado** | **126** | **0 errores fatales**; 39/39 citekeys resueltos por biber; sin errores nuevos; PDF: 754 124 bytes (736 KB) |
 | **Novena** (Correcciones R5-JUR-01, R5-JUR-02 en `anexos.tex`; R5-OBS-01 en `recomendaciones.tex` — Anexos A–F con contenido correcto; `\parencite{coip_2014}` agregado en Rec. 8) | ✅ **PDF generado** | **132** | **0 errores fatales**; 39/39 citekeys resueltos por biber; 1 advertencia cosmética nueva menor: Overfull 1.36pt en encabezado `\addcontentsline` del Anexo E (imperceptible); PDF: 783 984 bytes (765 KB) |
 | **Décima** (Rehecho `07_anexos/anexos.tex`: eliminados párrafos extensos; Anexos A–E ahora contienen nota de 1 línea + `\ref{tab:X}` a la tabla en el capítulo correspondiente; Anexo F solo las 6 preguntas sin análisis; 0 tablas duplicadas; 0 advertencias de etiqueta múltiple) | ✅ **PDF generado** | **128** | **0 errores fatales**; 39/39 citekeys resueltos por biber; 0 advertencias de etiqueta múltiple; PDF: 773 421 bytes (755 KB) |
+| **Undécima** (Revisión de estilo académico completa: 6 ediciones en `introduccion.tex`; 20+ en `capitulo_1_problema.tex`; 22 en `capitulo_2_marco_referencial.tex`; 12 en `capitulo_3_metodologia.tex`; 1 en `capitulo_4_propuesta.tex` — sin modificación de contenido jurídico; sin errores nuevos introducidos) | ✅ **PDF generado** | **127** | **0 errores fatales**; 39/39 citekeys resueltos por biber; 2 advertencias cosmética de hyperref (bookmark anchors — preexistentes); PDF: 771 466 bytes (753 KB) |
 
 ---
 
@@ -166,8 +167,8 @@
 
 ## 7. Conclusión
 
-El proyecto compila exitosamente. El PDF de **132 páginas** (765 KB) contiene todos los capítulos íntegros: Introducción, Caps. I a IV, Conclusiones, Recomendaciones y Anexos A–F. Las cinco tablas longtable están correctamente formateadas y la bibliografía se generó con las 39 entradas BibTeX verificadas (39/39 citekeys resueltos por biber). Las correcciones de la revisión R4 (R5-JUR-01, R5-JUR-02, R5-OBS-01) fueron aplicadas y verificadas en la novena compilación sin introducción de nuevos errores. Las advertencias residuales son menores y cosméticas; no afectan el contenido jurídico ni la legibilidad del documento.
+El proyecto compila exitosamente. El PDF de **127 páginas** (753 KB) contiene todos los capítulos íntegros: Introducción, Caps. I a IV, Conclusiones, Recomendaciones y Anexos A–F. Las cinco tablas longtable están correctamente formateadas y la bibliografía se generó con las 39 entradas BibTeX verificadas (39/39 citekeys resueltos por biber). La revisión de estilo académico (undécima compilación) fue aplicada sin introducir errores nuevos. Las advertencias residuales son menores y cosméticas; no afectan el contenido jurídico ni la legibilidad del documento.
 
 Los Capítulos II, III, IV, Introducción, Conclusiones y Recomendaciones utilizan `\parencite{}` y `\textcite{}` directamente. El Capítulo I mantiene el mecanismo transitorio de 24 `\nocite{}` que deberá convertirse a `\parencite{}` en la Fase 5 (P-APA-01).
 
-**Revisión R4 completada y verificada. El proyecto está listo para la revisión de coherencia R7 y las correcciones medianas restantes de la Fase 5.**
+**Revisión de estilo completada y verificada. El proyecto está listo para la revisión de coherencia R7 y las correcciones medianas restantes de la Fase 5.**
