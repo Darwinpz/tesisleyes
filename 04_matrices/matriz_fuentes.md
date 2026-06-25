@@ -4,7 +4,7 @@
 
 **Última actualización:** 23 de junio de 2026
 **Total de fuentes registradas:** 54
-**Total de fichas asociadas:** 38 (estimado; incluye las dos fichas diferenciadas de la Sentencia 1149-19-JP/21)
+**Total de fichas asociadas:** 54
 
 ---
 

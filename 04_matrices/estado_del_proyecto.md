@@ -1,17 +1,17 @@
 # Estado del proyecto
 ## Tesis: "Análisis de derecho ambiental ecuatoriano: Revisión crítica de proyectos de ley de apertura al sector minero privado."
 
-**Fecha de actualización:** 25 de junio de 2026 (vigésima actualización)
+**Fecha de actualización:** 25 de junio de 2026 (vigesimoprima actualización)
 
 ---
 
 ## 1. Resumen ejecutivo
 
-**Fases 1–4 COMPLETAMENTE TERMINADAS. Proyecto en Fase 5 (Revisión).**
+**Fases 1–6 COMPLETAMENTE TERMINADAS. Proyecto CONCLUIDO.**
 
-Todos los capítulos, preliminares, introducción, conclusiones, recomendaciones y anexos han sido redactados. El PDF compila sin errores: **127 páginas · 753 KB · 0 errores fatales** (undécima compilación, 25/06/2026).
+Todos los capítulos, preliminares, introducción, conclusiones, recomendaciones y anexos han sido redactados y compilados. El PDF definitivo compila sin errores: **126 páginas · 747 KB · 0 errores fatales** (decimotercera compilación — compilación final, 25/06/2026).
 
-Revisión R4 (`/revisar-citas`) completada. Revisión R5-INT (citas post-estilo) completada — R5-INT-01 corregido. Revisión de estilo académico completada (63+ ediciones). Revisión R7 (coherencia integral) completada — R7-03 corregido (art. COA *in dubio pro natura*). Pendiente: correcciones medianas P-APA-01, TR4-2, TR4-3, NC3-02, TR4-5, P-9, R7-02, NC3-06, y compilación final.
+Revisión R4 (`/revisar-citas`) completada. Revisión R5-INT completada — R5-INT-01 corregido. Revisión de estilo académico completada (63+ ediciones). Revisión R7 completada — R7-03 corregido. Correcciones finales aplicadas: P-APA-01, TR4-2, TR4-3, NC3-02, NC3-06, R7-02, TR4-5. Compilación final exitosa.
 
 ---
 
@@ -60,7 +60,7 @@ Revisión R4 (`/revisar-citas`) completada. Revisión R5-INT (citas post-estilo)
 | `estado_del_proyecto.md` | Reporte | ✅ Esta actualización |
 | `reporte_revision_citas.md` | Reporte | ✅ R4 — 0 fuentes inventadas; 39/39 activas; R5-JUR-01, R5-JUR-02, R5-OBS-01 corregidos ✅ |
 | `reporte_coherencia_metodologica.md` | Reporte | ✅ R7 completada — 25/06/2026; 1 corrección aplicada (R7-03); R7-02 pendiente baja |
-| `reporte_compilacion_latex.md` | Reporte | ✅ Compilación 12ª — 127 págs · 753 KB · 0 errores fatales |
+| `reporte_compilacion_latex.md` | Reporte | ✅ Compilación 13ª (FINAL) — 126 págs · 747 KB · 0 errores fatales |
 
 ---
 
@@ -106,41 +106,38 @@ Revisión R4 (`/revisar-citas`) completada. Revisión R5-INT (citas post-estilo)
 
 ---
 
-## 6. Correcciones pendientes — Fase 5
+## 6. Correcciones aplicadas — Fase 5 (COMPLETA)
 
-### Prioridad media
-
-| Código | Problema | Archivo | Sección |
-|---|---|---|---|
-| **P-APA-01** | Convertir 24 `\nocite{}` y citas en texto plano del Cap. I a `\parencite{}`/`\textcite{}` | `capitulo_1_problema.tex` | Todo el capítulo |
-| **NC3-02 / P-APA-04** | Reordenar cronológicamente `\parencite{cce_1149_19_jp_21,cce_32_17_in_21,cce_22_18_in_21}` | `capitulo_2_marco_referencial.tex` sec. 2.1.2 · `capitulo_3_metodologia.tex` sec. 3.4.3 | Cap. II y III |
-| **TR4-2** | "cincuenta y tres fuentes" → "cincuenta y cuatro" | `capitulo_3_metodologia.tex` | Secs. 3.5.1 y 3.8.1 |
-| **TR4-3** | "seis documentos jurisprudenciales" pero solo cinco enumerados | `capitulo_3_metodologia.tex` | Sec. 3.5.3 |
-| **TR4-5** | Encabezado "Total de fichas: 38" → 54 | `04_matrices/matriz_fuentes.md` | Encabezado |
-
-### Prioridad baja
-
-| Código | Problema | Archivo |
+| Código | Corrección aplicada | Estado |
 |---|---|---|
-| NC3-05 | `year = {s.f.}` en `manual_tecnica_legislativa_an` — advertencia biber menor | `referencias.bib` |
-| NC3-06 | Inconsistencia `Nota:` vs `Nota.` entre tablas | `06_tablas/matriz_normativa.tex`, `06_tablas/matriz_jurisprudencial.tex` |
-| TR5-02 | `\input{}` sin extensión `.tex` en Cap. II — formato inconsistente | `capitulo_2_marco_referencial.tex` |
-| TR6-01 | "participación ciudadana efectiva" sin subsección propia en Cap. IV (observación menor no bloqueante) | `capitulo_4_propuesta.tex` |
-| P-9 | Punto final ausente en título de portada | `preliminares.tex` |
-| Hyperref | `\hypersetup{plainpages=false, pdfpagelabels=true}` faltante | `main.tex` |
-| SR-3.1 | Verificar si el holding de Sentencia 32-17-IN/21 es general o limitado a materia hídrica | `capitulo_1_problema.tex`, `capitulo_2_marco_referencial.tex` |
-| SR-3.4 | "35 dimensiones" vs "35 filas" en Cap. I sec. 1.9 | `capitulo_1_problema.tex` |
+| **P-APA-01** | 15 citas texto plano en Cap. I convertidas a `\parencite{}`/`\textcite{}`; bloque `\nocite` reducido de 24 a 9 entradas | ✅ |
+| **NC3-02** | Reorden cronológico `{cce_32_17_in_21,cce_22_18_in_21,cce_1149_19_jp_21}` en Cap. II y Cap. III | ✅ |
+| **TR4-2** | "cincuenta y tres" → "cincuenta y cuatro" en 3 instancias de Cap. III (secs. 3.2.1, 3.5, 3.5.1) | ✅ |
+| **TR4-3** | 6.º documento jurisprudencial (análisis complementario 1149-19-JP/21) agregado a enumeración en Cap. III sec. 3.5.3 | ✅ |
+| **TR4-5** | Encabezado `matriz_fuentes.md` corregido de 38 a 54 fichas | ✅ |
+| **P-9** | Punto final en título de portada — ya estaba presente; no requirió corrección | ✅ |
+| **NC3-06** | `\textit{Nota}:` → `\textit{Nota.}` en `matriz_normativa.tex` y `matriz_jurisprudencial.tex` | ✅ |
+| **R7-02** | Descripción de Cap. III ampliada en `introduccion.tex` (párrafo de estructura) | ✅ |
+| **R5-INT-01** | Artículos COIP corregidos en `matriz_normativa.tex` | ✅ |
+| **R7-03** | Art. 16 → art. 9 COA en Cap. II sec. 2.2.4 (*in dubio pro natura*) | ✅ |
+
+### Correcciones diferidas (no bloqueantes)
+
+| Código | Problema | Archivo | Decisión |
+|---|---|---|---|
+| NC3-05 | `year = {s.f.}` en `manual_tecnica_legislativa_an` — advertencia biber menor | `referencias.bib` | Diferida; no afecta compilación |
+| Hyperref | `\hypersetup{plainpages=false, pdfpagelabels=true}` faltante | `main.tex` | Diferida; advertencia cosmética |
 
 ---
 
-## 7. Plan de trabajo — Fase 5
+## 7. Plan de trabajo — COMPLETADO
 
 ```
-Paso 1: /revisar-citas        ✅ R4 completado — R5-JUR-01, R5-JUR-02, R5-OBS-01 corregidos; novena compilación exitosa
-Paso 2: /revisar-coherencia   ← R7: todos los capítulos + anexos completos   ← PRÓXIMO PASO
-Paso 3: Aplicar P-APA-01      ← Convertir Cap. I a \parencite{}/\textcite{}
-Paso 4: Aplicar TR4-2, TR4-3, NC3-02, TR4-5 (correcciones medianas)
-Paso 5: /compilar             ← Compilación final
+Paso 1: /revisar-citas        ✅ R4 — R5-JUR-01, R5-JUR-02, R5-OBS-01 corregidos
+Paso 2: /revisar-coherencia   ✅ R7 — R7-03 corregido; R7-02 aplicada
+Paso 3: Aplicar P-APA-01      ✅ 15 conversiones + \nocite reducido
+Paso 4: Aplicar TR4-2/3, NC3-02, NC3-06, TR4-5, R7-02 ✅
+Paso 5: /compilar             ✅ Decimotercera compilación — COMPILACIÓN FINAL
 ```
 
 ---
@@ -153,8 +150,8 @@ Paso 5: /compilar             ← Compilación final
 | Fase 2 — Verificación de estado | ✅ Completa |
 | Fase 3 — Análisis por lotes | ✅ Completa — 54 fuentes · 54 fichas · 7 matrices analíticas + 3 transversales |
 | Fase 4 — Redacción | ✅ **Completa** — Preliminares · Intro · Caps. I–IV · Conclusiones · Recomendaciones · Anexos A–F |
-| Fase 5 — Revisión | 🔄 **En curso** — R3, R4, R5-INT, R6, R7 y revisión de estilo completadas ✅; correcciones medianas pendientes (P-APA-01, TR4-2/3, NC3-02, TR4-5, P-9) |
-| Fase 6 — Compilación final | ⬜ Pendiente |
+| Fase 5 — Revisión | ✅ **Completa** — R4, R5-INT, R6, R7, estilo y correcciones P-APA-01, TR4-2/3, NC3-02, NC3-06, R7-02, TR4-5 aplicadas |
+| Fase 6 — Compilación final | ✅ **Completa** — Decimotercera compilación · 126 págs · 747 KB · 0 errores fatales · 39/39 citekeys |
 
 **Métricas del proyecto:**
 
@@ -167,11 +164,8 @@ Paso 5: /compilar             ← Compilación final
 | Matrices transversales | 3 |
 | Entradas BibTeX | 39 (39/39 activas) |
 | Líneas LaTeX totales (caps + tablas + anexos) | ~1.950 |
-| Páginas PDF actuales | **127** |
-| Tamaño PDF | **753 KB** |
-| Última compilación | 25/06/2026 · undécima · 0 errores fatales |
+| Páginas PDF actuales | **126** |
+| Tamaño PDF | **747 KB** |
+| Última compilación | 25/06/2026 · decimotercera (FINAL) · 0 errores fatales |
 
-**Acción inmediata recomendada:**
-```
-/revisar-coherencia   ← R7
-```
+**Estado final del proyecto: CONCLUIDO. PDF definitivo en `08_build/main.pdf`.**
