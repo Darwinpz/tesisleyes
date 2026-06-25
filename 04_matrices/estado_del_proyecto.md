@@ -1,7 +1,7 @@
 # Estado del proyecto
 ## Tesis: "Análisis de derecho ambiental ecuatoriano: Revisión crítica de proyectos de ley de apertura al sector minero privado."
 
-**Fecha de actualización:** 25 de junio de 2026 (decimoséptima actualización)
+**Fecha de actualización:** 25 de junio de 2026 (decimoctava actualización)
 
 ---
 
@@ -9,9 +9,9 @@
 
 **Fases 1–4 COMPLETAMENTE TERMINADAS. Proyecto en Fase 5 (Revisión).**
 
-Todos los capítulos, preliminares, introducción, conclusiones, recomendaciones y anexos han sido redactados. El PDF compila sin errores: **132 páginas · 765 KB · 0 errores fatales** (25/06/2026).
+Todos los capítulos, preliminares, introducción, conclusiones, recomendaciones y anexos han sido redactados. El PDF compila sin errores: **132 páginas · 765 KB · 0 errores fatales** (novena compilación, 25/06/2026).
 
-Pendiente inmediato: `/revisar-citas` (R4) y `/revisar-coherencia` (R7), seguidos de correcciones medianas (Fase 5) y compilación final.
+Revisión R4 (`/revisar-citas`) completada y verificada: 3 correcciones aplicadas (R5-JUR-01, R5-JUR-02, R5-OBS-01). Pendiente: `/revisar-coherencia` (R7), correcciones medianas P-APA-01, TR4-2, TR4-3, NC3-02, TR4-5, y compilación final.
 
 ---
 
@@ -58,9 +58,9 @@ Pendiente inmediato: `/revisar-citas` (R4) y `/revisar-coherencia` (R7), seguido
 | `matriz_compatibilidad_constitucional_ambiental.md` | Transversal | ✅ 16 criterios, 8 columnas |
 | `matriz_fuentes.md` | Transversal/índice | ✅ 54 fuentes — ⚠️ encabezado dice "38 fichas" (corregir a 54 en Fase 5) |
 | `estado_del_proyecto.md` | Reporte | ✅ Esta actualización |
-| `reporte_revision_citas.md` | Reporte | ✅ R3 — 0 fuentes inventadas; 39/39 activas; R4 pendiente |
+| `reporte_revision_citas.md` | Reporte | ✅ R4 — 0 fuentes inventadas; 39/39 activas; R5-JUR-01, R5-JUR-02, R5-OBS-01 corregidos ✅ |
 | `reporte_coherencia_metodologica.md` | Reporte | ✅ R6 — TR6-01 observación menor; R7 pendiente |
-| `reporte_compilacion_latex.md` | Reporte | ✅ Compilación 8ª — 126 págs (sin anexos aún registrada; actualizar) |
+| `reporte_compilacion_latex.md` | Reporte | ✅ Compilación 9ª — 132 págs · 765 KB · 0 errores fatales |
 
 ---
 
@@ -102,7 +102,7 @@ Pendiente inmediato: `/revisar-citas` (R4) y `/revisar-coherencia` (R7), seguido
 |---|---|---|
 | `main.tex` | 62 | ✅ Todos los `\input{}` activos |
 | `referencias.bib` | 457 | ✅ **39 entradas BibTeX** · 39/39 activas · 1 advertencia biber menor (NC3-05) |
-| `08_build/main.pdf` | — | ✅ **132 páginas · 765 KB** · 0 errores fatales · 25/06/2026 |
+| `08_build/main.pdf` | — | ✅ **132 páginas · 765 KB** · 0 errores fatales · novena compilación · 25/06/2026 |
 
 ---
 
@@ -136,8 +136,8 @@ Pendiente inmediato: `/revisar-citas` (R4) y `/revisar-coherencia` (R7), seguido
 ## 7. Plan de trabajo — Fase 5
 
 ```
-Paso 1: /revisar-citas        ← R4: verificar Introducción, Conclusiones, Recomendaciones y Anexos
-Paso 2: /revisar-coherencia   ← R7: todos los capítulos + anexos completos
+Paso 1: /revisar-citas        ✅ R4 completado — R5-JUR-01, R5-JUR-02, R5-OBS-01 corregidos; novena compilación exitosa
+Paso 2: /revisar-coherencia   ← R7: todos los capítulos + anexos completos   ← PRÓXIMO PASO
 Paso 3: Aplicar P-APA-01      ← Convertir Cap. I a \parencite{}/\textcite{}
 Paso 4: Aplicar TR4-2, TR4-3, NC3-02, TR4-5 (correcciones medianas)
 Paso 5: /compilar             ← Compilación final
@@ -153,7 +153,7 @@ Paso 5: /compilar             ← Compilación final
 | Fase 2 — Verificación de estado | ✅ Completa |
 | Fase 3 — Análisis por lotes | ✅ Completa — 54 fuentes · 54 fichas · 7 matrices analíticas + 3 transversales |
 | Fase 4 — Redacción | ✅ **Completa** — Preliminares · Intro · Caps. I–IV · Conclusiones · Recomendaciones · Anexos A–F |
-| Fase 5 — Revisión | 🔄 **En curso** — R3 y R6 completadas; R4, R7 y correcciones medianas pendientes |
+| Fase 5 — Revisión | 🔄 **En curso** — R3, R4 y R6 completadas ✅; R7 y correcciones medianas pendientes |
 | Fase 6 — Compilación final | ⬜ Pendiente |
 
 **Métricas del proyecto:**
@@ -173,5 +173,5 @@ Paso 5: /compilar             ← Compilación final
 
 **Acción inmediata recomendada:**
 ```
-/revisar-citas   ← R4
+/revisar-coherencia   ← R7
 ```

@@ -843,3 +843,220 @@ Las recomendaciones que persisten de R3 y las nuevas de R4 se listan a continuac
 **La distinción Ley 2026 (norma vigente con inconstitucionalidad pendiente)** es correcta y explícita en el Cap. IV. La distinción consulta ambiental (art. 398 CRE) / CPLI (art. 57.7 CRE) es correcta, explícita y reiterada en el cuerpo del capítulo y en la nota de la tabla.
 
 **El documento está listo para la redacción de las Conclusiones y las Recomendaciones.** No hay deficiencias de citación que deban resolverse antes de continuar con esos apartados. Los problemas diferidos a Fase 5 (NC3-02, NC3-03, NC3-04, NC3-06, TR5-02) no impiden la compilación ni la continuación de la redacción.
+
+---
+
+## Revisión R5 — Introducción, Conclusiones, Recomendaciones y Anexos
+**Fecha:** 25 de junio de 2026
+**Archivos revisados:** `05_capitulos/introduccion.tex` · `05_capitulos/conclusiones.tex` · `05_capitulos/recomendaciones.tex` · `07_anexos/anexos.tex` · `05_capitulos/preliminares.tex` (Resumen y Abstract)
+
+---
+
+### 1. Resumen general
+
+| Indicador | Resultado |
+|---|---|
+| Entradas en `referencias.bib` | 39 (sin cambio) |
+| Claves distintas con `\parencite{}` en `introduccion.tex` | 5 |
+| Claves distintas con `\parencite{}` en `conclusiones.tex` | 9 |
+| Claves distintas con `\parencite{}` en `recomendaciones.tex` | 6 |
+| Instancias de `\parencite{}` en `anexos.tex` | 0 (correcto: solo `\ref{}` internos) |
+| Instancias de `\parencite{}` en Resumen y Abstract (`preliminares.tex`) | 0 (correcto por convención) |
+| Instancias de `\nocite{}` en los cuatro archivos nuevos | 0 (correcto) |
+| Claves usadas sin entrada en `referencias.bib` | 0 |
+| Citas en texto plano sin comando LaTeX | 0 |
+| Fuentes inventadas detectadas | 0 |
+| Problemas APA 7 nuevos | 1 observación menor (R5-OBS-01) |
+| Problemas con normas jurídicas | 2 (R5-JUR-01, R5-JUR-02) |
+| Problemas con fuentes inventadas | 0 |
+| Ley de Fortalecimiento 2026 tratada correctamente | Sí — norma vigente con advertencia de inconstitucionalidad pendiente |
+| Anexo F (instrumento no aplicado) sin citas bibliográficas | Sí — conforme |
+| Resumen y Abstract sin citas | Sí — conforme |
+
+---
+
+### 2. Claves BibTeX verificadas en R5
+
+#### 2.1 Claves usadas en `introduccion.tex`
+
+| Clave BibTeX | Tipo | Existe en `.bib` | Observación |
+|---|---|---|---|
+| `cre_2008` | `@misc` | Sí | Conforme |
+| `cce_1149_19_jp_21` | `@misc` | Sí | Conforme |
+| `coa_2017` | `@misc` | Sí | Conforme |
+| `ley_fortalecimiento_2026` | `@misc` | Sí | Conforme. Identificada como norma vigente con advertencia de demandas pendientes. |
+| `primicias_demandas_2026` | `@misc` | Sí | Conforme. Usada como fuente contextual para las demandas de inconstitucionalidad. |
+
+Todas las claves existen en `referencias.bib`. No hay claves rotas.
+
+#### 2.2 Claves usadas en `conclusiones.tex`
+
+| Clave BibTeX | Tipo | Existe en `.bib` | Observación |
+|---|---|---|---|
+| `cre_2008` | `@misc` | Sí | Conforme |
+| `coa_2017` | `@misc` | Sí | Conforme |
+| `cce_1149_19_jp_21` | `@misc` | Sí | Conforme |
+| `cce_32_17_in_21` | `@misc` | Sí | Conforme |
+| `cce_22_18_in_21` | `@misc` | Sí | Conforme |
+| `acuerdo_escazu_2018` | `@misc` | Sí | Conforme |
+| `corte_idh_oc23_2017` | `@misc` | Sí | Conforme |
+| `ley_fortalecimiento_2026` | `@misc` | Sí | Conforme |
+| `primicias_demandas_2026` | `@misc` | Sí | Conforme |
+
+Todas las claves existen en `referencias.bib`. No hay claves rotas.
+
+#### 2.3 Claves usadas en `recomendaciones.tex`
+
+| Clave BibTeX | Tipo | Existe en `.bib` | Observación |
+|---|---|---|---|
+| `cre_2008` | `@misc` | Sí | Conforme |
+| `cce_22_18_in_21` | `@misc` | Sí | Conforme |
+| `coa_2017` | `@misc` | Sí | Conforme |
+| `acuerdo_escazu_2018` | `@misc` | Sí | Conforme |
+| `ley_fortalecimiento_2026` | `@misc` | Sí | Conforme |
+| `primicias_demandas_2026` | `@misc` | Sí | Conforme |
+
+Todas las claves existen en `referencias.bib`. No hay claves rotas.
+
+#### 2.4 Claves en `anexos.tex`
+
+El archivo `anexos.tex` no utiliza `\parencite{}`, `\textcite{}` ni `\nocite{}`. Las referencias internas son exclusivamente `\ref{tab:cdiu}`, `\ref{tab:analisis_documental}`, `\ref{tab:normativa}`, `\ref{tab:jurisprudencial}` y `\ref{tab:compatibilidad}`. Esto es correcto: los Anexos A-E son descripciones metodológicas que remiten a las tablas del cuerpo de la tesis; no necesitan citar fuentes bibliográficas directamente.
+
+El Anexo F (instrumento de entrevista semiestructurada) no contiene citas bibliográficas. Correcto: es un instrumento metodológico, no un capítulo de análisis.
+
+---
+
+### 3. Citas problemáticas
+
+No se detectaron citas problemáticas en el sentido de claves rotas, `\parencite{}` sin entrada en `.bib`, citas textuales sin comillas dobles ni citas textuales largas sin bloque.
+
+Los cuatro archivos revisados utilizan exclusivamente paráfrasis con `\parencite{}`. No hay citas textuales en sentido propio (reproducción literal entre comillas o en bloque). Por tanto no aplica la verificación de comillas dobles en cita corta ni de entorno de bloque en cita larga.
+
+---
+
+### 4. Referencias faltantes
+
+**Resultado: ninguna.** Todas las claves usadas con `\parencite{}` en los cuatro archivos tienen entrada exacta en `referencias.bib`. No se detectó ninguna clave indefinida que pueda generar error de Biber en compilación.
+
+---
+
+### 5. Posibles fuentes inventadas
+
+**Resultado: ninguna.** Las 9 claves distintas usadas en los cuatro archivos nuevos (`cre_2008`, `cca_2017`, `cce_1149_19_jp_21`, `cce_32_17_in_21`, `cce_22_18_in_21`, `acuerdo_escazu_2018`, `corte_idh_oc23_2017`, `ley_fortalecimiento_2026`, `primicias_demandas_2026`) fueron todas verificadas en revisiones anteriores (R2 y R3) con ficha documental en `03_fichas/` y entrada en matrices.
+
+No se agregaron entradas nuevas a `referencias.bib`. Cumple CLAUDE.md regla 1.
+
+---
+
+### 6. Problemas APA 7
+
+#### R5-OBS-01 — Referencia a arts. 260 y 261 del COIP sin `\parencite{coip_2014}` en `recomendaciones.tex`
+
+**Archivo:** `05_capitulos/recomendaciones.tex`, línea 45 (sección "A los organismos de control").
+
+**Texto:** "en cumplimiento del régimen penal de los artículos 260 y 261 del Código Orgánico Integral Penal."
+
+**Situación:** La referencia a los artículos 260 y 261 del COIP aparece sin comando `\parencite{coip_2014}`. Se trata de una recomendación dirigida a los organismos de control, no de una afirmación jurídica principal del análisis. La clave `coip_2014` existe en `referencias.bib` y fue citada con `\parencite{}` en el Cap. IV.
+
+**Evaluación:** APA 7 requiere citar la norma cada vez que se la identifica como fundamento de una afirmación, incluso en las recomendaciones. La mención es suficientemente específica (artículos individualizados) como para justificar la cita. Sin embargo, el impacto es bajo: la clave ya aparece con `\parencite{}` en el Cap. IV y con `\nocite{}` en Cap. I, por lo que la fuente aparecerá en la bibliografía final independientemente.
+
+**Recomendación:** Agregar `\parencite{coip_2014}` al final de la frase: "artículos 260 y 261 del Código Orgánico Integral Penal \parencite{coip_2014}."
+
+**Prioridad:** baja.
+
+---
+
+### 7. Problemas con fuentes jurídicas
+
+#### R5-JUR-01 — Año "2022" del Instructivo en Anexo C no corresponde a ninguna entrada de `referencias.bib`
+
+**Archivo:** `07_anexos/anexos.tex`, línea 46 (Anexo C, ítem 9).
+
+**Texto:** "Instructivo de Exploración y Explotación de Concesiones Mineras (2022)."
+
+**Situación:** La entrada correspondiente en `referencias.bib` es `instructivo_am48_2015`, cuyo campo `note` indica: "Registro Oficial No. 637, 27 de noviembre de 2015. Última modificación: Registro Oficial No. 315, 29 de agosto de 2018." El año 2022 no aparece en esa entrada ni en ninguna otra entrada del `.bib`. El Anexo C atribuye al Instructivo un año de publicación (2022) que no está respaldado por ninguna fuente verificada del repositorio.
+
+**Riesgo:** Posible dato incorrecto. Si el Instructivo fue modificado en 2022 mediante un nuevo Registro Oficial, esa modificación no está documentada en `referencias.bib`. Si no existe modificación de 2022, el dato es erróneo y debe corregirse a "2015" (publicación) o "2018" (última modificación documentada).
+
+**Recomendación:** Verificar si existe un Registro Oficial de 2022 que haya modificado el Instructivo AM-48. Si no existe, corregir el año en `anexos.tex` a "2015" y agregar entre paréntesis la última modificación verificada: "(2015, última modificación: agosto de 2018)". Si existe modificación de 2022, incorporar la entrada correspondiente en `referencias.bib` con ficha verificada antes de citarla.
+
+**Prioridad:** media — debe resolverse antes de la compilación final.
+
+#### R5-JUR-02 — Descripción de la Resolución ARCOM 0029-2025 en Anexo C no coincide con el título en `referencias.bib`
+
+**Archivo:** `07_anexos/anexos.tex`, línea 47 (Anexo C, ítem 10).
+
+**Texto en `anexos.tex`:** "Resolución No. 0029-2025 de ARCOM sobre diferenciación entre minería formal, informal e ilegal."
+
+**Título en `referencias.bib` (`arcom_resolucion_0029_2025`):** "Resolución Nro. ARCOM-ARCOM-2025-0029-R. Apertura gradual del Catastro Minero Nacional."
+
+**Situación:** La descripción del Anexo C atribuye a esta Resolución un objeto diferente al que indica la entrada `.bib`. Según la ficha, la Resolución trata de la "apertura gradual del Catastro Minero Nacional"; el Anexo C la describe como documento "sobre diferenciación entre minería formal, informal e ilegal". Estos son objetos normativos distintos.
+
+**Riesgo:** Si la descripción del Anexo C es incorrecta, se atribuye a la norma un contenido que no tiene, lo que constituye un error jurídico. Si la Resolución 0029-2025 incluye ambos contenidos (apertura del catastro y diferenciación entre tipos de minería), la entrada `.bib` debería reflejarlo en el `note`.
+
+**Recomendación:** Corregir la descripción del Anexo C para que coincida con el título verificado en `referencias.bib`: "Resolución Nro. ARCOM-ARCOM-2025-0029-R. Apertura gradual del Catastro Minero Nacional (2025)." Si la ficha documental en `03_fichas/` confirma que la resolución también regula la diferenciación entre tipos de minería, actualizar el `note` del `.bib` y la descripción del Anexo con el respaldo de la ficha.
+
+**Prioridad:** media — debe resolverse antes de la compilación final.
+
+---
+
+### 8. Recomendaciones de corrección
+
+| Prioridad | Código | Recomendación | Archivo | Estado |
+|---|---|---|---|---|
+| Media | R5-JUR-01 | Verificar y corregir el año "2022" del Instructivo AM-48 en Anexo C | `07_anexos/anexos.tex`, línea 46 | Pendiente verificación |
+| Media | R5-JUR-02 | Corregir descripción de Resolución ARCOM 0029-2025 en Anexo C para que coincida con el título verificado en `referencias.bib` | `07_anexos/anexos.tex`, línea 47 | Pendiente corrección |
+| Baja | R5-OBS-01 | Agregar `\parencite{coip_2014}` al mencionar arts. 260 y 261 COIP en Recomendación 8 | `05_capitulos/recomendaciones.tex`, línea 45 | Pendiente Fase 5 |
+| (Heredados de R3/R4) | NC3-02, NC3-03, NC3-04, NC3-06, TR5-02 | Ver tabla de R4-16 | Varios archivos | Pendientes Fase 5 |
+
+---
+
+### 9. Cobertura BibTeX acumulada tras R5
+
+Las 9 claves utilizadas en los cuatro archivos nuevos son todas claves ya activas en capítulos anteriores. No existe ninguna clave que sea usada por primera vez en esta R5. La cobertura 39/39 verificada en R4 se mantiene intacta.
+
+| Clave usada en R5 | Citada en archivos R5 | Citada en capítulos anteriores | Estado global |
+|---|---|---|---|
+| `cre_2008` | `introduccion.tex`, `conclusiones.tex`, `recomendaciones.tex` | Caps. I, II, III, IV | Activa |
+| `coa_2017` | `introduccion.tex`, `conclusiones.tex`, `recomendaciones.tex` | Caps. I, II, III, IV | Activa |
+| `cce_1149_19_jp_21` | `introduccion.tex`, `conclusiones.tex` | Caps. I, II, III, IV | Activa |
+| `cce_32_17_in_21` | `conclusiones.tex` | Caps. I, II, III, IV | Activa |
+| `cce_22_18_in_21` | `conclusiones.tex`, `recomendaciones.tex` | Caps. I, II, III, IV | Activa |
+| `acuerdo_escazu_2018` | `conclusiones.tex`, `recomendaciones.tex` | Caps. I, II, III, IV | Activa |
+| `corte_idh_oc23_2017` | `conclusiones.tex` | Caps. II, IV | Activa |
+| `ley_fortalecimiento_2026` | `introduccion.tex`, `conclusiones.tex`, `recomendaciones.tex` | Caps. I, II, III, IV | Activa |
+| `primicias_demandas_2026` | `introduccion.tex`, `conclusiones.tex`, `recomendaciones.tex` | Caps. I, II, III, IV | Activa |
+
+Cobertura global 39/39 verificada y sin cambios respecto de R4.
+
+---
+
+### 10. Conclusion: listo para compilacion final
+
+**Los cuatro archivos nuevos revisados en R5 no contienen fuentes inventadas, claves rotas, citas en texto plano sin comando LaTeX, ni instancias de `\nocite{}`.**
+
+**`introduccion.tex` y `conclusiones.tex` y `recomendaciones.tex`** utilizan exclusivamente `\parencite{}` con claves válidas. Los patrones de paráfrasis cumplen APA 7 (autor o institución y año). No hay citas textuales en sentido propio en ninguno de los tres archivos; no aplica la exigencia de análisis posterior a cita textual, aunque las conclusiones sí incluyen análisis jurídico posterior a cada referencia normativa o jurisprudencial.
+
+**`anexos.tex`** no contiene citas bibliográficas. Los Anexos A-E remiten a las tablas del cuerpo de la tesis mediante `\ref{}`. El Anexo F (instrumento de entrevista no aplicado) no contiene citas. Conforme.
+
+**`preliminares.tex` (Resumen y Abstract)** no contiene `\parencite{}`, `\textcite{}` ni `\nocite{}`. Conforme con la convención académica de que los resúmenes no llevan citas bibliográficas.
+
+**La Ley de Fortalecimiento 2026** es tratada correctamente en los tres archivos con texto como norma vigente publicada en el Registro Oficial, con advertencia explícita de demandas de inconstitucionalidad en curso cuyo resultado no ha sido determinado. Cumple CLAUDE.md reglas 2 y 3.
+
+**Hay dos problemas jurídicos de prioridad media en `anexos.tex`** (R5-JUR-01 y R5-JUR-02) que deben resolverse antes de la compilación final: el año 2022 no verificado del Instructivo AM-48 y la descripción incorrecta del objeto de la Resolución ARCOM 0029-2025. Ambos son problemas de contenido en el texto descriptivo del Anexo C, no de citación BibTeX.
+
+**Hay una observación APA 7 de prioridad baja** (R5-OBS-01): agregar `\parencite{coip_2014}` al mencionar los artículos 260 y 261 del COIP en la Recomendación 8.
+
+**El documento está en condición de proceder a la compilación final** una vez resueltos los dos problemas jurídicos de `anexos.tex` (R5-JUR-01 y R5-JUR-02) y los pendientes heredados de revisiones anteriores (NC3-02, NC3-03, NC3-04, NC3-06, TR5-02). R5-OBS-01 puede resolverse en la misma sesión de correcciones de Fase 5.
+
+---
+
+## Correcciones aplicadas — 25 de junio de 2026
+
+| Código | Archivo | Corrección aplicada | Estado |
+|---|---|---|---|
+| R5-JUR-01 | `07_anexos/anexos.tex` línea 46 | "Instructivo de Exploración y Explotación de Concesiones Mineras (2022)" → "Instructivo para la exploración y explotación de concesiones mineras, Acuerdo Ministerial No.~48 (Ministerio de Minería del Ecuador, 2015) — Registro Oficial No.~637, 27 de noviembre de 2015; última modificación: Registro Oficial No.~315, 29 de agosto de 2018." | ✅ Corregido |
+| R5-JUR-02 | `07_anexos/anexos.tex` línea 47 | "Resolución No.~0029-2025 de ARCOM sobre diferenciación entre minería formal, informal e ilegal" → "Resolución Nro.~ARCOM-ARCOM-2025-0029-R de la Agencia de Regulación y Control Minero sobre apertura gradual del Catastro Minero Nacional (8 de julio de 2025)." | ✅ Corregido |
+| R5-OBS-01 | `05_capitulos/recomendaciones.tex` línea 45 | Agregado `\parencite{coip_2014}` al final del párrafo de la Recomendación 8, tras la mención de los artículos 260 y 261 del COIP. | ✅ Corregido |
+
+**Estado de R4/R5 tras correcciones: ✅ Cerrado. Todos los problemas identificados han sido resueltos.**

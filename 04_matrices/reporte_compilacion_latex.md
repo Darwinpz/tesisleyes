@@ -1,7 +1,7 @@
 # Reporte de compilación LaTeX
 ## Tesis: "Análisis de derecho ambiental ecuatoriano: Revisión crítica de proyectos de ley de apertura al sector minero privado."
 
-**Fecha de última actualización:** 24 de junio de 2026 (octava compilación)
+**Fecha de última actualización:** 25 de junio de 2026 (novena compilación)
 **Script ejecutado:** `scripts/compilar_latex.ps1`
 **Motor:** `latexmk -pdf -interaction=nonstopmode -outdir=08_build main.tex`
 
@@ -11,20 +11,23 @@
 
 | Indicador | Estado |
 |---|---|
-| Compilación | ✅ **Exitosa — octava compilación** |
+| Compilación | ✅ **Exitosa — novena compilación** |
 | PDF generado | ✅ `08_build/main.pdf` |
-| Páginas | **126 páginas** |
-| Tamaño | **754 124 bytes (736 KB)** |
+| Páginas | **132 páginas** |
+| Tamaño | **783 984 bytes (765 KB)** |
 | Errores fatales | **0** |
 | Errores biber | **0** |
 | Advertencias biber | 1 — `year = s.f.` en `manual_tecnica_legislativa_an` (NC3-05 — deferred Fase 5) |
 | Citekeys procesados | **39 / 39** |
-| Advertencias Underfull/Overfull | Cosméticas — celdas de `matriz_compatibilidad.tex` (columnas estrechas en longtable) |
+| Advertencias Underfull/Overfull | Cosméticas — celdas de `matriz_compatibilidad.tex`; Overfull 1.36pt en encabezado Anexo E (imperceptible) |
 | Advertencias cosméticas de PDF | 1 — `destination with same identifier page.I` (hyperref — Fase 5) |
+| Correcciones R4 aplicadas | ✅ R5-JUR-01, R5-JUR-02, R5-OBS-01 — todas resueltas |
 | Citas del Cap. I | ⚠️ 24 `\nocite{}` transitorios — convertir a `\parencite{}` en Fase 5 (P-APA-01) |
 | Citas del Cap. II | ✅ `\parencite{}` y `\textcite{}` directos |
 | Citas del Cap. III | ✅ `\parencite{}` y `\textcite{}` directos |
 | Citas del Cap. IV | ✅ `\parencite{}` y `\textcite{}` directos |
+| Citas Conclusiones / Recomendaciones / Intro | ✅ `\parencite{}` y `\textcite{}` directos |
+| Anexos | ✅ Descripción de instrumentos corregida; sin citas bibliográficas (conforme) |
 
 ---
 
@@ -134,6 +137,7 @@
 | Sexta (verificación — sin cambios en archivos) | ✅ PDF al día | 54 | `latexmk`: "Nothing to do — all targets up-to-date"; exit code 0 |
 | **Séptima** (Cap. II ~540 líneas + párrafo síntesis; Cap. IV ~330 líneas; `matriz_normativa.tex`, `matriz_jurisprudencial.tex`, `matriz_compatibilidad.tex`; NC3-01 corregido; TR5-01 corregido) | ✅ **PDF generado** | **116** | **0 errores fatales**; 39/39 citekeys resueltos por biber; advertencias Underfull en celdas de `matriz_compatibilidad.tex` (cosméticas); PDF: 713 602 bytes |
 | **Octava** (Introducción ~55 líneas; Conclusiones ~75 líneas; Recomendaciones ~85 líneas — todos los capítulos completos) | ✅ **PDF generado** | **126** | **0 errores fatales**; 39/39 citekeys resueltos por biber; sin errores nuevos; PDF: 754 124 bytes (736 KB) |
+| **Novena** (Correcciones R5-JUR-01, R5-JUR-02 en `anexos.tex`; R5-OBS-01 en `recomendaciones.tex` — Anexos A–F con contenido correcto; `\parencite{coip_2014}` agregado en Rec. 8) | ✅ **PDF generado** | **132** | **0 errores fatales**; 39/39 citekeys resueltos por biber; 1 advertencia cosmética nueva menor: Overfull 1.36pt en encabezado `\addcontentsline` del Anexo E (imperceptible); PDF: 783 984 bytes (765 KB) |
 
 ---
 
@@ -152,7 +156,7 @@
 
 | Prioridad | Acción | Archivo afectado |
 |---|---|---|
-| Alta | ✅ Redactados — Introducción, Conclusiones y Recomendaciones completos | Todos los capítulos listos para 8ª compilación |
+| ✅ Alta | R5-JUR-01, R5-JUR-02 y R5-OBS-01 corregidos — novena compilación exitosa | `07_anexos/anexos.tex`, `05_capitulos/recomendaciones.tex` |
 | Media | Convertir citas texto plano del Cap. I a `\parencite{}` y `\textcite{}` (Fase 5, P-APA-01) | `05_capitulos/capitulo_1_problema.tex` |
 | Baja | Agregar `\hypersetup{plainpages=false, pdfpagelabels=true}` al preámbulo | `main.tex` |
 | Baja | Actualizar MiKTeX antes de la compilación final | Entorno local |
@@ -161,8 +165,8 @@
 
 ## 7. Conclusión
 
-El proyecto compila exitosamente. El PDF de **126 páginas** (736 KB) contiene todos los capítulos íntegros: Introducción, Caps. I a IV, Conclusiones y Recomendaciones. Las cinco tablas longtable están correctamente formateadas y la bibliografía se generó con las 39 entradas BibTeX verificadas (39/39 citekeys resueltos por biber). Los errores técnicos de LaTeX identificados en compilaciones anteriores siguen resueltos. Las advertencias residuales son menores y cosméticas; no afectan el contenido jurídico ni la legibilidad del documento.
+El proyecto compila exitosamente. El PDF de **132 páginas** (765 KB) contiene todos los capítulos íntegros: Introducción, Caps. I a IV, Conclusiones, Recomendaciones y Anexos A–F. Las cinco tablas longtable están correctamente formateadas y la bibliografía se generó con las 39 entradas BibTeX verificadas (39/39 citekeys resueltos por biber). Las correcciones de la revisión R4 (R5-JUR-01, R5-JUR-02, R5-OBS-01) fueron aplicadas y verificadas en la novena compilación sin introducción de nuevos errores. Las advertencias residuales son menores y cosméticas; no afectan el contenido jurídico ni la legibilidad del documento.
 
-Los Capítulos II, III, IV, Conclusiones, Recomendaciones e Introducción utilizan `\parencite{}` y `\textcite{}` directamente. El Capítulo I mantiene el mecanismo transitorio de 24 `\nocite{}` que deberá convertirse a `\parencite{}` en la Fase 5 (P-APA-01).
+Los Capítulos II, III, IV, Introducción, Conclusiones y Recomendaciones utilizan `\parencite{}` y `\textcite{}` directamente. El Capítulo I mantiene el mecanismo transitorio de 24 `\nocite{}` que deberá convertirse a `\parencite{}` en la Fase 5 (P-APA-01).
 
-**Fase 4 completada. El proyecto está listo para la Fase 5 (revisión de citas R4, revisión de coherencia R7 y correcciones diferidas).**
+**Revisión R4 completada y verificada. El proyecto está listo para la revisión de coherencia R7 y las correcciones medianas restantes de la Fase 5.**
