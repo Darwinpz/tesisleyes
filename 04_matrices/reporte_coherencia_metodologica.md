@@ -872,3 +872,101 @@ Los problemas de Fase 5 (TR-2.1, TR-2.3, SR-3.1, SR-3.4, TR4-2, TR4-3, TR4-5) so
 - `05_capitulos/capitulo_3_metodologia.tex`
 - `06_tablas/tabla_cdiu.tex`
 - `06_tablas/tabla_analisis_documental.tex`
+
+---
+
+## Sexta revisión (R6) — 24 de junio de 2026
+
+**Foco:** Capítulo IV (`capitulo_4_propuesta.tex`) recién redactado y tabla `06_tablas/matriz_compatibilidad.tex`. Verificación rápida de coherencia global con Caps. I–III.
+
+**Revisión realizada directamente en contexto** (el agente consistency-reviewer superó el límite de tokens; la revisión fue completada manualmente con lectura directa de los archivos relevantes).
+
+---
+
+### R6.1 Resumen general
+
+El Capítulo IV está metodológicamente coherente con el diseño de la investigación. La estructura sigue el esquema de `00_instrucciones/estructura_capitulos.md` (secs. 4.1–4.2.5). La propuesta deriva lógicamente del problema (Cap. I), del marco normativo y jurisprudencial (Cap. II) y de la metodología documental (Cap. III). No se detectaron contradicciones entre capítulos ni confusiones entre minería privada formal y minería ilegal. Se identificó un problema menor (TR6-01) de baja prioridad: un lineamiento previsto en `estructura_capitulos.md` (participación ciudadana efectiva) no figura como `\subsubsection{}` independiente, aunque su contenido es abordado en el análisis de la Matriz y en el lineamiento de transparencia. Los demás problemas pendientes son los mismos diferidos a Fase 5 desde R5.
+
+---
+
+### R6.2 Verificaciones del Cap. IV
+
+| N° | Verificación | Resultado | Observación |
+|---|---|---|---|
+| 1 | Estructura oficial (secs. 4.1 / 4.2 / 4.2.1–4.2.5) | ✅ Conforme | Todas las secciones y subsecciones están presentes con los nombres correctos |
+| 2 | Coherencia con OE4 (lineamientos jurídicos para armonizar apertura minera/protección ambiental) | ✅ Conforme | 9 lineamientos cubren licenciamiento, no regresividad, CPLI, monitoreo, diferenciación, transparencia, competencias, reparación y seguridad jurídica |
+| 3 | Coherencia con la premisa central de la tesis | ✅ Conforme | El Cap. IV explicita que la propuesta no rechaza la apertura minera sino que establece condiciones para su compatibilidad constitucional |
+| 4 | 16 criterios de la Matriz vs. `matriz_compatibilidad_constitucional_ambiental.md` | ✅ Conforme | Los 16 criterios coinciden con los de la matriz fuente; criterios 1–5 (constitucionales de base), 6–8 (participación/consulta), 9–13 (control/responsabilidad), 14–16 (sistémicos) |
+| 5 | Criterios de `estructura_capitulos.md` sec. 4.2.2 incluidos | ✅ Conforme | Los 12 criterios listados en la estructura están cubiertos; adicionalmente se incluyeron criterios 5, 8, 12 y 15 (previstos en la matriz transversal pero no en la lista abreviada de la estructura) |
+| 6 | Distinción minería privada formal / informal / ilegal | ✅ Conforme | Criterio 15 y lineamiento 5 abordan la distinción con fundamento en COIP arts. 260–261 y LM arts. 14, 17, 57 |
+| 7 | Ley de Fortalecimiento 2026 tratada correctamente | ✅ Conforme | Tratada como norma vigente (R.O. Quinto Suplemento No. 234, 2-mar-2026) con advertencia explícita de 11+ demandas CCE y sin prejuzgar resultado; declaración explícita al final del sec. 4.1 |
+| 8 | Distinción CPLI (art. 57.7 CRE) / consulta ambiental (art. 398 CRE) | ✅ Conforme | Distinción explícita en: sec. 4.1 (segunda párrafo), análisis criterios 6–7 en sec. 4.2.2, lineamiento 3 en sec. 4.2.3, y nota de `matriz_compatibilidad.tex` |
+| 9 | Lineamiento CPLI por ley orgánica (instrucción explícita del usuario) | ✅ Conforme | Lineamiento 3 dedica una subsubsección completa a la necesidad de ley orgánica para la CPLI, con fundamento en Sentencia 22-18-IN/21 |
+| 10 | Tono jurídico-académico, no político | ✅ Conforme | El capítulo analiza críticamente sin rechazar absolutamente la apertura minera; usa condicionales jurídicos y cita fuentes verificadas |
+| 11 | Tabla `matriz_compatibilidad.tex`: estructura APA 7 | ✅ Conforme | `\caption{}`, `\label{tab:compatibilidad}`, referencia `Tabla~\ref{tab:compatibilidad}` antes del `\input{}`, `\noindent\textit{Nota.}` (punto, APA 7), `\parencite{}` en nota |
+| 12 | Análisis posterior a la tabla | ✅ Conforme | Análisis extenso de cuatro grupos temáticos más aplicación ilustrativa a Ley 2026 (sec. 4.2.2, ~6 párrafos tras el `\input{}`) |
+| 13 | Conexión Cap. IV → Cap. II (marco normativo/jurisprudencial) | ✅ Conforme | Sec. 4.1 hace referencia explícita al "Capítulo II" y sus cinco marcos; los criterios de la Matriz remiten a normas y sentencias analizadas en Cap. II |
+| 14 | Conexión Cap. IV → Cap. I (planteamiento del problema) | ✅ Conforme | Sec. 4.1 menciona "los tres capítulos anteriores" y describe la brecha estructural como motivación de la propuesta |
+| 15 | Alcance nacional — sin delimitación territorial | ✅ Conforme | No se delimita a provincia, cantón o caso territorial; Los Cedros se menciona solo como caso jurisprudencial, no como delimitación |
+| 16 | Participación ciudadana efectiva como lineamiento independiente (`estructura_capitulos.md`) | ⚠️ **TR6-01** | Ver problema TR6-01 abajo |
+
+---
+
+### R6.3 Problema encontrado
+
+#### TR6-01: Lineamiento "participación ciudadana efectiva" no figura como subsubsección independiente
+
+| Campo | Detalle |
+|---|---|
+| **Código** | TR6-01 |
+| **Gravedad** | Baja |
+| **Archivo** | `05_capitulos/capitulo_4_propuesta.tex`, sec. 4.2.3 |
+| **Descripción** | La sección `estructura_capitulos.md` (línea 515) lista "participación ciudadana efectiva" como uno de los nueve lineamientos de sec. 4.2.3. El Cap. IV redactado tiene nueve lineamientos, pero el octavo es "Garantías económicas proporcionales para la reparación integral" y el lineamiento de participación ciudadana fue sustituido por el lineamiento de CPLI por ley orgánica (lineamiento 3), incluido por instrucción explícita del usuario. La participación ciudadana es abordada como criterio 8 de la Matriz (análisis en sec. 4.2.2) y está integrada en el lineamiento 6 (transparencia activa), pero no como `\subsubsection{}` propia. |
+| **Impacto** | Bajo: el contenido de participación ciudadana está cubierto en la Matriz y en otros lineamientos; la decisión del usuario de incluir el lineamiento CPLI fue deliberada y justificada por la Sentencia 22-18-IN/21 |
+| **Recomendación** | Opción A (preferida): aceptar la sustitución como justificada —el lineamiento CPLI es jurídicamente más urgente y la participación ciudadana está cubierta en la Matriz—. Opción B: agregar un párrafo breve sobre participación ciudadana en el lineamiento 6 (transparencia) que lo vincule explícitamente con el criterio 8 del COA y el Acuerdo de Escazú, sin crear una subsubsección nueva. |
+| **Prioridad** | Baja — no bloquea la redacción de Conclusiones ni Recomendaciones |
+
+---
+
+### R6.4 Verificaciones rápidas
+
+| Verificación | Resultado |
+|---|---|
+| Título exacto en portada (`preliminares.tex`) | No releer en R6 — confirmado en R5 ✅ |
+| Título en `CLAUDE.md` | ✅ Correcto: "Análisis de derecho ambiental ecuatoriano: Revisión crítica de proyectos de ley de apertura al sector minero privado." |
+| Problemas R5 diferidos a Fase 5 siguen diferidos | ✅ Ninguno fue introducido en Cap. IV |
+| No se introdujeron fuentes nuevas al redactar Cap. IV | ✅ Confirmado en R4 (39/39 citekeys, sin entradas nuevas al `.bib`) |
+
+---
+
+### R6.5 Lista de cambios sugeridos
+
+| Prioridad | Acción | Archivo |
+|---|---|---|
+| Baja | TR6-01: Evaluar si agregar mención explícita de participación ciudadana (COA art. 18, Acuerdo de Escazú art. 7) dentro del lineamiento 6 (transparencia) | `05_capitulos/capitulo_4_propuesta.tex`, lineamiento 6 |
+| Baja (Fase 5) | Todos los pendientes R5 ya documentados (TR4-2, TR4-3, NC3-02, etc.) | Varios |
+
+---
+
+### R6.6 Conclusión
+
+El Capítulo IV es coherente con el diseño metodológico de la investigación, con los objetivos específicos, con la premisa central y con los capítulos anteriores. La propuesta es analítica, jurídicamente fundamentada y no política. El único problema identificado (TR6-01) es de gravedad baja y no bloquea la continuación del proyecto.
+
+**El proyecto está listo para la redacción de las Conclusiones.**
+
+El próximo paso recomendado es:
+
+```
+/redactar-capitulo conclusiones
+```
+
+Las conclusiones deben responder directamente a los cuatro objetivos específicos y derivarse del análisis normativo, jurisprudencial, doctrinal y de la Matriz de Compatibilidad. No deben introducir fuentes nuevas.
+
+---
+
+**Archivos revisados en la sexta revisión:**
+
+- `00_instrucciones/estructura_capitulos.md` (líneas 472–521)
+- `05_capitulos/capitulo_4_propuesta.tex`
+- `06_tablas/matriz_compatibilidad.tex`
+- `04_matrices/reporte_coherencia_metodologica.md` (R1–R5 para contexto)

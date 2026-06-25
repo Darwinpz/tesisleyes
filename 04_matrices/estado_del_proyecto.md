@@ -1,7 +1,7 @@
 # Estado del proyecto
 ## Tesis: "Análisis de derecho ambiental ecuatoriano: Revisión crítica de proyectos de ley de apertura al sector minero privado."
 
-**Fecha de actualización:** 24 de junio de 2026 (decimotercera actualización)
+**Fecha de actualización:** 24 de junio de 2026 (decimocuarta actualización)
 
 ---
 
@@ -95,7 +95,7 @@ Las 54 fuentes disponibles en `02_fuentes_md/` tienen ficha documental. El repos
 | `capitulo_1_problema.tex` | ✅ **Redactado y revisado** — 24 `\nocite{}` (incluyendo `pillajo_2024` agregado en sesión actual); citas en texto plano; coherencia R5 verificada | 212 |
 | `capitulo_2_marco_referencial.tex` | ✅ **Redactado y revisado** — 5 secciones, 69 subsecciones; párrafo de síntesis final agregado (TR5-01 ✅); `\parencite{}`/`\textcite{}` directos; tablas normativa y jurisprudencial incorporadas | ~540 |
 | `capitulo_3_metodologia.tex` | ✅ **Redactado** — enfoque, tipos, métodos, técnicas, instrumentos, matriz documental, preguntas de entrevista, análisis de resultados; `\parencite{}`/`\textcite{}` directos | 251 |
-| `capitulo_4_propuesta.tex` | ❌ Esqueleto | 2 |
+| `capitulo_4_propuesta.tex` | ✅ **Redactado** — 5 secciones, 9 subsubsecciones; `\parencite{}`/`\textcite{}` directos; Matriz de Verificación 16 criterios; advertencia Ley 2026; distinción CPLI/consulta ambiental; 9 lineamientos; `matriz_compatibilidad.tex` creada (16 filas, 5 columnas, longtable) | ~330 |
 | `conclusiones.tex` | ❌ Esqueleto | 3 |
 | `recomendaciones.tex` | ❌ Esqueleto | 3 |
 
@@ -107,12 +107,12 @@ Las 54 fuentes disponibles en `02_fuentes_md/` tienen ficha documental. El repos
 |---|---|
 | `main.tex` | ✅ Estructura completa (63 líneas) |
 | `referencias.bib` | ✅ Poblado — **39 entradas BibTeX** verificadas (458 líneas); 39/39 con citación activa (`\parencite{}`, `\textcite{}` o `\nocite{}`) |
-| `08_build/main.pdf` | ✅ PDF compilado — **94 páginas**, 617 KB (sexta compilación — se requiere séptima compilación tras cambios de esta sesión) |
+| `08_build/main.pdf` | ✅ PDF compilado — **116 páginas**, 697 KB (séptima compilación — 0 errores fatales; 39/39 citekeys biber) |
 | `06_tablas/tabla_cdiu.tex` | ✅ Creada — 9 filas, 5 columnas, longtable (93 líneas) |
 | `06_tablas/tabla_analisis_documental.tex` | ✅ Creada — 24 entradas, 6 columnas, longtable (107 líneas) |
 | `06_tablas/matriz_normativa.tex` | ✅ Creada — 10 instrumentos normativos, longtable, 5 columnas |
 | `06_tablas/matriz_jurisprudencial.tex` | ✅ Creada — 5 entradas jurisprudenciales/documentales, longtable, 5 columnas |
-| `06_tablas/matriz_compatibilidad.tex` | ❌ Vacía — generar al redactar Cap. IV |
+| `06_tablas/matriz_compatibilidad.tex` | ✅ Creada — 16 criterios, 5 columnas, longtable con `\caption{}`, `\label{tab:compatibilidad}` y `Nota.` con `\parencite{}` |
 | `06_tablas/matriz_reformas_legislativas.tex` | ❌ Vacía — evaluar si se necesita |
 
 ---
@@ -164,7 +164,7 @@ Las 54 fuentes disponibles en `02_fuentes_md/` tienen ficha documental. El repos
 ✅ [TR-2.5 y TR-2.6 resueltos; fuente N° 54 incorporada]
 ✅ /redactar-capitulo capitulo_2_marco_referencial
 ✅ [R3 y R5 completadas; TR5-01 resuelto]
-→  /redactar-capitulo capitulo_4_propuesta   ← PRÓXIMO
+✅ /redactar-capitulo capitulo_4_propuesta
    /redactar-capitulo conclusiones
    /redactar-capitulo recomendaciones
    /redactar-capitulo introduccion
@@ -191,7 +191,7 @@ Las 54 fuentes disponibles en `02_fuentes_md/` tienen ficha documental. El repos
 | Fase 1 — Inicio: estructura y configuración | ✅ Completa |
 | Fase 2 — Estado: verificación inicial | ✅ Completa |
 | Fase 3 — Análisis por lotes (todas las fuentes) | ✅ **Completa** — 54 fuentes, 54 fichas, 7 matrices analíticas + 3 transversales |
-| Fase 4 — Redacción de capítulos | 🔄 **En curso** — Capítulos I, II y III completados (3 de 7 con contenido) |
+| Fase 4 — Redacción de capítulos | 🔄 **En curso** — Capítulos I, II, III y IV completados (4 de 7 con contenido) |
 | Fase 5 — Revisión | ⬜ Pendiente |
 | Fase 6 — Compilación final | ⬜ Pendiente |
 
@@ -202,7 +202,7 @@ Las 54 fuentes disponibles en `02_fuentes_md/` tienen ficha documental. El repos
 **Matrices transversales:** 3 completas
 **Entradas BibTeX verificadas:** 39 (458 líneas en `referencias.bib`) — 39/39 con citación activa ✅
 **Última compilación:** 94 páginas, 617 KB (sexta compilación — pendiente séptima compilación)
-**Capítulos con contenido:** 3 de 7 (Cap. I — 212 líneas; Cap. II — ~540 líneas; Cap. III — 251 líneas)
+**Capítulos con contenido:** 4 de 7 (Cap. I — 212 líneas; Cap. II — ~540 líneas; Cap. III — 251 líneas; Cap. IV — ~330 líneas)
 **Tercera revisión de citas (R3):** ✅ Completada — 0 fuentes inventadas; NC3-01 resuelto
 **Quinta revisión de coherencia (R5):** ✅ Completada — TR5-01 resuelto; TR5-02 diferido a Fase 5
 
@@ -211,5 +211,5 @@ Las 54 fuentes disponibles en `02_fuentes_md/` tienen ficha documental. El repos
 **Acción inmediata recomendada:**
 
 ```
-/redactar-capitulo capitulo_4_propuesta   ← PRÓXIMO PASO
+/redactar-capitulo conclusiones   ← PRÓXIMO PASO
 ```

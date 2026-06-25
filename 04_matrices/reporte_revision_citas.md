@@ -516,3 +516,330 @@ Las tres fuentes de prensa nuevas (`primicias_aprobacion_2026`, `lahora_boom_min
 **`referencias.bib` está en condición de continuar con la redacción del Capítulo IV.** Las 39 entradas cubren la totalidad del corpus documental analizado. Al redactar el Cap. IV, verificar si se necesitan entradas adicionales y, en caso afirmativo, incorporarlas al `.bib` con ficha verificada en `03_fichas/` antes de citarlas en el texto.
 
 **Pendientes críticos para Fase 5:** conversión de citas en texto plano del Cap. I a `\parencite{}`/`\textcite{}` (NC3-03), decisión sobre `pillajo_2024` (NC3-01), corrección del orden cronológico en citas múltiples de sentencias (NC3-02) y evaluación del campo `year` de `ley_mineria_2025` (NC3-04).
+
+---
+
+## Cuarta revisión (R4) — 24 de junio de 2026
+
+**Agente:** citation-auditor
+**Contexto de la revisión:** El Capítulo IV (`capitulo_4_propuesta.tex`, 117 líneas) ha sido redactado desde la revisión R3. Se ha creado la tabla `06_tablas/matriz_compatibilidad.tex` (143 líneas) correspondiente al Cap. IV. El `.bib` permanece con 39 entradas sin nuevas incorporaciones. La revisión R3 documentó NC3-01 (`pillajo_2024` sin citación activa) como pendiente. Esta R4 cubre el Cap. IV como foco principal, la `matriz_compatibilidad.tex` como tabla nueva, y verifica que los Caps. I, II y III no hayan introducido nuevos problemas.
+**Archivos revisados:** `05_capitulos/capitulo_4_propuesta.tex`, `06_tablas/matriz_compatibilidad.tex`, `05_capitulos/capitulo_1_problema.tex` (verificación rápida), `05_capitulos/capitulo_2_marco_referencial.tex` (verificación rápida), `05_capitulos/capitulo_3_metodologia.tex` (verificación rápida), `06_tablas/matriz_normativa.tex`, `06_tablas/matriz_jurisprudencial.tex`, `referencias.bib`.
+
+---
+
+### R4-1. Resumen general
+
+| Indicador | Resultado |
+|---|---|
+| Entradas en `referencias.bib` | 39 (sin cambio desde R3) |
+| Claves distintas con `\parencite{}`/`\textcite{}` en Cap. IV | 38 de 39 (todas excepto `cce_comunicado_agosto2025`) |
+| Instancias de `\nocite{}` en Cap. IV | 0 |
+| Claves en Cap. IV sin entrada en `.bib` | 0 |
+| Citas en texto plano en Cap. IV (sin comando LaTeX) | 0 |
+| NC3-01 (`pillajo_2024`) — estado en R4 | Resuelto: citada con `\nocite{}` en bloque de Cap. I |
+| Entradas en `.bib` sin citación activa en ninguno de los 4 caps. ni tablas | 0 |
+| Fuentes inventadas detectadas | 0 |
+| Problemas nuevos de formato APA 7 en Cap. IV | 0 |
+| Problemas con normas jurídicas en Cap. IV | 0 |
+| Estado de `matriz_compatibilidad.tex` | Conforme: `\caption{}`, `\label{}`, nota con `\parencite{}` |
+| Estado general del Cap. IV | Conforme. Patrón de citación correcto. Sin claves rotas. |
+| Cobertura bidireccional 39/39 tras Cap. IV | Verificada |
+
+---
+
+### R4-2. Resolución de NC3-01 — `pillajo_2024`
+
+**Estado:** Resuelto antes de esta revisión.
+
+El bloque `\nocite{}` al final de `capitulo_1_problema.tex` incluye la línea `\nocite{pillajo_2024}` (línea 212 del archivo). La clave existe en `referencias.bib` con ficha verificada en `fichas_doctrina/`. La entrada aparecerá en la bibliografía del documento final. NC3-01 queda cerrado.
+
+La advertencia de uso territorial de la fuente (`note` del `.bib`: "Usar solo como referencia ilustrativa; no como fuente principal") sigue vigente. No se incorporó `\parencite{pillajo_2024}` en el cuerpo del texto de ningún capítulo, lo cual es metodológicamente correcto dada la delimitación provincial de la fuente.
+
+---
+
+### R4-3. Cobertura bidireccional: claves del Cap. IV contra `referencias.bib`
+
+Se verificaron todas las claves usadas con `\parencite{}` o `\textcite{}` en `capitulo_4_propuesta.tex` contra las 39 entradas de `referencias.bib`. No se encontró ninguna clave indefinida.
+
+| Clave BibTeX | Usada en Cap. IV | Tipo | Estado |
+|---|---|---|---|
+| `cre_2008` | Sí, múltiples veces | `@misc` | Conforme |
+| `coa_2017` | Sí, múltiples veces | `@misc` | Conforme |
+| `reglamento_coa_2019` | Sí | `@misc` | Conforme |
+| `coip_2014` | Sí | `@misc` | Conforme |
+| `ley_mineria_2025` | Sí | `@misc` | Conforme |
+| `ley_fortalecimiento_2026` | Sí, múltiples veces | `@misc` | Conforme |
+| `cce_1149_19_jp_21` | Sí, múltiples veces | `@misc` | Conforme |
+| `cce_32_17_in_21` | Sí | `@misc` | Conforme |
+| `cce_22_18_in_21` | Sí, múltiples veces | `@misc` | Conforme |
+| `cedec_guia_2023` | Sí | `@misc` | Conforme |
+| `acuerdo_escazu_2018` | Sí, múltiples veces | `@misc` | Conforme |
+| `cepal_ruta_escazu_2023` | Sí (`\textcite{}`) | `@misc` | Conforme |
+| `corte_idh_oc23_2017` | Sí, múltiples veces | `@misc` | Conforme |
+| `arcom_rendicion_cuentas_2024` | Sí | `@misc` | Conforme |
+| `arcom_resolucion_0029_2025` | Sí, múltiples veces | `@misc` | Conforme |
+| `plan_nacional_sector_minero_2020` | Sí | `@misc` | Conforme |
+| `politica_publica_minera_2019` | Sí | `@misc` | Conforme |
+| `manual_tecnica_legislativa_an` | Sí, dos veces | `@misc` | Conforme |
+| `reglamento_general_ley_mineria_2009` | Sí | `@misc` | Conforme |
+| `primicias_demandas_2026` | Sí, múltiples veces | `@misc` | Conforme |
+| `primicias_aprobacion_2026` | Sí | `@misc` | Conforme |
+| `primicias_demanda_unagua_2026` | Sí | `@misc` | Conforme |
+| `lahora_boom_minero_2025` | Sí | `@misc` | Conforme |
+| `grefa_valencia_2021` | Sí (`\textcite{}`) | `@thesis` | Conforme |
+| `villacis_calvas_2022` | Sí, dos veces | `@thesis` | Conforme |
+| `bustamante_2012` | Sí | `@thesis` | Conforme |
+| `yanez_cevallos_2022` | Sí (`\textcite{}`, dos veces) | `@thesis` | Conforme |
+| `grefa_valencia_2021` (segunda instancia `\textcite{}`) | Sí | `@thesis` | Conforme |
+| `lozano_espinosa_2023` | Sí (`\textcite{}`) | `@article` | Conforme |
+| `ochoa_jimenez_2024` | Sí | `@article` | Conforme |
+| `peck_et_al_2024` | Sí (`\textcite{}`) | `@article` | Conforme |
+| `sanchez_romero_et_al_2026` | Sí, tres veces | `@article` | Conforme |
+| `medina_garcia_2026` | Sí (`\textcite{}`) | `@article` | Conforme |
+| `robalino_altamirano_2025` | Sí | `@article` | Conforme |
+| `condoy_viera_2025` | Sí, tres veces | `@article` | Conforme |
+
+**Claves en `referencias.bib` NO usadas en Cap. IV:**
+- `ley_mineria_2009` — citada en Caps. I, II, III. No se usa en Cap. IV porque el análisis usa el texto consolidado `ley_mineria_2025`. Correcto.
+- `ley_reformatoria_mineria_2013` — citada en Caps. II, III. No se usa en Cap. IV porque la propuesta se apoya en el derecho vigente codificado. Correcto.
+- `instructivo_am48_2015` — citada en Cap. II. No se usa en Cap. IV. Correcto.
+- `cce_comunicado_agosto2025` — solo en `\nocite{}` de Cap. I. No se usa en Cap. IV. Correcto: el comunicado refiere a leyes ajenas al sector minero y no aporta al argumento del Cap. IV.
+- `pillajo_2024` — en `\nocite{}` de Cap. I. No se incorpora al cuerpo de Cap. IV. Correcto por delimitación territorial.
+
+**Resultado de la cobertura bidireccional:** 35 de las 39 claves son usadas con `\parencite{}`/`\textcite{}` en el Cap. IV. Las 4 restantes tienen citación activa en capítulos anteriores. No existe ninguna clave huérfana en el conjunto de los 4 capítulos y las tablas.
+
+---
+
+### R4-4. Ausencia de `\nocite{}` en Cap. IV
+
+El archivo `capitulo_4_propuesta.tex` no contiene ninguna instancia de `\nocite{}`. El capítulo opera íntegramente mediante `\parencite{}` y `\textcite{}` conforme al patrón establecido para los capítulos de la Fase 4.
+
+**Resultado:** Sin error NC4-XX de esta categoría.
+
+---
+
+### R4-5. Ausencia de citas en texto plano en Cap. IV
+
+El archivo `capitulo_4_propuesta.tex` no contiene referencias bibliográficas en formato "(Autor, año)" sin comando LaTeX. Todas las citas están canalizadas a través de `\parencite{}` o `\textcite{}`.
+
+**Resultado:** Sin error P-APA-XX de esta categoría en Cap. IV.
+
+---
+
+### R4-6. Distinción Ley de Fortalecimiento 2026 — verificación
+
+La Ley Orgánica para el Fortalecimiento de los Sectores Estratégicos de Minería y Energía (R.O. Quinto Suplemento No. 234, 2 de marzo de 2026) es tratada correctamente en el Cap. IV.
+
+Evidencia específica en el texto:
+
+- Sección 4.1, párrafo 3: "La Ley Orgánica para el Fortalecimiento de los Sectores Estratégicos de Minería y Energía, publicada en el Registro Oficial Quinto Suplemento No. 234 el 2 de marzo de 2026 [...] constituye el caso más reciente de reforma de apertura del sector minero privado."
+- El mismo párrafo aclara: "La Ley de Fortalecimiento de 2026 es tratada en esta investigación como norma vigente, publicada en el Registro Oficial, y se utiliza exclusivamente como referencia ilustrativa de aplicación de la Matriz, sin que este análisis académico prejudique el pronunciamiento de la Corte Constitucional en los procesos de control constitucional en curso."
+- La advertencia sobre las demandas de inconstitucionalidad aparece en tres lugares distintos del Cap. IV (secciones 4.1, 4.2.2 análisis de aplicación, y en la nota de `matriz_compatibilidad.tex`), incluyendo la mención de las once demandas citadas con `\parencite{primicias_demandas_2026}` y la demanda sobre el licenciamiento citada con `\parencite{primicias_demanda_unagua_2026}`.
+- La ley se usa como "referencia ilustrativa de aplicación de la Matriz" y el análisis de aplicación concluye con resultados calificados como "preliminares de carácter académico, sin que este análisis predetermine el pronunciamiento de la Corte Constitucional."
+
+**Resultado:** La distinción entre ley vigente y ley con inconstitucionalidad pendiente es correcta y explícita. Cumple CLAUDE.md reglas 2 y 3, y sección 27 criterio 8. Sin error.
+
+---
+
+### R4-7. Distinción consulta ambiental vs. CPLI en Cap. IV — verificación
+
+El Cap. IV distingue de manera explícita y reiterada entre la consulta ambiental (art. 398 CRE) y la consulta previa, libre e informada (art. 57.7 CRE) como mecanismos jurídicos distintos.
+
+Evidencia específica:
+
+- Sección 4.1, párrafo 2: "los mecanismos de consulta ambiental y consulta previa, libre e informada como derechos diferenciados \parencite{cce_1149_19_jp_21,cce_22_18_in_21}."
+- Sección 4.2.2, párrafo del segundo grupo (criterios 6--8): "Esta es una distinción de la mayor importancia jurídica: la consulta ambiental del artículo 398 y la CPLI del artículo 57.7 son mecanismos jurídicos distintos, con fundamentos, procedimientos, sujetos y objetos diferenciados." Cita `\parencite{cce_22_18_in_21}` como fundamento.
+- El mismo párrafo agrega: "El cumplimiento de la consulta ambiental no satisface ni sustituye la obligación de realizar la CPLI cuando la actividad minera afecta territorios de comunidades, pueblos y nacionalidades indígenas."
+- Lineamiento 3 (sección 4.2.3): "La Asamblea Nacional debe expedir una ley orgánica que regule la CPLI en el sector extractivo, diferenciando con precisión su procedimiento del de la consulta ambiental del artículo 398 de la Constitución."
+- La `matriz_compatibilidad.tex`, nota final: "Los criterios 6 (consulta ambiental, art. 398 CRE) y 7 (consulta previa, libre e informada, art. 57.7 CRE) son independientes entre sí: son mecanismos jurídicos distintos con fundamentos, procedimientos y sujetos diferentes, conforme a la Sentencia No. 22-18-IN/21."
+- Los criterios 6 y 7 de la tabla están presentados como filas separadas con fundamentos normativos diferenciados.
+
+**Resultado:** La distinción es correcta, explícita y reiterada. No existe confusión entre ambos mecanismos. Cumple plenamente el estándar establecido en la Sentencia No. 22-18-IN/21.
+
+---
+
+### R4-8. Cobertura global 39/39 — inventario tras cuatro capítulos y cinco tablas
+
+La siguiente tabla consolida la cobertura de las 39 entradas del `.bib` en todos los documentos del proyecto.
+
+| Clave BibTeX | Cap. I | Cap. II | Cap. III | Cap. IV | Tablas | Estado global |
+|---|---|---|---|---|---|---|
+| `cre_2008` | nocite | parencite | parencite | parencite | — | Activa |
+| `coa_2017` | nocite | parencite | parencite | parencite | — | Activa |
+| `reglamento_coa_2019` | — | parencite | parencite | parencite | — | Activa |
+| `coip_2014` | nocite | parencite | — | parencite | — | Activa |
+| `ley_mineria_2009` | nocite | parencite | parencite | — | — | Activa |
+| `ley_mineria_2025` | nocite | parencite | parencite | parencite | — | Activa |
+| `ley_reformatoria_mineria_2013` | — | parencite | parencite | — | — | Activa |
+| `reglamento_general_ley_mineria_2009` | nocite | parencite | — | parencite | — | Activa |
+| `ley_fortalecimiento_2026` | nocite | parencite | parencite | parencite | nota tabla | Activa |
+| `cce_1149_19_jp_21` | nocite | parencite | parencite | parencite | — | Activa |
+| `cce_32_17_in_21` | nocite | parencite | parencite | parencite | — | Activa |
+| `cce_22_18_in_21` | nocite | parencite | parencite | parencite | nota tabla | Activa |
+| `cedec_guia_2023` | nocite | parencite | parencite | parencite | — | Activa |
+| `cce_comunicado_agosto2025` | nocite | — | — | — | — | Activa (nocite) |
+| `grefa_valencia_2021` | nocite | parencite | parencite | textcite | — | Activa |
+| `villacis_calvas_2022` | nocite | parencite | parencite | parencite | — | Activa |
+| `lozano_espinosa_2023` | nocite | parencite | parencite | textcite | — | Activa |
+| `ochoa_jimenez_2024` | nocite | parencite | parencite | parencite | — | Activa |
+| `peck_et_al_2024` | nocite | parencite | parencite | textcite | — | Activa |
+| `sanchez_romero_et_al_2026` | nocite | parencite | parencite | parencite | — | Activa |
+| `medina_garcia_2026` | nocite | parencite | parencite | textcite | — | Activa |
+| `arcom_rendicion_cuentas_2024` | nocite | parencite | parencite | parencite | — | Activa |
+| `acuerdo_escazu_2018` | nocite | parencite | parencite | parencite | — | Activa |
+| `cepal_ruta_escazu_2023` | nocite | parencite | — | textcite | — | Activa |
+| `primicias_demandas_2026` | nocite | parencite | parencite | parencite | parencite (nota tabla) | Activa |
+| `plan_nacional_sector_minero_2020` | — | parencite | — | parencite | — | Activa |
+| `politica_publica_minera_2019` | — | parencite | — | parencite | — | Activa |
+| `arcom_resolucion_0029_2025` | — | parencite | — | parencite | — | Activa |
+| `manual_tecnica_legislativa_an` | — | parencite | — | parencite | — | Activa |
+| `instructivo_am48_2015` | — | parencite | — | — | — | Activa |
+| `corte_idh_oc23_2017` | — | parencite | — | parencite | — | Activa |
+| `robalino_altamirano_2025` | — | parencite | — | parencite | — | Activa |
+| `pillajo_2024` | nocite | — | — | — | — | Activa (nocite) |
+| `bustamante_2012` | — | parencite | — | parencite | — | Activa |
+| `yanez_cevallos_2022` | — | parencite | — | textcite | — | Activa |
+| `condoy_viera_2025` | — | parencite | — | parencite | — | Activa |
+| `primicias_aprobacion_2026` | — | parencite | — | parencite | — | Activa |
+| `lahora_boom_minero_2025` | — | parencite | — | parencite | — | Activa |
+| `primicias_demanda_unagua_2026` | — | parencite | — | parencite | — | Activa |
+
+**Resultado: 39 de 39 entradas tienen citación activa.** Cobertura completa. No existe ninguna entrada huérfana en el documento final.
+
+---
+
+### R4-9. Verificación de `matriz_compatibilidad.tex`
+
+| Elemento | Estado | Detalle |
+|---|---|---|
+| `\caption{}` | Conforme | "Matriz de Verificación de Compatibilidad Constitucional y Ambiental para Proyectos de Ley de Apertura Minera Privada" |
+| `\label{tab:compatibilidad}` | Conforme | `\label{tab:compatibilidad}` en línea 11 |
+| Referencia en texto | Conforme | `Tabla~\ref{tab:compatibilidad}` en sección 4.2.2 del Cap. IV antes del `\input{}` |
+| Nota al pie | Conforme | `\noindent\textit{Nota.}` al final del `\endgroup` con punto (formato correcto APA 7, coherente con Tabla 2) |
+| Nota con `\parencite{}` | Conforme | La nota cita `\parencite{primicias_demandas_2026}` (clave válida en `.bib`) |
+| Análisis posterior | Conforme | Cuatro párrafos explícitos en Cap. IV: el párrafo introductorio describe los niveles de evaluación, los tres párrafos siguientes analizan los cuatro grupos temáticos, y el párrafo de aplicación ilustrativa evalúa la Ley 2026 |
+| Contenido de la tabla | Conforme | 16 criterios en 5 columnas con fundamentos, estándares e indicadores verificables |
+| Distinción consulta ambiental / CPLI en la tabla | Conforme | Criterios 6 y 7 presentados en filas separadas; nota explicita que "son mecanismos jurídicos distintos" con referencia a Sentencia 22-18-IN/21 |
+| Formato de nota | Observacion menor | Usa `\noindent\textit{Nota.}` con punto, igual que Tabla 2. Es coherente con APA 7. La diferencia con Tablas 3 y 4 (que usan dos puntos — NC3-06 de R3) persiste pero es problema de las tablas anteriores, no de esta |
+
+**La Tabla 5 (`matriz_compatibilidad.tex`) está conforme en todos sus elementos estructurales.**
+
+---
+
+### R4-10. Citas textuales en Cap. IV — verificación
+
+Los capítulos de la tesis utilizan paráfrasis y referencias conceptuales, no citas textuales en sentido propio. El Cap. IV mantiene este patrón. No se detectó ningún fragmento entrecomillado de fuentes bibliográficas que requiera verificación de comillas dobles, entorno de bloque o análisis posterior especial.
+
+Los únicos fragmentos en comillas del Cap. IV son términos técnicos o denominaciones propias: `\textit{cumple}`, `\textit{cumple parcialmente}`, `\textit{no cumple}`, `\textit{no aplica}`, que son categorías de evaluación de la Matriz propuesta por la propia investigación, no citas textuales de fuentes externas.
+
+**Resultado:** Sin problemas de citas textuales. No aplica verificación de comillas dobles ni bloque `\blockquote`.
+
+---
+
+### R4-11. Paráfrasis en Cap. IV — verificación APA 7
+
+Todas las referencias doctrinales, jurisprudenciales y normativas en el Cap. IV son paráfrasis con `\parencite{}` o `\textcite{}` que incluyen el nombre del autor o institución y el año. Se verificaron representativamente:
+
+- `\textcite{peck_et_al_2024}`: "Como señalan Peck et al. (2024), la predictibilidad del régimen ambiental..." — Conforme.
+- `\textcite{medina_garcia_2026}`: "Medina Llerena y García Erazo (2026) documentan que la insuficiencia del control estatal..." — Conforme.
+- `\textcite{sanchez_romero_et_al_2026}`: "Sánchez-Romero et al. (2026) advierten que las reformas de simplificación..." — Conforme.
+- `\textcite{yanez_cevallos_2022}`: "Yánez Cevallos (2022) documentan..." y "Yánez Cevallos (2022) advierten..." — Conforme.
+- `\textcite{condoy_viera_2025}`: "Condoy-Viera et al. (2025) identifican que la formalización..." — Conforme.
+- `\textcite{cepal_ruta_escazu_2023}`: "CEPAL y MAATE (2023) identifican brechas persistentes..." — Conforme.
+- `\textcite{lozano_espinosa_2023}`: "Lozano Espinosa (2023) destaca que la seguridad jurídica..." — Conforme.
+- `\textcite{grefa_valencia_2021}`: "Grefa Valencia (2021) añaden que el respeto a los derechos de los pueblos indígenas..." — Conforme.
+
+**Resultado:** Las paráfrasis cumplen APA 7 en todos los casos verificados.
+
+---
+
+### R4-12. Normas jurídicas en Cap. IV — verificación
+
+Las normas jurídicas son citadas con `\parencite{}` identificando la institución emisora y el año mediante la clave BibTeX cuyo campo `note` contiene el Registro Oficial correspondiente. Se verificaron específicamente:
+
+- `ley_fortalecimiento_2026`: identificada con "R.O. Quinto Suplemento No. 234, 2 de marzo de 2026" en el texto del Cap. IV (sección 4.1, párrafo 3). La entrada `.bib` tiene nota con "R.O. Quinto Suplemento No. 234, 2 de marzo de 2026. Vigente." Conforme.
+- `coa_2017`: art. 161 (no regresividad), art. 162 (licenciamiento), art. 166 (competencia MAATE) y arts. 299 y siguientes (reparación integral) son referenciados con artículo identificado en el texto. Conforme.
+- `cre_2008`: arts. 57.7, 71-74, 82, 84, 316, 395-399, 407 son referenciados con número en el texto. Conforme.
+- `coip_2014`: arts. 260 y 261 referenciados con número en el texto. Conforme.
+- `ley_mineria_2025`: referenciada como "Ley de Minería" en el texto. Conforme.
+
+**Resultado:** Las normas jurídicas están identificadas correctamente. Cumple CLAUDE.md sección 27, criterio 8.
+
+---
+
+### R4-13. Sentencias en Cap. IV — verificación
+
+Las tres sentencias vinculantes son citadas con número, año y Corte en el texto del Cap. IV:
+
+- `cce_1149_19_jp_21`: "Sentencia No. 1149-19-JP/21" mencionada por nombre en las secciones 4.1, 4.2.2 (primer grupo, criterio 6, tercer grupo) y 4.2.4. Citada con `\parencite{cce_1149_19_jp_21}` en múltiples instancias. Conforme.
+- `cce_32_17_in_21`: "Sentencia No. 32-17-IN/21" mencionada en secciones 4.1 y 4.2.2. Citada con `\parencite{cce_32_17_in_21}`. Conforme.
+- `cce_22_18_in_21`: "Sentencia No. 22-18-IN/21" mencionada en secciones 4.1, 4.2.2 (criterio 7, lineamiento 3) y 4.2.4. Citada con `\parencite{cce_22_18_in_21}` en múltiples instancias. Conforme.
+
+No se citan sentencias inventadas. Las tres sentencias tienen número, año y Corte. Cumple CLAUDE.md sección 27, criterio 9.
+
+---
+
+### R4-14. Verificación rápida de Caps. anteriores — sin nuevos problemas
+
+La lectura de los archivos `capitulo_1_problema.tex`, `capitulo_2_marco_referencial.tex` y `capitulo_3_metodologia.tex` en esta revisión confirma que no se han introducido cambios en esos archivos desde R3. Los problemas documentados en R3 persisten sin cambio:
+
+- NC3-01 (`pillajo_2024`): resuelto mediante `\nocite{}` ya presente en el bloque de Cap. I.
+- NC3-02 (orden cronológico en citas múltiples): pendiente Fase 5. Sin cambio.
+- NC3-03 (citas en texto plano Cap. I): pendiente Fase 5. Sin cambio.
+- NC3-04 (`ley_mineria_2025` con `year = {2009}`): pendiente evaluación. Sin cambio.
+- NC3-05 (`manual_tecnica_legislativa_an` con `year = {s.f.}`): pendiente verificación institucional. Sin cambio.
+- NC3-06 (nota de Tablas 3 y 4 con dos puntos en lugar de punto): pendiente corrección cosmética en Fase 5. Sin cambio.
+
+El `\input{06_tablas/matriz_compatibilidad}` en Cap. IV (sin extensión `.tex`) replica el patrón de `\input{06_tablas/matriz_normativa}` y `\input{06_tablas/matriz_jurisprudencial}` del Cap. II. El problema TR5-02 (diferido Fase 5) aplica también al Cap. IV. No es problema nuevo.
+
+**Resultado:** Sin nuevos problemas en Caps. I, II ni III.
+
+---
+
+### R4-15. Fuentes inventadas — verificación
+
+Las 39 entradas de `referencias.bib` ya verificadas en R3 no han cambiado. Las claves nuevas usadas por primera vez en Cap. IV que no habían sido usadas en Caps. II o III son:
+
+| Clave (primera vez con `\parencite{}` en Cap. IV) | Verificación en R3 |
+|---|---|
+| `reglamento_general_ley_mineria_2009` | Verificada en R3 con ficha en `fichas_normativas/`. Usada antes solo en `\nocite{}` de Cap. I y en Cap. II. |
+| `politica_publica_minera_2019` | Verificada en R3 con ficha en `fichas_institucionales/`. |
+| `plan_nacional_sector_minero_2020` | Verificada en R3 con ficha en `fichas_institucionales/`. |
+| `bustamante_2012` | Verificada en R3 con ficha en `fichas_doctrina/`. |
+| `yanez_cevallos_2022` | Verificada en R3 con ficha en `fichas_doctrina/`. |
+
+No se agregaron entradas nuevas a `referencias.bib`. No se detectaron fuentes inventadas. Cumple CLAUDE.md regla 1.
+
+---
+
+### R4-16. Recomendaciones consolidadas para Fase 5
+
+Las recomendaciones que persisten de R3 y las nuevas de R4 se listan a continuación:
+
+| Prioridad | Código | Recomendación | Archivo | Estado |
+|---|---|---|---|---|
+| Alta (Fase 5) | NC3-03 / P-APA-01 | Convertir citas en texto plano del Cap. I a `\parencite{}` y `\textcite{}` | `capitulo_1_problema.tex` | Pendiente Fase 5 |
+| Media | NC3-04 / P-JUR-01 | Evaluar campo `year = {2009}` de `ley_mineria_2025` antes de entrega final | `referencias.bib` | Pendiente evaluación |
+| Baja (Fase 5) | NC3-02 / P-APA-04 | Corregir orden cronológico en `\parencite{cce_1149_19_jp_21,cce_32_17_in_21,cce_22_18_in_21}` en Cap. II (sec. 2.1.2) y Cap. III (sec. 3.4.3) | `capitulo_2_marco_referencial.tex`, `capitulo_3_metodologia.tex` | Pendiente Fase 5 |
+| Baja (Fase 5) | TR5-02 | Agregar extensión `.tex` en los `\input{}` de Cap. II y Cap. IV | `capitulo_2_marco_referencial.tex`, `capitulo_4_propuesta.tex` | Pendiente Fase 5 (diferido desde R3) |
+| Muy baja | NC3-05 | Verificar con el comité de titulación si aceptan `year = {s.f.}` para `manual_tecnica_legislativa_an` | `referencias.bib` | Solo verificación institucional |
+| Muy baja | NC3-06 | Uniformizar nota de Tabla 3 y Tabla 4 a `\noindent\textit{Nota.}` (punto, no dos puntos) | `06_tablas/matriz_normativa.tex`, `06_tablas/matriz_jurisprudencial.tex` | Corrección cosmética en Fase 5 |
+| Cerrado | NC3-01 | `pillajo_2024` sin citación activa — resuelto mediante `\nocite{}` en Cap. I | `capitulo_1_problema.tex` | Cerrado en R4 |
+
+**No se identificaron nuevos problemas en R4.** Todos los problemas pendientes son los mismos documentados en R3 y diferidos a Fase 5.
+
+---
+
+### R4-17. Conclusión
+
+**El documento no tiene fuentes inventadas, sentencias inexistentes, autores ficticios ni referencias sin respaldo documental local.**
+
+**El Capítulo IV está conforme en su patrón de citación.** Las 35 claves BibTeX usadas con `\parencite{}`/`\textcite{}` existen en `referencias.bib`. No existe ninguna clave rota, ningún `\nocite{}`, ninguna cita en texto plano. Las paráfrasis tienen autor o institución y año. No hay citas textuales en sentido propio; no aplica la exigencia de análisis posterior a cita textual en ese sentido, aunque el Cap. IV sí incluye análisis extenso posterior a cada grupo de criterios de la Matriz y a la aplicación ilustrativa de la Ley 2026.
+
+**La Tabla 5 (`matriz_compatibilidad.tex`) está conforme.** Tiene `\caption{}`, `\label{}`, referencia en el texto del capítulo, nota con punto (APA 7 canónico) y `\parencite{}` válido en la nota. El análisis posterior en el texto del capítulo es extenso y cubre los cuatro grupos temáticos de la Matriz.
+
+**La cobertura 39/39 está verificada.** Tras el Cap. IV, no existe ninguna entrada de `referencias.bib` sin citación activa en alguno de los cuatro capítulos o las cinco tablas del documento.
+
+**La distinción Ley 2026 (norma vigente con inconstitucionalidad pendiente)** es correcta y explícita en el Cap. IV. La distinción consulta ambiental (art. 398 CRE) / CPLI (art. 57.7 CRE) es correcta, explícita y reiterada en el cuerpo del capítulo y en la nota de la tabla.
+
+**El documento está listo para la redacción de las Conclusiones y las Recomendaciones.** No hay deficiencias de citación que deban resolverse antes de continuar con esos apartados. Los problemas diferidos a Fase 5 (NC3-02, NC3-03, NC3-04, NC3-06, TR5-02) no impiden la compilación ni la continuación de la redacción.
