@@ -1,7 +1,7 @@
 # Estado del proyecto
 ## Tesis: "Análisis de derecho ambiental ecuatoriano: Revisión crítica de proyectos de ley de apertura al sector minero privado."
 
-**Fecha de actualización:** 25 de junio de 2026 (decimoctava actualización)
+**Fecha de actualización:** 25 de junio de 2026 (decimonovena actualización)
 
 ---
 
@@ -9,7 +9,7 @@
 
 **Fases 1–4 COMPLETAMENTE TERMINADAS. Proyecto en Fase 5 (Revisión).**
 
-Todos los capítulos, preliminares, introducción, conclusiones, recomendaciones y anexos han sido redactados. El PDF compila sin errores: **132 páginas · 765 KB · 0 errores fatales** (novena compilación, 25/06/2026).
+Todos los capítulos, preliminares, introducción, conclusiones, recomendaciones y anexos han sido redactados. El PDF compila sin errores: **128 páginas · 755 KB · 0 errores fatales** (décima compilación, 25/06/2026).
 
 Revisión R4 (`/revisar-citas`) completada y verificada: 3 correcciones aplicadas (R5-JUR-01, R5-JUR-02, R5-OBS-01). Pendiente: `/revisar-coherencia` (R7), correcciones medianas P-APA-01, TR4-2, TR4-3, NC3-02, TR4-5, y compilación final.
 
@@ -60,7 +60,7 @@ Revisión R4 (`/revisar-citas`) completada y verificada: 3 correcciones aplicada
 | `estado_del_proyecto.md` | Reporte | ✅ Esta actualización |
 | `reporte_revision_citas.md` | Reporte | ✅ R4 — 0 fuentes inventadas; 39/39 activas; R5-JUR-01, R5-JUR-02, R5-OBS-01 corregidos ✅ |
 | `reporte_coherencia_metodologica.md` | Reporte | ✅ R6 — TR6-01 observación menor; R7 pendiente |
-| `reporte_compilacion_latex.md` | Reporte | ✅ Compilación 9ª — 132 págs · 765 KB · 0 errores fatales |
+| `reporte_compilacion_latex.md` | Reporte | ✅ Compilación 10ª — 128 págs · 755 KB · 0 errores fatales |
 
 ---
 
@@ -102,7 +102,7 @@ Revisión R4 (`/revisar-citas`) completada y verificada: 3 correcciones aplicada
 |---|---|---|
 | `main.tex` | 62 | ✅ Todos los `\input{}` activos |
 | `referencias.bib` | 457 | ✅ **39 entradas BibTeX** · 39/39 activas · 1 advertencia biber menor (NC3-05) |
-| `08_build/main.pdf` | — | ✅ **132 páginas · 765 KB** · 0 errores fatales · novena compilación · 25/06/2026 |
+| `08_build/main.pdf` | — | ✅ **128 páginas · 755 KB** · 0 errores fatales · décima compilación · 25/06/2026 |
 
 ---
 
