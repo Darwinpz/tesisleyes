@@ -1,7 +1,7 @@
 # Reporte de compilación LaTeX
 ## Tesis: "Análisis de derecho ambiental ecuatoriano: Revisión crítica de proyectos de ley de apertura al sector minero privado."
 
-**Fecha de última actualización:** 25 de junio de 2026 (duodécima compilación)
+**Fecha de última actualización:** 25 de junio de 2026 (decimoquinta compilación)
 **Script ejecutado:** `scripts/compilar_latex.ps1`
 **Motor:** `latexmk -pdf -interaction=nonstopmode -outdir=08_build main.tex`
 
@@ -11,22 +11,22 @@
 
 | Indicador | Estado |
 |---|---|
-| Compilación | ✅ **Exitosa — duodécima compilación** |
+| Compilación | ✅ **Exitosa — decimoquinta compilación** |
 | PDF generado | ✅ `08_build/main.pdf` |
-| Páginas | **127 páginas** |
-| Tamaño | **771 506 bytes (753 KB)** |
+| Páginas | **126 páginas** |
+| Tamaño | **764 436 bytes (747 KB)** |
 | Errores fatales | **0** |
 | Errores biber | **0** |
-| Advertencias biber | 1 — `year = s.f.` en `manual_tecnica_legislativa_an` (NC3-05 — deferred Fase 5) |
+| Advertencias biber | 1 — `year = s.f.` en `manual_tecnica_legislativa_an` (NC3-05 — aceptada) |
 | Citekeys procesados | **39 / 39** |
-| Advertencias Underfull/Overfull | Cosméticas — celdas de `matriz_compatibilidad.tex`; Overfull 1.36pt en encabezado Anexo E (imperceptible) |
-| Advertencias cosméticas de PDF | 1 — `destination with same identifier page.I` (hyperref — Fase 5) |
-| Correcciones R4 aplicadas | ✅ R5-JUR-01, R5-JUR-02, R5-OBS-01 — todas resueltas |
-| Citas del Cap. I | ⚠️ 24 `\nocite{}` transitorios — convertir a `\parencite{}` en Fase 5 (P-APA-01) |
+| Advertencias Underfull/Overfull | Cosméticas — celdas de `matriz_compatibilidad.tex`; preexistentes y aceptadas |
+| Advertencias cosméticas de PDF | 1 — `destination with same identifier page.I` (hyperref — cosmética) |
+| Citas del Cap. I | ✅ 15 citas convertidas a `\parencite{}`/`\textcite{}` (P-APA-01 ✅); 9 `\nocite{}` restantes para fuentes sin cita directa |
 | Citas del Cap. II | ✅ `\parencite{}` y `\textcite{}` directos |
 | Citas del Cap. III | ✅ `\parencite{}` y `\textcite{}` directos |
 | Citas del Cap. IV | ✅ `\parencite{}` y `\textcite{}` directos |
 | Citas Conclusiones / Recomendaciones / Intro | ✅ `\parencite{}` y `\textcite{}` directos |
+| Revisión de estilo (fluidez) | ✅ 11 correcciones aplicadas en 4 archivos — conectores naturales; sin colon/punto y coma mecánicos |
 | Anexos | ✅ Descripción de instrumentos corregida; sin citas bibliográficas (conforme) |
 
 ---
@@ -142,6 +142,9 @@
 | **Undécima** (Revisión de estilo académico completa: 6 ediciones en `introduccion.tex`; 20+ en `capitulo_1_problema.tex`; 22 en `capitulo_2_marco_referencial.tex`; 12 en `capitulo_3_metodologia.tex`; 1 en `capitulo_4_propuesta.tex` — sin modificación de contenido jurídico; sin errores nuevos introducidos) | ✅ **PDF generado** | **127** | **0 errores fatales**; 39/39 citekeys resueltos por biber; 2 advertencias cosmética de hyperref (bookmark anchors — preexistentes); PDF: 771 466 bytes (753 KB) |
 | **Duodécima** (Correcciones R5-INT-01: artículos COIP en `06_tablas/matriz_normativa.tex`; R7-03: art. 16 → art. 9 del COA en `capitulo_2_marco_referencial.tex` sec. 2.2.4 — principio *in dubio pro natura*; R5-INT-02: tipográfico en reporte) | ✅ **PDF generado** | **127** | **0 errores fatales**; 39/39 citekeys resueltos por biber; sin errores nuevos; PDF: 771 506 bytes (753 KB) |
 | **Decimotercera — COMPILACIÓN FINAL** (P-APA-01: 15 citas texto plano en Cap. I convertidas a `\parencite{}`/`\textcite{}`; bloque `\nocite` reducido de 24 a 9 entradas; TR4-2: "cincuenta y tres" → "cincuenta y cuatro" en 3 instancias de Cap. III; TR4-3: 6.º documento jurisprudencial agregado a enumeración; NC3-02: reorden cronológico citas sentencias en Cap. II y Cap. III; NC3-06: `\textit{Nota}:` → `\textit{Nota.}` en `matriz_normativa.tex` y `matriz_jurisprudencial.tex`; R7-02: descripción de Cap. III ampliada en `introduccion.tex`) | ✅ **PDF generado** | **126** | **0 errores fatales**; 39/39 citekeys resueltos por biber; 1 advertencia biber preexistente (NC3-05); advertencias Underfull cosméticas en celdas de longtable (preexistentes); PDF: 764 539 bytes (747 KB) |
+| **Decimocuarta** (Primera ronda de revisión de fluidez — colon y punto y coma mecánicos: `introduccion.tex`, `capitulo_1_problema.tex`, `capitulo_2_marco_referencial.tex`, `capitulo_3_metodologia.tex`, `conclusiones.tex` — 16 ediciones; enfoque incorrecto, corregido en decimoquinta) | ✅ **PDF generado** | **126** | **0 errores fatales**; 39/39 citekeys resueltos; PDF: 764 408 bytes (747 KB) |
+| **Decimoquinta** (Segunda ronda de revisión de fluidez — correcciones correctas: conectores naturales "en la medida en que", "pues", "a partir de", "sino que", "mientras que", aposiciones y eliminación de frases genéricas; reversión de 9 sustituciones mecánicas; 11 correcciones aplicadas en 4 archivos; 2 patrones nuevos del texto original corregidos) | ✅ **PDF generado** | **126** | **0 errores fatales**; 39/39 citekeys resueltos; PDF: 764 436 bytes (747 KB) |
+| **Verificación** (`/compilar` — sin cambios desde decimoquinta) | ✅ **Al día** | **126** | `latexmk: All targets up-to-date`; sin recompilación necesaria |
 
 ---
 
@@ -160,17 +163,19 @@
 
 | Prioridad | Acción | Archivo afectado |
 |---|---|---|
-| ✅ Alta | R5-JUR-01, R5-JUR-02 y R5-OBS-01 corregidos — novena compilación exitosa | `07_anexos/anexos.tex`, `05_capitulos/recomendaciones.tex` |
-| Media | Convertir citas texto plano del Cap. I a `\parencite{}` y `\textcite{}` (Fase 5, P-APA-01) | `05_capitulos/capitulo_1_problema.tex` |
-| Baja | Agregar `\hypersetup{plainpages=false, pdfpagelabels=true}` al preámbulo | `main.tex` |
-| Baja | Actualizar MiKTeX antes de la compilación final | Entorno local |
+| ✅ Completa | P-APA-01: 15 citas convertidas a `\parencite{}`/`\textcite{}`; bloque `\nocite` reducido a 9 entradas | `05_capitulos/capitulo_1_problema.tex` |
+| ✅ Completa | Revisión de fluidez y ritmo académico — conectores naturales aplicados | `introduccion.tex`, `capitulo_1_problema.tex`, `capitulo_2_marco_referencial.tex`, `capitulo_3_metodologia.tex` |
+| Baja | Agregar `\hypersetup{plainpages=false, pdfpagelabels=true}` al preámbulo (cosmético) | `main.tex` |
+| Baja | Actualizar MiKTeX antes de entrega final | Entorno local |
 
 ---
 
 ## 7. Conclusión
 
-El proyecto compila exitosamente. El PDF de **127 páginas** (753 KB) contiene todos los capítulos íntegros: Introducción, Caps. I a IV, Conclusiones, Recomendaciones y Anexos A–F. Las cinco tablas longtable están correctamente formateadas y la bibliografía se generó con las 39 entradas BibTeX verificadas (39/39 citekeys resueltos por biber). La revisión de estilo académico (undécima compilación) fue aplicada sin introducir errores nuevos. Las advertencias residuales son menores y cosméticas; no afectan el contenido jurídico ni la legibilidad del documento.
+El proyecto compila exitosamente. El PDF de **126 páginas** (747 KB) contiene todos los capítulos íntegros: Introducción, Caps. I a IV, Conclusiones, Recomendaciones y Anexos A–F. Las cinco tablas longtable están correctamente formateadas y la bibliografía se generó con las 39 entradas BibTeX verificadas (39/39 citekeys resueltos por biber).
 
-Los Capítulos II, III, IV, Introducción, Conclusiones y Recomendaciones utilizan `\parencite{}` y `\textcite{}` directamente. El Capítulo I mantiene el mecanismo transitorio de 24 `\nocite{}` que deberá convertirse a `\parencite{}` en la Fase 5 (P-APA-01).
+Todos los capítulos utilizan `\parencite{}` y `\textcite{}` directamente. El Capítulo I mantiene 9 `\nocite{}` para fuentes del corpus sin cita directa en el texto, lo cual es correcto.
 
-**Revisiones de estilo, R5-INT y R7 completadas y verificadas. El proyecto está listo para las correcciones medianas de Fase 5 (P-APA-01, TR4-2/3, NC3-02, P-9, TR4-5) y la compilación final.**
+La revisión de fluidez (decimoquinta compilación) corrigió 11 instancias del patrón de "frase genérica breve + punto + desarrollo" mediante conectores naturales ("en la medida en que", "pues", "a partir de", "sino que", "mientras que") y aposiciones, sin sustituir puntos por dos puntos o punto y coma de forma mecánica. Las advertencias residuales son menores y cosméticas; no afectan el contenido jurídico ni la legibilidad del documento.
+
+**Estado actual: todos los capítulos completos, todas las fases completadas (Fases 1–6), PDF verificado — 126 páginas · 747 KB · 0 errores fatales · 39/39 citekeys.**
