@@ -1,7 +1,7 @@
 # Reporte de compilación LaTeX
 ## Tesis: "Análisis de derecho ambiental ecuatoriano: Revisión crítica de proyectos de ley de apertura al sector minero privado."
 
-**Fecha de última actualización:** 26 de junio de 2026 (decimosexta compilación)
+**Fecha de última actualización:** 27 de junio de 2026 (decimoséptima compilación)
 **Script ejecutado:** `scripts/compilar_latex.ps1`
 **Motor:** `latexmk -pdf -interaction=nonstopmode -outdir=08_build main.tex`
 
@@ -11,14 +11,14 @@
 
 | Indicador | Estado |
 |---|---|
-| Compilación | ✅ **Exitosa — decimosexta compilación** |
+| Compilación | ✅ **Exitosa — decimoséptima compilación** |
 | PDF generado | ✅ `08_build/main.pdf` |
-| Páginas | **129 páginas** |
-| Tamaño | **786 276 bytes (768 KB)** |
+| Páginas | **132 páginas** |
+| Tamaño | **792 522 bytes (774 KB)** |
 | Errores fatales | **0** |
 | Errores biber | **0** |
 | Advertencias biber | 1 — `year = s.f.` en `manual_tecnica_legislativa_an` (NC3-05 — aceptada) |
-| Citekeys procesados | **51 / 51** |
+| Citekeys procesados | **50 / 53** (50 citados en texto; 3 en corpus documental sin \parencite activo) |
 | Advertencias Underfull/Overfull | Cosméticas — celdas de `matriz_compatibilidad.tex`; preexistentes y aceptadas |
 | Advertencias cosméticas de PDF | 1 — `destination with same identifier page.I` (hyperref — cosmética) |
 | Citas del Cap. I | ✅ 15 citas convertidas a `\parencite{}`/`\textcite{}` (P-APA-01 ✅); 9 `\nocite{}` restantes para fuentes sin cita directa |
@@ -121,7 +121,7 @@
 | `06_tablas/matriz_normativa.tex` | ✅ Compila | longtable — 10 instrumentos normativos, 5 columnas |
 | `06_tablas/matriz_jurisprudencial.tex` | ✅ Compila | longtable — 5 entradas jurisprudenciales, 5 columnas |
 | `07_anexos/anexos.tex` | ⚠️ Esqueleto | Solo `\chapter{}` — pendiente |
-| `referencias.bib` | ✅ Poblado | **51 entradas BibTeX** verificadas — 51/51 resueltas correctamente por biber; 1 advertencia menor NC3-05; 16 entradas de prensa (4 preexistentes + 12 nuevas; URLs completas) |
+| `referencias.bib` | ✅ Poblado | **53 entradas BibTeX** — 50 citadas en texto; 3 en corpus sin \parencite activo; 44 campos `annote` añadidos (compatibilidad Zotero); 1 advertencia biber menor NC3-05 |
 
 ---
 
@@ -146,6 +146,7 @@
 | **Decimoquinta** (Segunda ronda de revisión de fluidez — correcciones correctas: conectores naturales "en la medida en que", "pues", "a partir de", "sino que", "mientras que", aposiciones y eliminación de frases genéricas; reversión de 9 sustituciones mecánicas; 11 correcciones aplicadas en 4 archivos; 2 patrones nuevos del texto original corregidos) | ✅ **PDF generado** | **126** | **0 errores fatales**; 39/39 citekeys resueltos; PDF: 764 436 bytes (747 KB) |
 | **Verificación** (`/compilar` — sin cambios desde decimoquinta) | ✅ **Al día** | **126** | `latexmk: All targets up-to-date`; sin recompilación necesaria |
 | **Decimosexta** (Auditoría de prensa: 3 URLs incompletas o faltantes corregidas en `referencias.bib`; 12 entradas nuevas de prensa agregadas — total 16 entradas de prensa; 2 pasajes de integración contextual en `capitulo_2_marco_referencial.tex` sección "Contexto mediático y debate público"; biber procesó 51/51 citekeys) | ✅ **PDF generado** | **129** | **0 errores fatales**; 51/51 citekeys resueltos; PDF: 786 276 bytes (768 KB) |
+| **Decimoséptima** (Auditoría final: 44 campos `annote` añadidos a entradas con `note` en `referencias.bib` para compatibilidad con Zotero; 2 entradas nuevas corpus documental no citado: `arcom_borrador_tscm_2026` y `asamblea_noticia_2do_debate_2026`; bib ahora con 53 entradas; 50 citadas activamente en el texto) | ✅ **PDF generado** | **132** | **0 errores fatales**; 50 citekeys activos resueltos; 1 advertencia biber NC3-05 (preexistente); PDF: 792 522 bytes (774 KB) |
 
 ---
 
